@@ -4,10 +4,58 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "preview": "vite preview",
+    "react": "vite",
+    "electron": "electron .",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dist": "electron-builder"
+  },
+  "main": "main.js",
+  "build": {
+    "appId": "com.envac.app",
+    "productName": "Envac App",
+    "directories": {
+      "output": "dist_electron"
+    },
+    "files": [
+      "dist/**/*",
+      "main.js"
+    ],
+    "extraResources": {
+      "from": "dist/",
+      "to": "app/dist/"
+    },
+    "mac": {
+      "target": "dmg",
+      "category": "public.app-category.productivity"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "tar.gz"
+      ],
+      "category": "Utility",
+      "icon": "build/icons"
+    }
   },
   "dependencies": {
     "electron-is-dev": "^3.0.1",
