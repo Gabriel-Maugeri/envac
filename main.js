@@ -1,12 +1,12 @@
-import { app, BrowserWindow } from 'electron';
-import { dirname, join } from 'path';
-import { fileURLToPath } from 'url';
-import isDev from 'electron-is-dev';
-import process from 'node:process';
+import { app, BrowserWindow } from 'electron'
+import { dirname, join } from 'path'
+import { fileURLToPath } from 'url'
+import isDev from 'electron-is-dev'
+import process from 'node:process'
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-let mainWindow;
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+let mainWindow
 function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1920,
@@ -17,24 +17,24 @@ function createWindow() {
       contextIsolation: false,
       webSecurity: true,
     },
-  });
-  let startURL;
+  })
+  let startURL
   if (isDev) {
-    startURL = '<http://localhost:5173>';
+    startURL = '<http://localhost:5173>'
   } else {
-    startURL = `file://${join(__dirname, 'dist', 'index.html')}`;
+    startURL = `file://${join(__dirname, 'dist', 'index.html')}`
   }
-  mainWindow.loadURL(startURL);
-  mainWindow.on('closed', () => (mainWindow = null));
+  mainWindow.loadURL(startURL)
+  mainWindow.on('closed', () => (mainWindow = null))
 }
-app.on('ready', createWindow);
+app.on('ready', createWindow)
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
-    app.quit();
+    app.quit()
   }
-});
+})
 app.on('activate', () => {
   if (mainWindow === null) {
-    createWindow();
+    createWindow()
   }
-});
+})
