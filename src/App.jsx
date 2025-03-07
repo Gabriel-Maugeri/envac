@@ -1,5 +1,20 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Home from './components/Home'
+import City from './components/City'
+import Airport from './components/Airport'
+import Hospital from './components/Hospital'
+
 function App() {
-  return <h1>Envac</h1>
+  return (
+    <section id='App' className='font-roboto'>
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/aeropuertos' element={<Airport />}></Route>
+        <Route path='/ciudades' element={<City />}></Route>
+        <Route path='/hospitales' element={<Hospital />}></Route>
+      </Routes>
+    </section>
+  )
 }
 
 export default App
