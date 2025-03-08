@@ -7,7 +7,7 @@ const SectionBtn = ({ text, imgName, section }) => {
       className='bg-primary shadow-primary flex h-52 w-2xs flex-col items-center justify-evenly select-none'>
       <div className='img-container flex size-28'>
         <img
-          src={`/src/assets/images/otros/logo_${imgName}.png`}
+          src={`assets/images/otros/logo_${imgName}.png`}
           alt={`logo ${imgName}`}
           className='self-end'
           draggable='false'

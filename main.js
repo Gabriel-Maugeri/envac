@@ -9,6 +9,7 @@ const __dirname = dirname(__filename)
 let mainWindow
 function createWindow() {
   mainWindow = new BrowserWindow({
+    fullscreen: true,
     width: 1920,
     height: 1080,
     autoHideMenuBar: true,
@@ -20,7 +21,7 @@ function createWindow() {
   })
   let startURL
   if (isDev) {
-    startURL = '<http://localhost:5173>'
+    startURL = 'http://localhost:5173'
   } else {
     startURL = `file://${join(__dirname, 'dist', 'index.html')}`
   }

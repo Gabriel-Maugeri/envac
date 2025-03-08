@@ -19,7 +19,7 @@ const Home = () => {
         <video
           id='bg-home'
           className='absolute top-1/2 left-1/2 min-h-full min-w-full -translate-x-1/2 -translate-y-1/2 transform object-cover'
-          src='/src/assets/images/fondos/fondo_home.mp4'
+          src='assets/images/fondos/fondo_home.mp4'
           loop
           autoPlay
           muted

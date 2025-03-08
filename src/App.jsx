@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import City from './components/City'
-import Airport from './components/Airport'
 import Hospital from './components/Hospital'
+import Airport from './components/Airport'
 
 function App() {
   return (
