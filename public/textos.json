@@ -1,0 +1,57 @@
+{
+  "inicio": {
+    "titulo": "Sistemas de recogida neumática para ciudades más humanas y sostenibles."
+  },
+  "aeropuertos": {
+    "titulo": "¿Cómo será el aeropuerto del futuro?",
+    "botones": [
+      {
+        "texto": "Mayor seguridad",
+        "posicion": { "x": "35", "y": "21" }
+      },
+      {
+        "texto": "Mejora logística y operativa",
+        "posicion": { "x": "7", "y": "32" }
+      },
+      {
+        "texto": "Más sostenibles",
+        "posicion": { "x": "38", "y": "44" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "Mayor seguridad",
+        "imagen": "aeropuertos_seguros_1.jpg",
+        "texto": [
+          "Menos manipulación del residuo = menos riesgo.",
+          "Reducción drástica del flujo de vehículos en zona aire y zona tierra.",
+          "Las entradas de los puntos de vertido se pueden diseñar para restringir el tipo de residuos y contar con trituradoras para destruir materiales ilegales."
+        ]
+      },
+      {
+        "titulo": "Mejora logística y operativa",
+        "imagen": "aeropuertos_logistica_1.jpg",
+        "texto": [
+          "Recogida de residuos en todos los puntos de los aeropuertos.",
+          "Gestión centralizada de los residuos – Central de recogida (no almacenamiento intermedio).",
+          "Reducción del tráfico de vehículos en las pistas. Ahorra tiempo y mejora la eficiencia del personal.",
+          "El sistema funciona 24/7 en cualquier condición climática",
+          "No necesidad de recogida manual. Mejor asignación de recursos mediante automatización y análisis predictivo.",
+          "No contenedores desbordados. Mejora experiencia del pasajero",
+          "Mayor control sobre la clasificación de residuos y del uso llevada a cabo por los retailers."
+        ]
+      },
+      {
+        "titulo": "Más sostenibles",
+        "imagen": "aeropuertos_sostenibles_1.jpg",
+        "texto": [
+          "Recogida de residuos optimizada y las tasas de reciclaje mejoradas.",
+          "Reduciendo huella de carbono.",
+          "Reducción emisiones de CO2."
+        ]
+      }
+    ]
+  },
+  "ciudades": {},
+  "hospitales": {}
+}

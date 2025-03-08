@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
 
-const BackBtn = ({ handlePopUp }) => {
+const BackBtn = ({ prevPage }) => {
   return (
-    <button
+    <Link
       className='bg-primary absolute top-18 right-20 z-20 flex size-20 cursor-pointer items-center justify-center rounded-full select-none'
-      onClick={handlePopUp}>
+      to={prevPage}>
       <img src='assets/images/otros/volver.png' alt='boton ver mas' />
-    </button>
+    </Link>
   )
 }
 

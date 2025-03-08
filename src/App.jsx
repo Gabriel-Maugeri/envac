@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import City from './components/City'
 import Hospital from './components/Hospital'
-import Airport from './components/Airport'
+import Airport from './components/airport'
 
 function App() {
   return (
