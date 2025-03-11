@@ -1,0 +1,43 @@
+name: Build y Empaquetado Electron con Datos Actualizados
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v3
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Construir la aplicación React (generar carpeta dist)
+        run: npm run build
+
+      - name: Descargar archivos actualizados desde cPanel
+        run: |
+          # Descarga el ZIP con las actualizaciones (modifica la URL según corresponda)
+          curl -L -o actualizaciones.zip https://nombreWeb.com/actualizaciones.zip
+          # Descomprime en una carpeta temporal llamada "actualizados"
+          unzip -o actualizaciones.zip -d actualizados
+          # Copia los archivos actualizados a la carpeta "dist" sobrescribiendo los existentes
+          cp -R actualizados/* dist/
+
+      - name: Empaquetar con Electron (generar dist_electron)
+        run: npm run dist
+
+      - name: Subir artefactos
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist_electron
+          path: dist_electron/
