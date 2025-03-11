@@ -1,17 +1,17 @@
 import textos from '../../public/textos.json'
-import ClosePopUpBtn from './ClosePopUpBtn'
+import CloseBtn from './CloseBtn'
 
-const InfoPopUp = ({ title, handlePopUp }) => {
-  const popUpData = textos.aeropuertos.popUps.find((item) => item.titulo === title)
+const InfoPopUp = ({ title, handleClose, section }) => {
+  const popUpData = textos[section].popUps.find((item) => item.titulo === title)
 
   return (
-    <section className='flex size-full items-center justify-center'>
-      <div className='relative mb-27 flex h-[74%] w-[70%] flex-row gap-11 bg-white p-13'>
-        <ClosePopUpBtn handlePopUp={handlePopUp} />
+    <section className='absolute top-0 left-0 flex size-full items-center justify-center pt-28'>
+      <div className='relative flex h-[40rem] w-[87.5rem] flex-row gap-11 bg-white p-13'>
+        <CloseBtn handleClose={handleClose} />
 
-        <img src={`assets/images/aeropuertos/${popUpData.imagen}`} alt='' className='w-1/2' />
+        <img src={`assets/images/${section}/${popUpData.imagen}`} alt='' className='w-1/2' />
 
-        <div className='flex w-1/2 flex-col'>
+        <div className='flex w-1/2 flex-col pr-8'>
           <h2 className='-mt-1 mb-5 text-[1.75rem] font-bold'>{popUpData.titulo}</h2>
           <ul className='list-disc pl-4 text-[1rem]'>
             {popUpData.texto.map((texto, index) => (

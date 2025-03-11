@@ -33,7 +33,7 @@ const Home = () => {
           <img src='assets/images/otros/volver.png' alt='boton ver mas' />
         </button>
       ) : (
-        <ViewMoreBtn handlePopUp={handlePopUp}></ViewMoreBtn>
+        <ViewMoreBtn handlePopUp={handlePopUp} />
       )}
 
       <Logo />

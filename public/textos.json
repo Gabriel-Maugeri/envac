@@ -50,8 +50,191 @@
           "Reducción emisiones de CO2."
         ]
       }
-    ]
+    ],
+    "sliderPreview": {
+      "titulo": "Descubre las ventajas de Envac",
+      "imagen": "slide_aeropuerto_preview.png",
+      "posicion": { "x": "68", "y": "17" }
+    },
+    "slider": {
+      "imagenAntes": "slide_aeropuerto_malo.jpg",
+      "imagenDespues": "slide_aeropuerto_bueno.jpg",
+      "descripcion": "Gran espacio ocupado por los puntos de almacenamiento intermedios"
+    }
   },
-  "ciudades": {},
-  "hospitales": {}
+  "ciudades": {
+    "titulo": "¿Te imaginas la ciudad del futuro?",
+    "botones": [
+      {
+        "texto": "Ciudades más cómodas y limpias",
+        "posicion": { "x": "33", "y": "18" }
+      },
+      {
+        "texto": "Ciudades más sostenibles",
+        "posicion": { "x": "6", "y": "26" }
+      },
+      {
+        "texto": "Ciudades más seguras",
+        "posicion": { "x": "15", "y": "50" }
+      },
+      {
+        "texto": "Ciudades más humanas",
+        "posicion": { "x": "46", "y": "50" }
+      },
+      {
+        "texto": "Ciudades más eficientes",
+        "posicion": { "x": "78", "y": "50" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "Ciudades más cómodas y limpias",
+        "imagen": "ciudades_comodas_1.jpg",
+        "texto": [
+          "Entorno más ordenado y libre de molestias, lo que mejora la satisfacción y calidad de vida de los ciudadanos los 365 días del año.",
+          "Puntos de vertido disponibles 24/7, sin verse afectados por condiciones climatológicas adversas, huelgas etc.",
+          "Sin problemas de contenedores desbordados. Calles más despejadas.",
+          "Sin apenas tráfico de camiones de recogida.",
+          "Sin malos olores ni ruido.",
+          "Facilita la separación en origen de los residuos = mejores tasas de reciclaje.",
+          "Gracias al uso de inteligencia artificial y machine learning, los ayuntamientos pueden acceder a datos precisos sobre el uso del sistema, optimizando su gestión y mejorando la eficiencia del servicio."
+        ]
+      },
+      {
+        "titulo": "Ciudades más sostenibles",
+        "imagen": "ciudades_sostenibles_1.jpg",
+        "texto": [
+          "Reducción drástica del tráfico de vehículos pesados. En una ciudad tipo, se reduce la distancia de coducción de este tipo de vehículos de 2828 km a 208 km al año.",
+          "Reducción Gases. En una ciudad tipo, se disminuye, las emisiones un 95%."
+        ]
+      },
+      {
+        "titulo": "Ciudades más seguras",
+        "imagen": "ciudades_seguras_1.jpg",
+        "texto": [
+          "Zonas peatonales más seguras al eliminarse gran parte del tráfico de camiones.",
+          "Menor riesgo de accidentes para los ciudadanos y los trabajadores.",
+          "Movilidad optimizada en las áreas urbanas.",
+          "Ambiente más relajado.",
+          "Menos vandalismo al eliminar contenedores de las calles."
+        ]
+      },
+      {
+        "titulo": "Ciudades más humanas",
+        "imagen": "ciudades_humanas_1.jpg",
+        "texto": [
+          "Reducción drástica de las áreas dedicadas a la gestión de residuos, liberando espacio en las ciudades y en las zonas residenciales y urbanizaciones en general.",
+          "Uso limitado de espacios públicos.",
+          "Más zonas peatonales y espacios verdes.",
+          "Más espacio para estacionamientos o trasteros en las urbanizaciones.",
+          "Los buzones y compuertas Envac se integran perfectamente en el diseño urbano.",
+          "Combinación tecnología avanzada + diseño = una infraestructura moderna y sostenible que mejora la calidad de vida de los ciudadanos."
+        ]
+      },
+      {
+        "titulo": "Ciudades más eficientes",
+        "imagen": "ciudades_eficientes_1.jpg",
+        "texto": [
+          "Ahorros en los costes de operación y mantenimiento al minimizar la necesidad de personal para la gestión de residuos.",
+          "Coste del ciclo de vida del sistema es más bajo en comparación con la recogida tradicional. Además, su eficiencia permite un retorno de la inversión en menos de 10 años en muchos proyectos, convirtiéndolo en una solución económicamente sostenible a largo plazo."
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "Descubre las ventajas de Envac",
+      "imagen": "slide_ciudad_preview.png",
+      "posicion": { "x": "68", "y": "17" }
+    },
+    "slider": {
+      "imagenAntes": "slide_ciudad_malo.jpg",
+      "imagenDespues": "slide_ciudad_bueno.jpg",
+      "descripcion": "Gran espacio ocupado por los puntos de almacenamiento intermedios"
+    }
+  },
+  "hospitales": {
+    "titulo": "¿Cómo sería un hospital más limpio, seguro y eficiente?",
+    "botones": [
+      {
+        "texto": "Seguridad mejorada para pacientes y personal",
+        "posicion": { "x": "18", "y": "18" }
+      },
+      {
+        "texto": "Entorno de trabajo optimizado",
+        "posicion": { "x": "29", "y": "33" }
+      },
+      {
+        "texto": "Mejora de las operaciones y la rentabilidad",
+        "posicion": { "x": "15", "y": "50" }
+      },
+      {
+        "texto": "Eficiencia y productividad mejoradas",
+        "posicion": { "x": "46", "y": "50" }
+      },
+      {
+        "texto": "Mejor imagen y reputación del hospital",
+        "posicion": { "x": "78", "y": "50" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "Seguridad mejorada para pacientes y personal",
+        "imagen": "hospitales_seguros_1.jpg",
+        "texto": [
+          "Los residuos, generales e infecciosos, viajan por una red de tuberías subterráneas selladas.",
+          "Los residuos no se transportan por pasillos y ascensores.",
+          "Esto reduce la exposición a patógenos, mejorando la higiene y minimizando riesgos para pacientes y familiares à No contaminación cruzada.",
+          "Los residuos infecciosos son convertidos directamente en residuos no peligrosos en la central de recogida del hospital."
+        ]
+      },
+      {
+        "titulo": "Entorno de trabajo optimizado",
+        "imagen": "hospitales_optimizados_1.jpg",
+        "texto": [
+          "Prácticamente eliminada la carga manual pesada y peligrosa.",
+          "Más seguridad e higiene, implica menor rotación del personal y bajas médicas.",
+          "Menos errores humanos.",
+          "Mejora toda la logística del hospital.",
+          "Reducción del ruido y olores."
+        ]
+      },
+      {
+        "titulo": "Mejora de las operaciones y la rentabilidad",
+        "imagen": "hospitales_rentables_1.jpg",
+        "texto": [
+          "No depende de la mano de obra. Optimización de los recursos + reducción de costes.",
+          "El servicio médico no se ve interrumpido por rutinas de limpieza (zonas limpias).",
+          "No hay transporte por pasillos y ascensores, por lo que disminuye el desgaste de infraestructuras y de los pavimentos.",
+          "Al ser un sistema automatizado, se reducen los errores humanos, que implica menor coste derivado de los mismos y un rápido retorno de inversión."
+        ]
+      },
+      {
+        "titulo": "Eficiencia y productividad mejoradas",
+        "imagen": "hospitales_eficientes_1.jpg",
+        "texto": [
+          "El sistema automatizado funciona 24/7.",
+          "Se adapta a la demanda y a situaciones extraordinarias donde se hace necesaria una recogida mayor de residuos o más frecuente.",
+          "Ahorra espacio – No se necesitan ascensores; se libera espacio de almacenaje."
+        ]
+      },
+      {
+        "titulo": "Mejor imagen y reputación del hospital",
+        "imagen": "hospitales_imagen_1.jpg",
+        "texto": [
+          "La incorporación de tecnología avanzada como Envac refuerza la reputación del hospital.",
+          "Se elimina el antiestético trasiego manual de residuos y ropa por todo el hospital, proporcionando a pacientes y visitantes una mejor experiencia.",
+          "Un entorno más limpio, ordenado e higiénico atrae tanto a pacientes como a profesionales sanitarios, generando una impresión positiva y diferenciadora."
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "Descubre las ventajas de Envac",
+      "imagen": "slide_hospital_preview.png",
+      "posicion": { "x": "68", "y": "17" }
+    },
+    "slider": {
+      "imagenAntes": "slide_hospital_malo.jpg",
+      "imagenDespues": "slide_hospital_bueno.jpg",
+      "descripcion": "Gran espacio ocupado por los puntos de almacenamiento intermedios"
+    }
+  }
 }

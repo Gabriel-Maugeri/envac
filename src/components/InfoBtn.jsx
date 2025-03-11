@@ -8,7 +8,7 @@ const InfoBtn = ({ handlePopUp, text, position }) => {
     <button
       onClick={handlePopUp}
       style={style}
-      className={`bg-primary shadow-primary absolute h-[8.5rem] w-[19rem] cursor-pointer text-center text-[1.625rem]/tight font-medium text-white select-none`}>
+      className={`bg-primary shadow-primary absolute h-[8.5rem] w-[19rem] cursor-pointer p-5 text-center text-[1.625rem]/7 font-medium text-white select-none`}>
       {text}
     </button>
   )

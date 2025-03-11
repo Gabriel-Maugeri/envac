@@ -8,10 +8,10 @@ function App() {
   return (
     <section id='App' className='font-roboto'>
       <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/aeropuertos' element={<Airport />}></Route>
-        <Route path='/ciudades' element={<City />}></Route>
-        <Route path='/hospitales' element={<Hospital />}></Route>
+        <Route path='/' element={<Home />} />
+        <Route path='/aeropuertos' element={<Airport />} />
+        <Route path='/ciudades' element={<City />} />
+        <Route path='/hospitales' element={<Hospital />} />
       </Routes>
     </section>
   )
