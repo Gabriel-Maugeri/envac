@@ -27,7 +27,7 @@ jobs:
       - name: Descargar archivos actualizados desde cPanel
         run: |
           # Descarga el ZIP con las actualizaciones (modifica la URL según corresponda)
-          curl -L -o actualizaciones.zip https://nombreWeb.com/actualizaciones.zip
+          curl -L -o actualizaciones.zip https://gabi.warobi.com/actualizaciones.zip
           # Descomprime en una carpeta temporal llamada "actualizados"
           unzip -o actualizaciones.zip -d actualizados
           # Copia los archivos actualizados a la carpeta "dist" sobrescribiendo los existentes
