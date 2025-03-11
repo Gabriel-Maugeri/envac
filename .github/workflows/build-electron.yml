@@ -1,8 +1,8 @@
-name: Build y Empaquetado Electron con Datos Actualizados
+name: Build y Empaquetado Electron
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout del código
+      - name: Checkout del repositorio
         uses: actions/checkout@v3
 
       - name: Configurar Node.js
@@ -21,22 +21,13 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
-      - name: Construir la aplicación React (generar carpeta dist)
+      - name: Construir la aplicación React (carpeta dist)
         run: npm run build
 
-      - name: Descargar archivos actualizados desde cPanel
-        run: |
-          # Descarga el ZIP con las actualizaciones (modifica la URL según corresponda)
-          curl -L -o actualizaciones.zip https://gabi.warobi.com/actualizaciones.zip
-          # Descomprime en una carpeta temporal llamada "actualizados"
-          unzip -o actualizaciones.zip -d actualizados
-          # Copia los archivos actualizados a la carpeta "dist" sobrescribiendo los existentes
-          cp -R actualizados/* dist/
-
-      - name: Empaquetar con Electron (generar dist_electron)
+      - name: Empaquetar con Electron (genera dist_electron)
         run: npm run dist
 
-      - name: Subir artefactos
+      - name: Subir artefacto de la aplicación empaquetada
         uses: actions/upload-artifact@v3
         with:
           name: dist_electron
