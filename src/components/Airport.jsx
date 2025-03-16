@@ -24,7 +24,7 @@ const Airport = () => {
   return (
     <section id='airport' className='relative h-full w-full'>
       <img
-        className={`bg-img absolute -z-10 ${isInfoPopUpActive || isSliderActive ? 'brightness-50' : ''}`}
+        className={`bg-img absolute -z-10 ${isInfoPopUpActive || isSliderActive ? 'animate-bright-out' : 'animate-bright-in'}`}
         src='assets/images/fondos/fondo_aeropuerto.jpg'
         alt=''
       />
@@ -33,17 +33,19 @@ const Airport = () => {
 
       <section
         id='airport-contet'
-        className='relative flex h-screen flex-col items-end justify-between pt-[3.5rem]'>
-        <h1 className='font-display line mr-[13rem] ml-[15rem] w-[45.25rem] text-center text-6xl/tight text-gray-950'>
+        className='relative flex h-screen flex-col items-end justify-between overflow-hidden'>
+        <h1 className='font-display line mt-[3.5rem] mr-[15rem] ml-[15rem] w-[45.25rem] text-center text-6xl/tight text-gray-950'>
           {textos.aeropuertos.titulo}
         </h1>
         {isInfoPopUpActive || isSliderActive ? (
           isInfoPopUpActive ? (
-            <InfoPopUp title={activePopUp} handleClose={handlePopUp} section='aeropuertos' />
+            <InfoPopUp
+              title={activePopUp}
+              handleClose={() => handlePopUp(activePopUp)}
+              section='aeropuertos'
+            />
           ) : (
-            <div className='relative flex h-full w-full items-center justify-center'>
-              <Slider section={'aeropuertos'} handleClose={handleSlider} />
-            </div>
+            <Slider section={'aeropuertos'} handleClose={handleSlider} />
           )
         ) : (
           <>
@@ -53,6 +55,7 @@ const Airport = () => {
               titulo={textos.aeropuertos.sliderPreview.titulo}
               image={textos.aeropuertos.sliderPreview.imagen}
               position={textos.aeropuertos.sliderPreview.posicion}
+              className={isInfoPopUpActive ? 'animate-blow-out-modal' : 'animate-blow-in-modal'}
             />
             <div id='airport-btns' className='absolute top-0 left-0 size-full'>
               {textos.aeropuertos.botones.map((btn, index) => (
@@ -61,6 +64,7 @@ const Airport = () => {
                   handlePopUp={() => handlePopUp(btn.texto)}
                   text={btn.texto}
                   position={btn.posicion}
+                  className={isInfoPopUpActive ? 'animate-blow-out-modal' : 'animate-blow-in-modal'}
                 />
               ))}
             </div>
