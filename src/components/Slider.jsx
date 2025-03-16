@@ -1,13 +1,15 @@
 import textos from '../../public/textos.json'
 import { useState, useRef } from 'react'
 import CloseBtn from './CloseBtn'
+import SliderInfoBtn from './SliderInfoBtn'
 
 const Slider = ({ section, handleClose }) => {
   const [imageRevealFraq, setImageRevealFraq] = useState(0.3)
+  const [sliderText, setSliderText] = useState('')
   const imageContainerRef = useRef(undefined)
   const sliderData = textos[section].slider
-  const imgBefore = sliderData.imagenAntes
-  const imgAfter = sliderData.imagenDespues
+  const imgBefore = sliderData.antes.imagen
+  const imgAfter = sliderData.despues.imagen
 
   const slide = (xPosition) => {
     const containerBoundingReact = imageContainerRef.current.getBoundingClientRect()
@@ -40,24 +42,51 @@ const Slider = ({ section, handleClose }) => {
     window.onmouseup = undefined
   }
 
+  const handleInfoBtn = (text) => {
+    setSliderText(text)
+  }
+
   return (
-    <div className='w-[59%] bg-white p-8'>
+    <div className='absolute w-[59%] bg-white p-8'>
       <div ref={imageContainerRef} className='relative mx-auto select-none'>
         <CloseBtn handleClose={handleClose} />
-        <img
-          src={`assets/images/slide/${imgBefore}`}
-          alt={`${section} antes de Envac`}
-          className='pointer-events-none'
-        />
-        <img
-          src={`assets/images/slide/${imgAfter}`}
-          alt={`${section} despues de Envac`}
-          className='pointer-events-none absolute inset-0'
+        <div
+          className='absolute inset-0 z-20'
           style={{
             clipPath: `polygon(0 0, ${imageRevealFraq * 100}% 0, ${imageRevealFraq * 100}% 100%, 0 100%)`,
-          }}
-        />
-        <div style={{ left: `${imageRevealFraq * 100}%` }} className='absolute inset-y-0'>
+          }}>
+          <img
+            src={`assets/images/slide/${imgBefore}`}
+            alt={`${section} antes de Envac`}
+            className='pointer-events-none'
+          />
+          {sliderData.antes.botones.map((btn) => (
+            <SliderInfoBtn
+              key={btn.id}
+              btnId={btn.id}
+              position={btn.posicion}
+              handleInfoBtn={() => handleInfoBtn(btn.texto)}
+              section={'before'}
+            />
+          ))}
+        </div>
+        <div className='inset-0 z-10'>
+          {sliderData.despues.botones.map((btn) => (
+            <SliderInfoBtn
+              key={btn.id}
+              btnId={btn.id}
+              position={btn.posicion}
+              handleInfoBtn={() => handleInfoBtn(btn.texto)}
+              section={'after'}
+            />
+          ))}
+          <img
+            src={`assets/images/slide/${imgAfter}`}
+            alt={`${section} despues de Envac`}
+            className='pointer-events-none'
+          />
+        </div>
+        <div style={{ left: `${imageRevealFraq * 100}%` }} className='absolute inset-y-0 z-50'>
           <div className='relative h-full'>
             <div className='absolute inset-y-0 -ml-px w-0.5 bg-white' />
             <div
@@ -70,7 +99,7 @@ const Slider = ({ section, handleClose }) => {
       </div>
       <div className='flex items-center justify-center'>
         <span className='w-full translate-y-4 text-center text-[1.857rem] font-medium text-gray-900'>
-          {textos[section].slider.descripcion}
+          {sliderText}
         </span>
       </div>
     </div>

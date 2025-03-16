@@ -21,7 +21,12 @@
     "popUps": [
       {
         "titulo": "Mayor seguridad",
-        "imagen": "aeropuertos_seguros_1.jpg",
+        "imagenes": [
+          "aeropuertos_seguros_1.jpg",
+          "aeropuertos_seguros_2.jpg",
+          "aeropuertos_seguros_3.jpg",
+          "aeropuertos_seguros_4.jpg"
+        ],
         "texto": [
           "Menos manipulación del residuo = menos riesgo.",
           "Reducción drástica del flujo de vehículos en zona aire y zona tierra.",
@@ -30,9 +35,14 @@
       },
       {
         "titulo": "Mejora logística y operativa",
-        "imagen": "aeropuertos_logistica_1.jpg",
+        "imagenes": [
+          "aeropuertos_logistica_1.jpg",
+          "aeropuertos_logistica_2.jpg",
+          "aeropuertos_logistica_3.jpg",
+          "aeropuertos_logistica_4.jpg"
+        ],
         "texto": [
-          "Recogida de residuos en todos los puntos de los aeropuertos.",
+          "Recogida de residuos de todos los puntos de los aeropuertos.",
           "Gestión centralizada de los residuos – Central de recogida (no almacenamiento intermedio).",
           "Reducción del tráfico de vehículos en las pistas. Ahorra tiempo y mejora la eficiencia del personal.",
           "El sistema funciona 24/7 en cualquier condición climática",
@@ -43,10 +53,16 @@
       },
       {
         "titulo": "Más sostenibles",
-        "imagen": "aeropuertos_sostenibles_1.jpg",
+        "imagenes": [
+          "aeropuertos_sostenibles_1.jpg",
+          "aeropuertos_sostenibles_2.jpg",
+          "aeropuertos_sostenibles_3.jpg",
+          "aeropuertos_sostenibles_4.jpg"
+        ],
         "texto": [
-          "Recogida de residuos optimizada y las tasas de reciclaje mejoradas.",
-          "Reduciendo huella de carbono.",
+          "Recogida de residuos optimizada.",
+          "Tasas de reciclaje mejoradas.",
+          "Reducción huella de carbono.",
           "Reducción emisiones de CO2."
         ]
       }
@@ -57,9 +73,71 @@
       "posicion": { "x": "68", "y": "17" }
     },
     "slider": {
-      "imagenAntes": "slide_aeropuerto_malo.jpg",
-      "imagenDespues": "slide_aeropuerto_bueno.jpg",
-      "descripcion": "Gran espacio ocupado por los puntos de almacenamiento intermedios"
+      "antes": {
+        "imagen": "slide_aeropuerto_malo.jpg",
+        "botones": [
+          {
+            "id": "1",
+            "texto": "Vehículos en pista. Más tráfico y menos seguridad.",
+            "posicion": { "x": "10", "y": "10" }
+          },
+          {
+            "id": "2",
+            "texto": "Gran espacio ocupado por los puntos de almacenamiento intermedios.",
+            "posicion": { "x": "10", "y": "30" }
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "20", "y": "20" },
+            "texto": "Costes operativos elevados."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "30", "y": "30" },
+            "texto": "Contenedores desbordados ensucian la imagen del aeropuerto."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "50", "y": "20" },
+            "texto": "Riesgos de seguridad por residuos y/o materiales peligrosos depositados en las basuras."
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_aeropuerto_bueno.jpg",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "20", "y": "30" },
+            "texto": "Mayor seguridad al reducirse el tráfico y la manipulación."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "30", "y": "10" },
+            "texto": "Mayor  seguridad e higiene  al eliminarse el almacenamiento de residuos en papeleras o puntos de tránsito."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "60", "y": "20" },
+            "texto": "Estándares de calidad garantizados."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "40", "y": "20" },
+            "texto": "Recogida centralizada de residuos de todos los puntos."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "50", "y": "10" },
+            "texto": "Funcionamiento ininterrumpido y optimizado, reduciendo costes operativos."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "50", "y": "30" },
+            "texto": "Experiencia de los pasajeros e imagen del aeropuerto mejorada."
+          }
+        ]
+      }
     }
   },
   "ciudades": {
@@ -89,7 +167,12 @@
     "popUps": [
       {
         "titulo": "Ciudades más cómodas y limpias",
-        "imagen": "ciudades_comodas_1.jpg",
+        "imagenes": [
+          "ciudades_comodas_1.jpg",
+          "ciudades_comodas_2.jpg",
+          "ciudades_comodas_3.jpg",
+          "ciudades_comodas_4.jpg"
+        ],
         "texto": [
           "Entorno más ordenado y libre de molestias, lo que mejora la satisfacción y calidad de vida de los ciudadanos los 365 días del año.",
           "Puntos de vertido disponibles 24/7, sin verse afectados por condiciones climatológicas adversas, huelgas etc.",
@@ -102,7 +185,12 @@
       },
       {
         "titulo": "Ciudades más sostenibles",
-        "imagen": "ciudades_sostenibles_1.jpg",
+        "imagenes": [
+          "ciudades_sostenibles_1.jpg",
+          "ciudades_sostenibles_2.jpg",
+          "ciudades_sostenibles_3.jpg",
+          "ciudades_sostenibles_4.jpg"
+        ],
         "texto": [
           "Reducción drástica del tráfico de vehículos pesados. En una ciudad tipo, se reduce la distancia de coducción de este tipo de vehículos de 2828 km a 208 km al año.",
           "Reducción Gases. En una ciudad tipo, se disminuye, las emisiones un 95%."
@@ -110,7 +198,12 @@
       },
       {
         "titulo": "Ciudades más seguras",
-        "imagen": "ciudades_seguras_1.jpg",
+        "imagenes": [
+          "ciudades_seguras_1.jpg",
+          "ciudades_seguras_2.jpg",
+          "ciudades_seguras_3.jpg",
+          "ciudades_seguras_4.jpg"
+        ],
         "texto": [
           "Zonas peatonales más seguras al eliminarse gran parte del tráfico de camiones.",
           "Menor riesgo de accidentes para los ciudadanos y los trabajadores.",
@@ -121,19 +214,28 @@
       },
       {
         "titulo": "Ciudades más humanas",
-        "imagen": "ciudades_humanas_1.jpg",
+        "imagenes": [
+          "ciudades_humanas_1.jpg",
+          "ciudades_humanas_2.jpg",
+          "ciudades_humanas_3.jpg",
+          "ciudades_humanas_4.jpg"
+        ],
         "texto": [
-          "Reducción drástica de las áreas dedicadas a la gestión de residuos, liberando espacio en las ciudades y en las zonas residenciales y urbanizaciones en general.",
-          "Uso limitado de espacios públicos.",
+          "Reducción drástica del espacio público ocupado.",
           "Más zonas peatonales y espacios verdes.",
           "Más espacio para estacionamientos o trasteros en las urbanizaciones.",
           "Los buzones y compuertas Envac se integran perfectamente en el diseño urbano.",
-          "Combinación tecnología avanzada + diseño = una infraestructura moderna y sostenible que mejora la calidad de vida de los ciudadanos."
+          "Una infraestructura moderna y sostenible que mejora la calidad de vida de los ciudadanos."
         ]
       },
       {
         "titulo": "Ciudades más eficientes",
-        "imagen": "ciudades_eficientes_1.jpg",
+        "imagenes": [
+          "ciudades_eficientes_1.jpg",
+          "ciudades_eficientes_2.jpg",
+          "ciudades_eficientes_3.jpg",
+          "ciudades_eficientes_4.jpg"
+        ],
         "texto": [
           "Ahorros en los costes de operación y mantenimiento al minimizar la necesidad de personal para la gestión de residuos.",
           "Coste del ciclo de vida del sistema es más bajo en comparación con la recogida tradicional. Además, su eficiencia permite un retorno de la inversión en menos de 10 años en muchos proyectos, convirtiéndolo en una solución económicamente sostenible a largo plazo."
@@ -146,9 +248,71 @@
       "posicion": { "x": "68", "y": "17" }
     },
     "slider": {
-      "imagenAntes": "slide_ciudad_malo.jpg",
-      "imagenDespues": "slide_ciudad_bueno.jpg",
-      "descripcion": "Gran espacio ocupado por los puntos de almacenamiento intermedios"
+      "antes": {
+        "imagen": "slide_ciudad_malo.jpg",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "10", "y": "10" },
+            "texto": "Contenedores desbordados."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "10", "y": "30" },
+            "texto": "Contaminación acústica y ambiental."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "20", "y": "20" },
+            "texto": "Mayor tráfico y menor seguridad vial y peatonal."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "30", "y": "30" },
+            "texto": "Espacios comunes deslucidos e infrautilizados."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "50", "y": "20" },
+            "texto": "Sistema costoso."
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_ciudad_bueno.jpg",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "20", "y": "30" },
+            "texto": "Sistema limpio, sin contenedores desbordados."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "30", "y": "10" },
+            "texto": "Disponible 24/7 – Más calidad de vida, más usuarios contentos."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "60", "y": "20" },
+            "texto": "Rutas de recogida reducidas en un 92%."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "40", "y": "20" },
+            "texto": "Reducción de las emisiones de gases contaminantes de un 95%."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "50", "y": "10" },
+            "texto": "Más espacio disponible para comercios y zonas verdes, mejor estética de la zona residencial."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "50", "y": "30" },
+            "texto": "Sistema eficiente."
+          }
+        ]
+      }
     }
   },
   "hospitales": {
@@ -178,47 +342,72 @@
     "popUps": [
       {
         "titulo": "Seguridad mejorada para pacientes y personal",
-        "imagen": "hospitales_seguros_1.jpg",
+        "imagenes": [
+          "hospitales_seguros_1.jpg",
+          "hospitales_seguros_2.jpg",
+          "hospitales_seguros_3.jpg",
+          "hospitales_seguros_4.jpg"
+        ],
         "texto": [
           "Los residuos, generales e infecciosos, viajan por una red de tuberías subterráneas selladas.",
           "Los residuos no se transportan por pasillos y ascensores.",
-          "Esto reduce la exposición a patógenos, mejorando la higiene y minimizando riesgos para pacientes y familiares à No contaminación cruzada.",
+          "Reducción drastica de la exposición a patógenos, mejorando la higiene y minimizando riesgos para pacientes y familiares. No contaminación cruzada.",
           "Los residuos infecciosos son convertidos directamente en residuos no peligrosos en la central de recogida del hospital."
         ]
       },
       {
         "titulo": "Entorno de trabajo optimizado",
-        "imagen": "hospitales_optimizados_1.jpg",
+        "imagenes": [
+          "hospitales_optimizados_1.jpg",
+          "hospitales_optimizados_2.jpg",
+          "hospitales_optimizados_3.jpg",
+          "hospitales_optimizados_4.jpg"
+        ],
         "texto": [
           "Prácticamente eliminada la carga manual pesada y peligrosa.",
           "Más seguridad e higiene, implica menor rotación del personal y bajas médicas.",
           "Menos errores humanos.",
           "Mejora toda la logística del hospital.",
-          "Reducción del ruido y olores."
+          "Menos ruidos y olores."
         ]
       },
       {
         "titulo": "Mejora de las operaciones y la rentabilidad",
-        "imagen": "hospitales_rentables_1.jpg",
+        "imagenes": [
+          "hospitales_rentables_1.jpg",
+          "hospitales_rentables_2.jpg",
+          "hospitales_rentables_3.jpg",
+          "hospitales_rentables_4.jpg"
+        ],
         "texto": [
-          "No depende de la mano de obra. Optimización de los recursos + reducción de costes.",
+          "No depende de la mano de obra. Optimización de los recursos y reducción de costes.",
           "El servicio médico no se ve interrumpido por rutinas de limpieza (zonas limpias).",
-          "No hay transporte por pasillos y ascensores, por lo que disminuye el desgaste de infraestructuras y de los pavimentos.",
+          "Disminución del desgaste de infraestructuras y de los pavimentos al no habertransporte por pasillos y ascensores.",
           "Al ser un sistema automatizado, se reducen los errores humanos, que implica menor coste derivado de los mismos y un rápido retorno de inversión."
         ]
       },
       {
         "titulo": "Eficiencia y productividad mejoradas",
-        "imagen": "hospitales_eficientes_1.jpg",
+        "imagenes": [
+          "hospitales_eficientes_1.jpg",
+          "hospitales_eficientes_2.jpg",
+          "hospitales_eficientes_3.jpg",
+          "hospitales_eficientes_4.jpg"
+        ],
         "texto": [
           "El sistema automatizado funciona 24/7.",
           "Se adapta a la demanda y a situaciones extraordinarias donde se hace necesaria una recogida mayor de residuos o más frecuente.",
-          "Ahorra espacio – No se necesitan ascensores; se libera espacio de almacenaje."
+          "Ahorra espacio – No se necesitan ascensores."
         ]
       },
       {
         "titulo": "Mejor imagen y reputación del hospital",
-        "imagen": "hospitales_imagen_1.jpg",
+        "imagenes": [
+          "hospitales_imagen_1.jpg",
+          "hospitales_imagen_2.jpg",
+          "hospitales_imagen_3.jpg",
+          "hospitales_imagen_4.jpg"
+        ],
         "texto": [
           "La incorporación de tecnología avanzada como Envac refuerza la reputación del hospital.",
           "Se elimina el antiestético trasiego manual de residuos y ropa por todo el hospital, proporcionando a pacientes y visitantes una mejor experiencia.",
@@ -232,9 +421,66 @@
       "posicion": { "x": "68", "y": "17" }
     },
     "slider": {
-      "imagenAntes": "slide_hospital_malo.jpg",
-      "imagenDespues": "slide_hospital_bueno.jpg",
-      "descripcion": "Gran espacio ocupado por los puntos de almacenamiento intermedios"
+      "antes": {
+        "imagen": "slide_hospital_malo.jpg",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "10", "y": "10" },
+            "texto": "Mayor necesidad de espacio dentro del hospital."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "10", "y": "30" },
+            "texto": "Se requieren más ascensores o con mayor capacidad."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "20", "y": "20" },
+            "texto": "Circulación de carritos o AGVs por pasillos. Circulación de pacientes y personal más complicado."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "30", "y": "30" },
+            "texto": "Riesgo de contaminación cruzada."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "50", "y": "20" },
+            "texto": "Rutinas de limpieza más complejas."
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_hospital_bueno.jpg",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "20", "y": "30" },
+            "texto": "Sin almacenamiento local o intermedio, Capacidad de ascensores liberada y logística mejorada."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "30", "y": "10" },
+            "texto": "Más espacio para habitaciones y servicios de salud."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "60", "y": "20" },
+            "texto": "Transporte hermético más higiénico y seguro."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "40", "y": "20" },
+            "texto": "No riesgos de contaminación cruzada."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "50", "y": "10" },
+            "texto": "Compuertas con control de acceso: seguridad. Ambiente laboral mejorado."
+          }
+        ]
+      }
     }
   }
 }

@@ -24,7 +24,7 @@ const City = () => {
   return (
     <section id='city' className='relative h-full w-full'>
       <img
-        className={`bg-img absolute -z-10 ${isInfoPopUpActive ? 'brightness-50' : ''}`}
+        className={`bg-img absolute -z-10 ${isInfoPopUpActive || isSliderActive ? 'brightness-50' : ''}`}
         src='assets/images/fondos/fondo_ciudad.jpg'
         alt=''
       />
@@ -33,8 +33,8 @@ const City = () => {
 
       <section
         id='city-contet'
-        className='relative flex h-screen flex-col items-center justify-between pt-[3.5rem] pl-30'>
-        <h1 className='font-display w-[45.25rem] pl-20 text-center text-6xl/tight text-gray-950'>
+        className='relative flex h-screen flex-col items-center justify-between pt-[3.5rem]'>
+        <h1 className='font-display ml-30 w-[45.25rem] pl-20 text-center text-6xl/tight text-gray-950'>
           {textos.ciudades.titulo}
         </h1>
         {isInfoPopUpActive || isSliderActive ? (

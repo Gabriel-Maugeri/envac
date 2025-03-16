@@ -24,7 +24,7 @@ const Hospital = () => {
   return (
     <section id='hospital' className='relative h-full w-full'>
       <img
-        className={`bg-img absolute -z-10 ${isInfoPopUpActive ? 'brightness-50' : ''}`}
+        className={`bg-img absolute -z-10 ${isInfoPopUpActive || isSliderActive ? 'brightness-50' : ''}`}
         src='assets/images/fondos/fondo_hospital.jpg'
         alt=''
       />
@@ -33,8 +33,8 @@ const Hospital = () => {
 
       <section
         id='hospital-contet'
-        className='relative mr-40 flex h-screen flex-col items-end justify-between pt-[3.5rem] pl-30'>
-        <h1 className='font-display w-[50.25rem] text-center text-6xl/tight text-gray-950'>
+        className='relative flex h-screen flex-col items-end justify-between pt-[3.5rem]'>
+        <h1 className='font-display mr-40 w-[50.25rem] text-center text-6xl/tight text-gray-950'>
           {textos.hospitales.titulo}
         </h1>
         {isInfoPopUpActive || isSliderActive ? (
