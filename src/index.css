@@ -43,8 +43,6 @@
   --animate-fade-in: fade-in 0.75s forwards;
   --animate-fade-out: fade-out 0.75s forwards;
   --animate-pulse: pulse 3s linear infinite;
-  --animate-loading: loading 3s ease-in-out infinite;
-  --animate-blink: blink 3s infinite;
 
   @keyframes fade-in {
     from {
@@ -77,30 +75,6 @@
     }
     100% {
       box-shadow: 0 0 0 15px rgba(243, 146, 0, 0);
-    }
-  }
-
-  @keyframes loading {
-    0%,
-    100% {
-      opacity: 0;
-      transform: scale(1);
-    }
-
-    45%,
-    65% {
-      opacity: 1;
-      transform: scale(0.7);
-    }
-  }
-
-  @keyframes blink {
-    0%,
-    100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
     }
   }
 }
@@ -141,16 +115,4 @@
     border-top: 0.4rem solid white;
     transform: rotate(-90deg);
   }
-}
-
-.blink-1 {
-  animation-delay: 0.15s;
-}
-
-.blink-2 {
-  animation-delay: 0.45s;
-}
-
-.blink-3 {
-  animation-delay: 0.75s;
 }
