@@ -4,6 +4,7 @@
   },
   "aeropuertos": {
     "titulo": "¿Cómo será el aeropuerto del futuro?",
+    "imagenFondo": "fondo_aeropuerto.jpg",
     "botones": [
       {
         "texto": "Mayor seguridad",
@@ -142,6 +143,7 @@
   },
   "ciudades": {
     "titulo": "¿Te imaginas la ciudad del futuro?",
+    "imagenFondo": "fondo_ciudad.jpg",
     "botones": [
       {
         "texto": "Ciudades más cómodas y limpias",
@@ -317,6 +319,7 @@
   },
   "hospitales": {
     "titulo": "¿Cómo sería un hospital más limpio, seguro y eficiente?",
+    "imagenFondo": "fondo_ciudad.jpg",
     "botones": [
       {
         "texto": "Seguridad mejorada para pacientes y personal",
