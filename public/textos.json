@@ -76,65 +76,74 @@
     "slider": {
       "antes": {
         "imagen": "slide_aeropuerto_malo.jpg",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
         "botones": [
           {
             "id": "1",
-            "texto": "Vehículos en pista. Más tráfico y menos seguridad.",
-            "posicion": { "x": "10", "y": "10" }
+            "posicion": { "x": "46", "y": "31.5" },
+            "texto": "Más tráfico y menos seguridad al haber vehículos en pista."
           },
           {
             "id": "2",
-            "texto": "Gran espacio ocupado por los puntos de almacenamiento intermedios.",
-            "posicion": { "x": "10", "y": "30" }
+            "posicion": { "x": "44", "y": "10" },
+            "texto": "Gran espacio ocupado por los puntos de almacenamiento intermedios."
           },
           {
+            "posicion": { "x": "37.5", "y": "19" },
             "id": "3",
-            "posicion": { "x": "20", "y": "20" },
-            "texto": "Costes operativos elevados."
+            "texto": "Contenedores desbordados que ensucian la imagen del aeropuerto."
           },
           {
+            "posicion": { "x": "23", "y": "31" },
             "id": "4",
-            "posicion": { "x": "30", "y": "30" },
-            "texto": "Contenedores desbordados ensucian la imagen del aeropuerto."
+            "texto": "Rutinas de recogida más complejas."
           },
           {
+            "posicion": { "x": "55", "y": "31.5" },
             "id": "5",
-            "posicion": { "x": "50", "y": "20" },
-            "texto": "Riesgos de seguridad por residuos y/o materiales peligrosos depositados en las basuras."
+            "texto": "Menor seguridad por residuos y/o materiales peligrosos depositados en las basuras."
+          },
+          {
+            "posicion": { "x": "35.5", "y": "12" },
+            "id": "6",
+            "texto": "Ambiente menos amigable e imagen reputacional dañada."
           }
         ]
       },
       "despues": {
         "imagen": "slide_aeropuerto_bueno.jpg",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
         "botones": [
           {
             "id": "1",
-            "posicion": { "x": "20", "y": "30" },
-            "texto": "Mayor seguridad al reducirse el tráfico y la manipulación."
+            "posicion": { "x": "46", "y": "31.5" },
+            "texto": "Mayor seguridad al reducirse el tráfico de vehículos y la manipulación en pista."
           },
           {
             "id": "2",
-            "posicion": { "x": "30", "y": "10" },
-            "texto": "Mayor  seguridad e higiene  al eliminarse el almacenamiento de residuos en papeleras o puntos de tránsito."
+            "posicion": { "x": "44", "y": "10" },
+            "texto": "Más espacio en el aeropuerto para zonas de embarque, restauración y otros."
           },
           {
             "id": "3",
-            "posicion": { "x": "60", "y": "20" },
-            "texto": "Estándares de calidad garantizados."
+            "posicion": { "x": "37.5", "y": "19" },
+            "texto": "Se elimina el almacenamiento de residuos en papeleras o puntos de tránsito."
           },
           {
             "id": "4",
-            "posicion": { "x": "40", "y": "20" },
-            "texto": "Recogida centralizada de residuos de todos los puntos."
+            "posicion": { "x": "23", "y": "31" },
+            "texto": "Recogida centralizada de residuos. Funcionamiento ininterrumpido y optimizado reduciendo costes operativos."
           },
           {
             "id": "5",
-            "posicion": { "x": "50", "y": "10" },
-            "texto": "Funcionamiento ininterrumpido y optimizado, reduciendo costes operativos."
+            "posicion": { "x": "55", "y": "31.5" },
+            "texto": "Mayor seguridad. Menor manipulación de residuos y riesgo de materiales peligrosos."
           },
           {
             "id": "6",
-            "posicion": { "x": "50", "y": "30" },
+            "posicion": { "x": "35.5", "y": "12" },
             "texto": "Experiencia de los pasajeros e imagen del aeropuerto mejorada."
           }
         ]

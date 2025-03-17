@@ -1,4 +1,4 @@
-const SliderInfoBtn = ({ btnId, position, section, handleInfoBtn }) => {
+const SliderInfoBtn = ({ position, handleInfoBtn, image, activeImage, active }) => {
   const style = {
     top: `${position.y}rem`,
     left: `${position.x}rem`,
@@ -6,12 +6,15 @@ const SliderInfoBtn = ({ btnId, position, section, handleInfoBtn }) => {
 
   return (
     <>
-      <button
-        style={style}
-        className='bg-primary absolute size-10 animate-pulse cursor-pointer rounded-full'
-        onClick={handleInfoBtn}
-        id={`slider-${section}-btn-${btnId}`}>
-        <img src='' alt='' />
+      <button style={style} className='absolute size-14 cursor-pointer' onClick={handleInfoBtn}>
+        <img
+          src={`assets/images/otros/${image}`}
+          style={{ display: active ? 'none' : 'inline-block' }}
+        />
+        <img
+          src={`assets/images/otros/${activeImage}`}
+          style={{ display: active ? 'inline-block' : 'none' }}
+        />
       </button>
     </>
   )

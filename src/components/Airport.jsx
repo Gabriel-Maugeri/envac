@@ -34,7 +34,7 @@ const Airport = () => {
       <section
         id='airport-contet'
         className='relative flex h-screen flex-col items-end justify-between overflow-hidden'>
-        <h1 className='font-display line mt-[3.5rem] mr-[15rem] ml-[15rem] w-[45.25rem] text-center text-6xl/tight text-gray-950'>
+        <h1 className='font-display line animate-blow-in-modal mt-[3.5rem] mr-[15rem] ml-[15rem] w-[45.25rem] text-center text-6xl/tight text-gray-950'>
           {textos.aeropuertos.titulo}
         </h1>
         {isInfoPopUpActive || isSliderActive ? (

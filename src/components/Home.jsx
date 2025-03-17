@@ -28,7 +28,7 @@ const Home = () => {
 
       {popUpActive ? (
         <button
-          className='bg-primary absolute top-18 right-20 z-20 flex size-20 cursor-pointer items-center justify-center rounded-full select-none'
+          className='bg-primary animate-blow-in-modal absolute top-18 right-20 z-20 flex size-20 cursor-pointer items-center justify-center rounded-full select-none'
           onClick={handlePopUp}>
           <img src='assets/images/otros/volver.png' alt='boton ver mas' />
         </button>
@@ -42,7 +42,7 @@ const Home = () => {
         className='relative flex h-screen flex-col items-center justify-between pt-[5rem]'>
         {popUpActive ? (
           <>
-            <h1 className='font-display w-[70rem] text-center text-6xl/tight text-gray-950'>
+            <h1 className='font-display animate-blow-in-modal w-[70rem] text-center text-6xl/tight text-gray-950'>
               Gestión de Residuos <br /> Inteligente y Sostenible
             </h1>
             <section id='video-container' className='absolute top-[38%] flex flex-row gap-20'>
@@ -52,7 +52,7 @@ const Home = () => {
           </>
         ) : (
           <>
-            <p className='font-display w-[70rem] text-center text-6xl/tight text-gray-950'>
+            <p className='font-display animate-blow-in-modal w-[70rem] text-center text-6xl/tight text-gray-950'>
               Sistemas de recogida neumática para ciudades más humanas y sostenibles.
             </p>
             <div

@@ -11,6 +11,7 @@ const Slider = ({ section, handleClose }) => {
   const imgBefore = sliderData.antes.imagen
   const imgAfter = sliderData.despues.imagen
   const [animateOut, setAnimateOut] = useState(false)
+  const [activeBtn, setActiveBtn] = useState(null)
 
   const slide = (xPosition) => {
     const containerBoundingReact = imageContainerRef.current.getBoundingClientRect()
@@ -43,7 +44,8 @@ const Slider = ({ section, handleClose }) => {
     window.onmouseup = undefined
   }
 
-  const handleInfoBtn = (text) => {
+  const handleInfoBtn = (btnId, text) => {
+    setActiveBtn(btnId)
     setSliderText(text)
   }
 
@@ -57,7 +59,7 @@ const Slider = ({ section, handleClose }) => {
   return (
     <section
       className={`relative flex h-full w-full items-center justify-center ${animateOut ? 'animate-blow-out-modal' : 'animate-blow-in-modal'}`}>
-      <div className='absolute w-[59%] bg-white p-8'>
+      <div className='absolute min-h-[76.3%] w-[59%] bg-white p-8'>
         <div ref={imageContainerRef} className='relative mx-auto select-none'>
           <CloseBtn handleClose={onClose} />
           <div
@@ -73,10 +75,11 @@ const Slider = ({ section, handleClose }) => {
             {sliderData.antes.botones.map((btn) => (
               <SliderInfoBtn
                 key={btn.id}
-                btnId={btn.id}
                 position={btn.posicion}
-                handleInfoBtn={() => handleInfoBtn(btn.texto)}
-                section={'before'}
+                image={sliderData.antes.imagenBoton}
+                activeImage={sliderData.antes.imagenBotonPresionado}
+                active={activeBtn === btn.id}
+                handleInfoBtn={() => handleInfoBtn(btn.id, btn.texto)}
               />
             ))}
           </div>
@@ -84,10 +87,11 @@ const Slider = ({ section, handleClose }) => {
             {sliderData.despues.botones.map((btn) => (
               <SliderInfoBtn
                 key={btn.id}
-                btnId={btn.id}
                 position={btn.posicion}
-                handleInfoBtn={() => handleInfoBtn(btn.texto)}
-                section={'after'}
+                image={sliderData.despues.imagenBoton}
+                activeImage={sliderData.despues.imagenBotonPresionado}
+                active={activeBtn === btn.id}
+                handleInfoBtn={() => handleInfoBtn(btn.id, btn.texto)}
               />
             ))}
             <img
@@ -98,7 +102,7 @@ const Slider = ({ section, handleClose }) => {
           </div>
           <div style={{ left: `${imageRevealFraq * 100}%` }} className='absolute inset-y-0 z-50'>
             <div className='relative h-full'>
-              <div className='absolute inset-y-0 -ml-px w-0.5 bg-white' />
+              <div className='absolute inset-y-0 -ml-[2px] w-1 bg-white' />
               <div
                 onMouseDown={handleMouseDown}
                 onTouchMove={handleTouchMove}
