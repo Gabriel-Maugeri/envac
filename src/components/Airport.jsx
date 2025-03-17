@@ -27,6 +27,7 @@ const Airport = () => {
         className={`bg-img absolute -z-10 ${isInfoPopUpActive || isSliderActive ? 'animate-bright-out' : 'animate-bright-in'}`}
         src='assets/images/fondos/fondo_aeropuerto.jpg'
         alt=''
+        loading='lazy'
       />
       <Logo />
       <BackBtn prevPage='/' />

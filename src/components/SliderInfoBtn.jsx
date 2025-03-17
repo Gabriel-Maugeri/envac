@@ -10,10 +10,12 @@ const SliderInfoBtn = ({ position, handleInfoBtn, image, activeImage, active }) 
         <img
           src={`assets/images/otros/${image}`}
           style={{ display: active ? 'none' : 'inline-block' }}
+          loading='lazy'
         />
         <img
           src={`assets/images/otros/${activeImage}`}
           style={{ display: active ? 'inline-block' : 'none' }}
+          loading='lazy'
         />
       </button>
     </>

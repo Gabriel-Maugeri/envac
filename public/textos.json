@@ -261,66 +261,85 @@
     "slider": {
       "antes": {
         "imagen": "slide_ciudad_malo.jpg",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
         "botones": [
           {
             "id": "1",
-            "posicion": { "x": "10", "y": "10" },
-            "texto": "Contenedores desbordados."
+            "posicion": { "x": "31", "y": "25" },
+            "texto": "Ciudades más sucias, con contenedores desbordados."
           },
           {
             "id": "2",
-            "posicion": { "x": "10", "y": "30" },
-            "texto": "Contaminación acústica y ambiental."
+            "posicion": { "x": "21", "y": "25" },
+            "texto": "Ciudades con mucha contaminación acústica y ambiental."
           },
           {
             "id": "3",
-            "posicion": { "x": "20", "y": "20" },
+            "posicion": { "x": "55.5", "y": "28" },
             "texto": "Mayor tráfico y menor seguridad vial y peatonal."
           },
           {
             "id": "4",
-            "posicion": { "x": "30", "y": "30" },
+            "posicion": { "x": "46", "y": "25" },
             "texto": "Espacios comunes deslucidos e infrautilizados."
           },
           {
             "id": "5",
-            "posicion": { "x": "50", "y": "20" },
-            "texto": "Sistema costoso."
+            "posicion": { "x": "12", "y": "22" },
+            "texto": "Necesidad de espacios para almacenamiento de residuos en edificios."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "9", "y": "33" },
+            "texto": "Mucho espacio público ocupado."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "43", "y": "15" },
+            "texto": "Dependencia horarios y rutinas de recogida de residuos."
           }
         ]
       },
       "despues": {
         "imagen": "slide_ciudad_bueno.jpg",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
         "botones": [
           {
             "id": "1",
-            "posicion": { "x": "20", "y": "30" },
-            "texto": "Sistema limpio, sin contenedores desbordados."
+            "posicion": { "x": "31", "y": "25" },
+            "texto": "Ciudades más limpias, sin contenedores desbordados."
           },
           {
             "id": "2",
-            "posicion": { "x": "30", "y": "10" },
-            "texto": "Disponible 24/7 – Más calidad de vida, más usuarios contentos."
+            "posicion": { "x": "21", "y": "25" },
+            "texto": "Ciudades más limpias. Reducción del ruido y de las emisiones de hasta un 95%."
           },
           {
             "id": "3",
-            "posicion": { "x": "60", "y": "20" },
-            "texto": "Rutas de recogida reducidas en un 92%."
+            "posicion": { "x": "55.5", "y": "28" },
+            "texto": "Rutas de recogida reducidas en un 92%. Más seguridad vial y peatonal."
           },
           {
             "id": "4",
-            "posicion": { "x": "40", "y": "20" },
-            "texto": "Reducción de las emisiones de gases contaminantes de un 95%."
+            "posicion": { "x": "46", "y": "25" },
+            "texto": "Espacios comunes mejor aprovechados y más zonas verdes."
           },
           {
             "id": "5",
-            "posicion": { "x": "50", "y": "10" },
-            "texto": "Más espacio disponible para comercios y zonas verdes, mejor estética de la zona residencial."
+            "posicion": { "x": "12", "y": "22" },
+            "texto": "Espacio disponible para comercios y zonas comunes en edificios."
           },
           {
             "id": "6",
-            "posicion": { "x": "50", "y": "30" },
-            "texto": "Sistema eficiente."
+            "posicion": { "x": "9", "y": "33" },
+            "texto": "Espacio público disponible para aparcamientos y otros usos."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "43", "y": "15" },
+            "texto": "Buzones y compuertas disponibles 24/7 – Más calidad de vida, usuarios más contentos."
           }
         ]
       }

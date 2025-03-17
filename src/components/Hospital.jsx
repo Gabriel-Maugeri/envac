@@ -27,6 +27,7 @@ const Hospital = () => {
         className={`bg-img absolute -z-10 ${isInfoPopUpActive || isSliderActive ? 'brightness-50' : ''}`}
         src='assets/images/fondos/fondo_hospital.jpg'
         alt=''
+        loading='lazy'
       />
       <Logo />
       <BackBtn prevPage='/' />

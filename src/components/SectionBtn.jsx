@@ -11,6 +11,7 @@ const SectionBtn = ({ text, imgName, section }) => {
           alt={`logo ${imgName}`}
           className='self-end'
           draggable='false'
+          loading='lazy'
         />
       </div>
       <span className='text-4xl font-normal text-white'>{text}</span>

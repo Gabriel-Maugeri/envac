@@ -45,6 +45,7 @@ const InfoPopUp = ({ title, handleClose, section }) => {
               key={index}
               src={`assets/images/${section}/${image}`}
               alt=''
+              loading='lazy'
               className={`absolute w-full transition-opacity duration-750 ${
                 index === currentImageIndex ? fadeClass + ' opacity-100' : 'opacity-0'
               }`}

@@ -30,7 +30,7 @@ const Home = () => {
         <button
           className='bg-primary animate-blow-in-modal absolute top-18 right-20 z-20 flex size-20 cursor-pointer items-center justify-center rounded-full select-none'
           onClick={handlePopUp}>
-          <img src='assets/images/otros/volver.png' alt='boton ver mas' />
+          <img src='assets/images/otros/volver.png' alt='boton ver mas' loading='lazy' />
         </button>
       ) : (
         <ViewMoreBtn handlePopUp={handlePopUp} />
@@ -42,7 +42,7 @@ const Home = () => {
         className='relative flex h-screen flex-col items-center justify-between pt-[5rem]'>
         {popUpActive ? (
           <>
-            <h1 className='font-display animate-blow-in-modal w-[70rem] text-center text-6xl/tight text-gray-950'>
+            <h1 className='font-display animate-blow-in-modal w-[58.5%] text-center text-6xl/tight text-gray-950'>
               Gestión de Residuos <br /> Inteligente y Sostenible
             </h1>
             <section id='video-container' className='absolute top-[38%] flex flex-row gap-20'>
@@ -57,7 +57,7 @@ const Home = () => {
             </p>
             <div
               id='home-btns'
-              className='absolute top-1/3 flex h-52 w-full flex-row items-center justify-center gap-[9rem]'>
+              className='absolute top-1/3 flex w-full flex-row items-center justify-center gap-[7.5%]'>
               <SectionBtn text={'Aeropuertos'} section='aeropuertos' imgName='aeropuertos' />
               <SectionBtn text={'Ciudades'} section='ciudades' imgName='ciudades' />
               <SectionBtn text={'Hospitales'} section='hospitales' imgName='hospitales' />

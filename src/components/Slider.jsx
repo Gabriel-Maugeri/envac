@@ -11,7 +11,7 @@ const Slider = ({ section, handleClose }) => {
   const imgBefore = sliderData.antes.imagen
   const imgAfter = sliderData.despues.imagen
   const [animateOut, setAnimateOut] = useState(false)
-  const [activeBtn, setActiveBtn] = useState(null)
+  const [activeBtn, setActiveBtn] = useState({ id: '', section: '' })
 
   const slide = (xPosition) => {
     const containerBoundingReact = imageContainerRef.current.getBoundingClientRect()
@@ -44,8 +44,8 @@ const Slider = ({ section, handleClose }) => {
     window.onmouseup = undefined
   }
 
-  const handleInfoBtn = (btnId, text) => {
-    setActiveBtn(btnId)
+  const handleInfoBtn = (btnId, section, text) => {
+    setActiveBtn({ id: btnId, section: section })
     setSliderText(text)
   }
 
@@ -71,6 +71,7 @@ const Slider = ({ section, handleClose }) => {
               src={`assets/images/slide/${imgBefore}`}
               alt={`${section} antes de Envac`}
               className='pointer-events-none'
+              loading='lazy'
             />
             {sliderData.antes.botones.map((btn) => (
               <SliderInfoBtn
@@ -78,8 +79,8 @@ const Slider = ({ section, handleClose }) => {
                 position={btn.posicion}
                 image={sliderData.antes.imagenBoton}
                 activeImage={sliderData.antes.imagenBotonPresionado}
-                active={activeBtn === btn.id}
-                handleInfoBtn={() => handleInfoBtn(btn.id, btn.texto)}
+                active={activeBtn.id === btn.id && activeBtn.section === 'before'}
+                handleInfoBtn={() => handleInfoBtn(btn.id, 'before', btn.texto)}
               />
             ))}
           </div>
@@ -90,14 +91,15 @@ const Slider = ({ section, handleClose }) => {
                 position={btn.posicion}
                 image={sliderData.despues.imagenBoton}
                 activeImage={sliderData.despues.imagenBotonPresionado}
-                active={activeBtn === btn.id}
-                handleInfoBtn={() => handleInfoBtn(btn.id, btn.texto)}
+                active={activeBtn.id === btn.id && activeBtn.section === 'after'}
+                handleInfoBtn={() => handleInfoBtn(btn.id, 'after', btn.texto)}
               />
             ))}
             <img
               src={`assets/images/slide/${imgAfter}`}
               alt={`${section} despues de Envac`}
               className='pointer-events-none'
+              loading='lazy'
             />
           </div>
           <div style={{ left: `${imageRevealFraq * 100}%` }} className='absolute inset-y-0 z-50'>

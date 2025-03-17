@@ -13,7 +13,7 @@ const SliderPreview = ({ handleSlider, titulo, position, image, className }) => 
       <div className='slider-preview'>
         <SliderViewBtn handleSlider={handleSlider} />
         <span className='inline-block w-full text-center text-[1.625rem] font-bold'>{titulo}</span>
-        <img src={`assets/images/slide/${image}`} alt='' />
+        <img src={`assets/images/slide/${image}`} alt='' loading='lazy' />
       </div>
     </div>
   )
