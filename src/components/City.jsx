@@ -22,7 +22,7 @@ const City = () => {
   }
 
   return (
-    <section id='City' className='relative h-full w-full'>
+    <section id='city' className='relative h-full w-full'>
       <img
         className={`bg-img absolute -z-10 ${isInfoPopUpActive || isSliderActive ? 'animate-bright-out' : 'animate-bright-in'}`}
         src='assets/images/fondos/fondo_ciudad.jpg'
@@ -33,9 +33,9 @@ const City = () => {
       <BackBtn prevPage='/' />
 
       <section
-        id='City-contet'
-        className='relative flex h-screen flex-col items-end justify-between overflow-hidden'>
-        <h1 className='font-display line animate-blow-in-modal mt-[3.5rem] mr-[15rem] ml-[15rem] w-[45.25rem] text-center text-6xl/tight text-gray-950'>
+        id='city-contet'
+        className='relative flex h-screen flex-col items-center justify-between overflow-hidden'>
+        <h1 className='font-display line animate-blow-in-modal mt-[5rem] ml-[5rem] w-[37rem] text-center text-6xl/tight text-gray-950'>
           {textos.ciudades.titulo}
         </h1>
         {isInfoPopUpActive || isSliderActive ? (
@@ -58,7 +58,7 @@ const City = () => {
               position={textos.ciudades.sliderPreview.posicion}
               className={isInfoPopUpActive ? 'animate-blow-out-modal' : 'animate-blow-in-modal'}
             />
-            <div id='City-btns' className='absolute top-0 left-0 size-full'>
+            <div id='city-btns' className='absolute top-0 left-0 size-full'>
               {textos.ciudades.botones.map((btn, index) => (
                 <InfoBtn
                   key={index}

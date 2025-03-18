@@ -2,8 +2,8 @@ import SliderViewBtn from './SliderViewBtn'
 
 const SliderPreview = ({ handleSlider, titulo, position, image, className }) => {
   const style = {
-    top: `${position.y}rem`,
-    left: `${position.x}rem`,
+    top: `${position.y}%`,
+    right: `${position.x}%`,
   }
 
   return (

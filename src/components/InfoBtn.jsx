@@ -1,7 +1,7 @@
 const InfoBtn = ({ handlePopUp, text, position, className }) => {
   const style = {
-    top: `${position.y}rem`,
-    left: `${position.x}rem`,
+    top: `${position.y}%`,
+    left: `${position.x}%`,
   }
 
   return (
