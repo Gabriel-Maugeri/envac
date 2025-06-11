@@ -26,3 +26,4 @@ dist-ssr
 
 .prettierrc.json
 .prettierignore
+*.mp4
