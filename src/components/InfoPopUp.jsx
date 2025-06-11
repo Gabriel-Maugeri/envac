@@ -1,14 +1,17 @@
-import textos from '../../public/textos.json'
 import CloseBtn from './CloseBtn'
 import { useState, useEffect, useRef } from 'react'
 
-const InfoPopUp = ({ title, handleClose, section }) => {
-  const popUpData = textos[section].popUps.find((item) => item.titulo === title)
+const InfoPopUp = ({ title, handleClose, section, textos }) => {
+  const popUpData = textos[section].popUps.find(
+    (item) => item.titulo.toLowerCase() === title.toLowerCase()
+  )
   const images = popUpData.imagenes
   const imagesIndex = useRef(0)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  const [fadeClass, setFadeClass] = useState('')
+  const [fadeClass, setFadeClass] = useState('animate-fade-in')
   const [animateOut, setAnimateOut] = useState(false)
+  const ulContainerRef = useRef(null)
+  const ulRef = useRef(null)
 
   const handleNextImage = () => {
     if (images) {
@@ -22,9 +25,23 @@ const InfoPopUp = ({ title, handleClose, section }) => {
   }
 
   useEffect(() => {
-    const interval = setInterval(handleNextImage, 5000)
-    return () => clearInterval(interval)
+    const timeout = setTimeout(() => {
+      const interval = setInterval(handleNextImage, 3500)
+      handleNextImage()
+      return () => clearInterval(interval)
+    }, 2750)
+
+    return () => clearTimeout(timeout)
   }, [])
+
+  useEffect(() => {
+    const ulContainerHeight = ulContainerRef.current.clientHeight
+    const ulHeight = ulRef.current.clientHeight
+    const heightRelation = ulHeight / ulContainerHeight
+    if (heightRelation < 0.6) {
+      ulContainerRef.current.childNodes[1].style.gap = '1.425rem'
+    }
+  }, [popUpData.texto])
 
   const onClose = () => {
     setAnimateOut(true)
@@ -43,7 +60,7 @@ const InfoPopUp = ({ title, handleClose, section }) => {
           {images.map((image, index) => (
             <img
               key={index}
-              src={`assets/images/${section}/${image}`}
+              src={`assets/imagenes/${section}/${image}`}
               alt=''
               loading='lazy'
               className={`absolute w-full transition-opacity duration-750 ${
@@ -53,12 +70,12 @@ const InfoPopUp = ({ title, handleClose, section }) => {
           ))}
         </div>
 
-        <div className='flex w-[45%] max-w-[45%] flex-col'>
+        <div ref={ulContainerRef} className='flex w-[45%] max-w-[45%] flex-col'>
           <h2 className='-mt-1 mb-5 text-[1.75rem] font-bold'>{popUpData.titulo}</h2>
-          <ul className='list-disc pl-4 text-[1rem]'>
+          <ul ref={ulRef} className='flex list-disc flex-col pl-4'>
             {popUpData.texto.map((texto, index) => (
               <li key={index} className='mb-0.25'>
-                <span className='text-[1.475rem]/tight'>{texto}</span>
+                <span className='text-[1.425rem]/tight font-light'>{texto}</span>
               </li>
             ))}
           </ul>

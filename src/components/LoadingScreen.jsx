@@ -2,14 +2,14 @@ const LoadingScreen = () => {
   const circles = [30, 40, 50, 60, 70]
 
   return (
-    <section className='flex h-dvh flex-col items-center justify-center'>
+    <section className='flex size-full flex-col items-center justify-center'>
       <svg className='flex w-full' xmlns='http://www.w3.org/2000/svg'>
         <g>
           {circles.map((cx, index) => (
             <circle
               key={index}
-              cx={`${cx}vw`}
-              r='20'
+              cx={`${cx}%`}
+              r='1.2rem'
               cy='50%'
               stroke='#fff'
               strokeWidth='0.5'
@@ -25,18 +25,6 @@ const LoadingScreen = () => {
           ))}
         </g>
       </svg>
-      <span className='text-[1.75rem]/tight text-gray-900'>
-        Cargando contenido
-        <span className='animate-blink blink-1' style={{ opacity: 0 }}>
-          .
-        </span>
-        <span className='animate-blink blink-2' style={{ opacity: 0 }}>
-          .
-        </span>
-        <span className='animate-blink blink-3' style={{ opacity: 0 }}>
-          .
-        </span>
-      </span>
     </section>
   )
 }

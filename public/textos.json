@@ -1,32 +1,50 @@
 {
   "inicio": {
-    "titulo": "Sistemas de recogida neumática para ciudades más humanas y sostenibles."
+    "titulo": "Recogida neumática de residuos para ciudades más humanas y sostenibles.",
+    "tituloVideos": "Gestión de residuos inteligente y sostenible",
+    "videoFondo": "fondo_home.mp4",
+    "botones": [
+      {
+        "texto": "AEROPUERTOS",
+        "imagen": "logo_aeropuertos.png"
+      },
+      {
+        "texto": "CIUDADES",
+        "imagen": "logo_ciudades.png"
+      },
+      {
+        "texto": "HOSPITALES",
+        "imagen": "logo_hospitales.png"
+      }
+    ],
+    "video1": "Envac Video_EU_ES.mp4",
+    "video2": "ENVAC_CASE_ONLINE_SUBS.mp4"
   },
   "aeropuertos": {
     "titulo": "¿Cómo será el aeropuerto del futuro?",
-    "imagenFondo": "fondo_aeropuerto.jpg",
+    "imagenFondo": "fondo_aeropuerto.webp",
     "botones": [
       {
-        "texto": "Mayor seguridad",
-        "posicion": { "x": "35", "y": "21" }
+        "texto": "MÁS SEGUROS",
+        "posicion": { "x": "29.5", "y": "30.5" }
       },
       {
-        "texto": "Mejora logística y operativa",
-        "posicion": { "x": "7", "y": "32" }
+        "texto": "CON UNA LOGÍSTICA Y OPERATIVA MEJORADA",
+        "posicion": { "x": "5.5", "y": "47.5" }
       },
       {
-        "texto": "Más sostenibles",
-        "posicion": { "x": "38", "y": "44" }
+        "texto": "MÁS SOSTENIBLES",
+        "posicion": { "x": "31.5", "y": "65" }
       }
     ],
     "popUps": [
       {
-        "titulo": "Mayor seguridad",
+        "titulo": "MÁS SEGUROS",
         "imagenes": [
-          "aeropuertos_seguros_1.jpg",
-          "aeropuertos_seguros_2.jpg",
-          "aeropuertos_seguros_3.jpg",
-          "aeropuertos_seguros_4.jpg"
+          "aeropuertos_seguros_1.webp",
+          "aeropuertos_seguros_2.webp",
+          "aeropuertos_seguros_3.webp",
+          "aeropuertos_seguros_4.webp"
         ],
         "texto": [
           "Menos manipulación del residuo = menos riesgo.",
@@ -35,12 +53,12 @@
         ]
       },
       {
-        "titulo": "Mejora logística y operativa",
+        "titulo": "CON UNA LOGÍSTICA Y OPERATIVA MEJORADA",
         "imagenes": [
-          "aeropuertos_logistica_1.jpg",
-          "aeropuertos_logistica_2.jpg",
-          "aeropuertos_logistica_3.jpg",
-          "aeropuertos_logistica_4.jpg"
+          "aeropuertos_logistica_1.webp",
+          "aeropuertos_logistica_2.webp",
+          "aeropuertos_logistica_3.webp",
+          "aeropuertos_logistica_4.webp"
         ],
         "texto": [
           "Recogida de residuos de todos los puntos de los aeropuertos.",
@@ -53,12 +71,12 @@
         ]
       },
       {
-        "titulo": "Más sostenibles",
+        "titulo": "MÁS SOSTENIBLES",
         "imagenes": [
-          "aeropuertos_sostenibles_1.jpg",
-          "aeropuertos_sostenibles_2.jpg",
-          "aeropuertos_sostenibles_3.jpg",
-          "aeropuertos_sostenibles_4.jpg"
+          "aeropuertos_sostenibles_1.webp",
+          "aeropuertos_sostenibles_2.webp",
+          "aeropuertos_sostenibles_3.webp",
+          "aeropuertos_sostenibles_4.webp"
         ],
         "texto": [
           "Recogida de residuos optimizada.",
@@ -69,82 +87,82 @@
       }
     ],
     "sliderPreview": {
-      "titulo": "Descubre las ventajas de Envac",
-      "imagen": "slide_aeropuerto_preview.png",
-      "posicion": { "x": "68", "y": "17" }
+      "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
+      "imagen": "slide_aeropuerto_preview.gif",
+      "posicion": { "x": "3.5", "y": "25" }
     },
     "slider": {
       "antes": {
-        "imagen": "slide_aeropuerto_malo.jpg",
+        "imagen": "slide_aeropuerto_malo.webp",
         "imagenBoton": "boton_antes.gif",
         "imagenBotonPresionado": "boton_antes_presionado.png",
         "botones": [
           {
             "id": "1",
-            "posicion": { "x": "46", "y": "31.5" },
-            "texto": "Más tráfico y menos seguridad al haber vehículos en pista."
+            "posicion": { "x": "68", "y": "84" },
+            "texto": "MÁS TRÁFICO Y MENOS SEGURIDAD AL HABER VEHÍCULOS EN PISTA."
           },
           {
             "id": "2",
-            "posicion": { "x": "44", "y": "10" },
-            "texto": "Gran espacio ocupado por los puntos de almacenamiento intermedios."
+            "posicion": { "x": "65", "y": "26" },
+            "texto": "GRAN ESPACIO OCUPADO POR LOS PUNTOS DE ALMACENAMIENTO INTERMEDIOS."
           },
           {
-            "posicion": { "x": "37.5", "y": "19" },
             "id": "3",
-            "texto": "Contenedores desbordados que ensucian la imagen del aeropuerto."
+            "posicion": { "x": "56", "y": "50" },
+            "texto": "CONTENEDORES DESBORDADOS QUE ENSUCIAN LA IMAGEN DEL AEROPUERTO."
           },
           {
-            "posicion": { "x": "23", "y": "31" },
             "id": "4",
-            "texto": "Rutinas de recogida más complejas."
+            "posicion": { "x": "35", "y": "83" },
+            "texto": "RUTINAS DE RECOGIDA MÁS COMPLEJAS."
           },
           {
-            "posicion": { "x": "55", "y": "31.5" },
             "id": "5",
-            "texto": "Menor seguridad por residuos y/o materiales peligrosos depositados en las basuras."
+            "posicion": { "x": "82", "y": "84" },
+            "texto": "MENOR SEGURIDAD POR RESIDUOS Y/O MATERIALES PELIGROSOS DEPOSITADOS EN LAS BASURAS."
           },
           {
-            "posicion": { "x": "35.5", "y": "12" },
             "id": "6",
-            "texto": "Ambiente menos amigable e imagen reputacional dañada."
+            "posicion": { "x": "53.5", "y": "31" },
+            "texto": "AMBIENTE MENOS AMIGABLE E IMAGEN REPUTACIONAL DAÑADA."
           }
         ]
       },
       "despues": {
-        "imagen": "slide_aeropuerto_bueno.jpg",
+        "imagen": "slide_aeropuerto_bueno.webp",
         "imagenBoton": "boton_despues.gif",
         "imagenBotonPresionado": "boton_despues_presionado.png",
         "botones": [
           {
             "id": "1",
-            "posicion": { "x": "46", "y": "31.5" },
-            "texto": "Mayor seguridad al reducirse el tráfico de vehículos y la manipulación en pista."
+            "posicion": { "x": "68", "y": "84" },
+            "texto": "MAYOR SEGURIDAD AL REDUCIRSE EL TRÁFICO DE VEHÍCULOS Y LA MANIPULACIÓN EN PISTA."
           },
           {
             "id": "2",
-            "posicion": { "x": "44", "y": "10" },
-            "texto": "Más espacio en el aeropuerto para zonas de embarque, restauración y otros."
+            "posicion": { "x": "65", "y": "26" },
+            "texto": "MÁS ESPACIO EN EL AEROPUERTO PARA ZONAS DE EMBARQUE, RESTAURACIÓN Y OTROS."
           },
           {
             "id": "3",
-            "posicion": { "x": "37.5", "y": "19" },
-            "texto": "Se elimina el almacenamiento de residuos en papeleras o puntos de tránsito."
+            "posicion": { "x": "56", "y": "50" },
+            "texto": "SE ELIMINA EL ALMACENAMIENTO DE RESIDUOS EN PAPELERAS O PUNTOS DE TRÁNSITO."
           },
           {
             "id": "4",
-            "posicion": { "x": "23", "y": "31" },
-            "texto": "Recogida centralizada de residuos. Funcionamiento ininterrumpido y optimizado reduciendo costes operativos."
+            "posicion": { "x": "35", "y": "83" },
+            "texto": "RECOGIDA CENTRALIZADA DE RESIDUOS. FUNCIONAMIENTO ININTERRUMPIDO Y OPTIMIZADO REDUCIENDO COSTES OPERATIVOS."
           },
           {
             "id": "5",
-            "posicion": { "x": "55", "y": "31.5" },
-            "texto": "Mayor seguridad. Menor manipulación de residuos y riesgo de materiales peligrosos."
+            "posicion": { "x": "82", "y": "84" },
+            "texto": "MAYOR SEGURIDAD. MENOR MANIPULACIÓN DE RESIDUOS Y RIESGO DE MATERIALES PELIGROSOS."
           },
           {
             "id": "6",
-            "posicion": { "x": "35.5", "y": "12" },
-            "texto": "Experiencia de los pasajeros e imagen del aeropuerto mejorada."
+            "posicion": { "x": "53.5", "y": "31" },
+            "texto": "EXPERIENCIA DE LOS PASAJEROS E IMAGEN DEL AEROPUERTO MEJORADA."
           }
         ]
       }
@@ -152,55 +170,53 @@
   },
   "ciudades": {
     "titulo": "¿Te imaginas la ciudad del futuro?",
-    "imagenFondo": "fondo_ciudad.jpg",
+    "imagenFondo": "fondo_ciudad.webp",
     "botones": [
       {
-        "texto": "Ciudades más cómodas y limpias",
-        "posicion": { "x": "33", "y": "18" }
+        "texto": "CIUDADES MÁS CÓMODAS Y LIMPIAS",
+        "posicion": { "x": "28", "y": "26" }
       },
       {
-        "texto": "Ciudades más sostenibles",
-        "posicion": { "x": "6", "y": "26" }
+        "texto": "CIUDADES MÁS SOSTENIBLES",
+        "posicion": { "x": "5", "y": "38.5" }
       },
       {
-        "texto": "Ciudades más seguras",
-        "posicion": { "x": "15", "y": "50" }
+        "texto": "CIUDADES MÁS SEGURAS",
+        "posicion": { "x": "12", "y": "74" }
       },
       {
-        "texto": "Ciudades más humanas",
-        "posicion": { "x": "46", "y": "50" }
+        "texto": "CIUDADES MÁS HUMANAS",
+        "posicion": { "x": "40", "y": "74" }
       },
       {
-        "texto": "Ciudades más eficientes",
-        "posicion": { "x": "78", "y": "50" }
+        "texto": "CIUDADES MÁS EFICIENTES",
+        "posicion": { "x": "68", "y": "74" }
       }
     ],
     "popUps": [
       {
-        "titulo": "Ciudades más cómodas y limpias",
+        "titulo": "CIUDADES MÁS CÓMODAS Y LIMPIAS",
         "imagenes": [
-          "ciudades_comodas_1.jpg",
-          "ciudades_comodas_2.jpg",
-          "ciudades_comodas_3.jpg",
-          "ciudades_comodas_4.jpg"
+          "ciudades_comodas_1.webp",
+          "ciudades_comodas_2.webp",
+          "ciudades_comodas_4.webp"
         ],
         "texto": [
-          "Entorno más ordenado y libre de molestias, lo que mejora la satisfacción y calidad de vida de los ciudadanos los 365 días del año.",
-          "Puntos de vertido disponibles 24/7, sin verse afectados por condiciones climatológicas adversas, huelgas etc.",
-          "Sin problemas de contenedores desbordados. Calles más despejadas.",
-          "Sin apenas tráfico de camiones de recogida.",
-          "Sin malos olores ni ruido.",
-          "Facilita la separación en origen de los residuos = mejores tasas de reciclaje.",
-          "Gracias al uso de inteligencia artificial y machine learning, los ayuntamientos pueden acceder a datos precisos sobre el uso del sistema, optimizando su gestión y mejorando la eficiencia del servicio."
+          "Entorno más ordenado y libre de molestias, lo que mejora la satisfacción y calidad de vida de los ciudadanos.",
+          "Puntos de vertido disponibles 24/7, todos los días del año.",
+          "Sin contenedores desbordados. Calles más despejadas y limpias.",
+          "Sin apenas tráfico de camiones de recogida, malos olores ni ruido.",
+          "Mejor separación en origen de los residuos y tasas de reciclaje.",
+          "Gracias al uso de IA los Ayuntamientos pueden acceder a datos sobre el uso del sistema, optimizando su gestión y mejorando la eficiencia del servicio."
         ]
       },
       {
-        "titulo": "Ciudades más sostenibles",
+        "titulo": "CIUDADES MÁS SOSTENIBLES",
         "imagenes": [
-          "ciudades_sostenibles_1.jpg",
-          "ciudades_sostenibles_2.jpg",
-          "ciudades_sostenibles_3.jpg",
-          "ciudades_sostenibles_4.jpg"
+          "ciudades_sostenibles_1.webp",
+          "ciudades_sostenibles_2.webp",
+          "ciudades_sostenibles_3.webp",
+          "ciudades_sostenibles_4.webp"
         ],
         "texto": [
           "Reducción drástica del tráfico de vehículos pesados. En una ciudad tipo, se reduce la distancia de coducción de este tipo de vehículos de 2828 km a 208 km al año.",
@@ -208,12 +224,12 @@
         ]
       },
       {
-        "titulo": "Ciudades más seguras",
+        "titulo": "CIUDADES MÁS SEGURAS",
         "imagenes": [
-          "ciudades_seguras_1.jpg",
-          "ciudades_seguras_2.jpg",
-          "ciudades_seguras_3.jpg",
-          "ciudades_seguras_4.jpg"
+          "ciudades_seguras_1.webp",
+          "ciudades_seguras_2.webp",
+          "ciudades_seguras_3.webp",
+          "ciudades_seguras_4.webp"
         ],
         "texto": [
           "Zonas peatonales más seguras al eliminarse gran parte del tráfico de camiones.",
@@ -224,12 +240,13 @@
         ]
       },
       {
-        "titulo": "Ciudades más humanas",
+        "titulo": "CIUDADES MÁS HUMANAS",
         "imagenes": [
-          "ciudades_humanas_1.jpg",
-          "ciudades_humanas_2.jpg",
-          "ciudades_humanas_3.jpg",
-          "ciudades_humanas_4.jpg"
+          "ciudades_humanas_1.webp",
+          "ciudades_humanas_2.webp",
+          "ciudades_humanas_3.webp",
+          "ciudades_humanas_4.webp",
+          "ciudades_humanas_5.webp"
         ],
         "texto": [
           "Reducción drástica del espacio público ocupado.",
@@ -240,12 +257,12 @@
         ]
       },
       {
-        "titulo": "Ciudades más eficientes",
+        "titulo": "CIUDADES MÁS EFICIENTES",
         "imagenes": [
-          "ciudades_eficientes_1.jpg",
-          "ciudades_eficientes_2.jpg",
-          "ciudades_eficientes_3.jpg",
-          "ciudades_eficientes_4.jpg"
+          "ciudades_eficientes_1.webp",
+          "ciudades_eficientes_2.webp",
+          "ciudades_eficientes_3.webp",
+          "ciudades_eficientes_4.webp"
         ],
         "texto": [
           "Ahorros en los costes de operación y mantenimiento al minimizar la necesidad de personal para la gestión de residuos.",
@@ -254,92 +271,92 @@
       }
     ],
     "sliderPreview": {
-      "titulo": "Descubre las ventajas de Envac",
-      "imagen": "slide_ciudad_preview.png",
-      "posicion": { "x": "68", "y": "17" }
+      "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
+      "imagen": "slide_ciudad_preview.gif",
+      "posicion": { "x": "3.5", "y": "25" }
     },
     "slider": {
       "antes": {
-        "imagen": "slide_ciudad_malo.jpg",
+        "imagen": "slide_ciudad_malo.webp",
         "imagenBoton": "boton_antes.gif",
         "imagenBotonPresionado": "boton_antes_presionado.png",
         "botones": [
           {
             "id": "1",
-            "posicion": { "x": "31", "y": "25" },
-            "texto": "Ciudades más sucias, con contenedores desbordados."
+            "posicion": { "x": "46.5", "y": "66.5" },
+            "texto": "CIUDADES MÁS SUCIAS, CON CONTENEDORES DESBORDADOS."
           },
           {
             "id": "2",
-            "posicion": { "x": "21", "y": "25" },
-            "texto": "Ciudades con mucha contaminación acústica y ambiental."
+            "posicion": { "x": "32", "y": "66" },
+            "texto": "CIUDADES CON MUCHA CONTAMINACIÓN ACÚSTICA Y AMBIENTAL."
           },
           {
             "id": "3",
-            "posicion": { "x": "55.5", "y": "28" },
-            "texto": "Mayor tráfico y menor seguridad vial y peatonal."
+            "posicion": { "x": "83", "y": "75" },
+            "texto": "MAYOR TRÁFICO Y MENOR SEGURIDAD VIAL Y PEATONAL."
           },
           {
             "id": "4",
-            "posicion": { "x": "46", "y": "25" },
-            "texto": "Espacios comunes deslucidos e infrautilizados."
+            "posicion": { "x": "69", "y": "66.5" },
+            "texto": "ESPACIOS COMUNES DESLUCIDOS E INFRAUTILIZADOS."
           },
           {
             "id": "5",
-            "posicion": { "x": "12", "y": "22" },
-            "texto": "Necesidad de espacios para almacenamiento de residuos en edificios."
+            "posicion": { "x": "18.5", "y": "58" },
+            "texto": "NECESIDAD DE ESPACIOS PARA ALMACENAMIENTO DE RESIDUOS EN EDIFICIOS."
           },
           {
             "id": "6",
-            "posicion": { "x": "9", "y": "33" },
-            "texto": "Mucho espacio público ocupado."
+            "posicion": { "x": "13.5", "y": "87" },
+            "texto": "MUCHO ESPACIO PÚBLICO OCUPADO."
           },
           {
             "id": "7",
-            "posicion": { "x": "43", "y": "15" },
-            "texto": "Dependencia horarios y rutinas de recogida de residuos."
+            "posicion": { "x": "65", "y": "38.5" },
+            "texto": "DEPENDENCIA HORARIOS Y RUTINAS DE RECOGIDA DE RESIDUOS."
           }
         ]
       },
       "despues": {
-        "imagen": "slide_ciudad_bueno.jpg",
+        "imagen": "slide_ciudad_bueno.webp",
         "imagenBoton": "boton_despues.gif",
         "imagenBotonPresionado": "boton_despues_presionado.png",
         "botones": [
           {
             "id": "1",
-            "posicion": { "x": "31", "y": "25" },
-            "texto": "Ciudades más limpias, sin contenedores desbordados."
+            "posicion": { "x": "46.5", "y": "66.5" },
+            "texto": "CIUDADES MÁS LIMPIAS, SIN CONTENEDORES DESBORDADOS."
           },
           {
             "id": "2",
-            "posicion": { "x": "21", "y": "25" },
-            "texto": "Ciudades más limpias. Reducción del ruido y de las emisiones de hasta un 95%."
+            "posicion": { "x": "32", "y": "66" },
+            "texto": "CIUDADES MÁS LIMPIAS. REDUCCIÓN DEL RUIDO Y DE LAS EMISIONES DE HASTA UN 95%."
           },
           {
             "id": "3",
-            "posicion": { "x": "55.5", "y": "28" },
-            "texto": "Rutas de recogida reducidas en un 92%. Más seguridad vial y peatonal."
+            "posicion": { "x": "83", "y": "75" },
+            "texto": "RUTAS DE RECOGIDA REDUCIDAS EN UN 92%. MÁS SEGURIDAD VIAL Y PEATONAL."
           },
           {
             "id": "4",
-            "posicion": { "x": "46", "y": "25" },
-            "texto": "Espacios comunes mejor aprovechados y más zonas verdes."
+            "posicion": { "x": "69", "y": "66.5" },
+            "texto": "ESPACIOS COMUNES MEJOR APROVECHADOS Y MÁS ZONAS VERDES."
           },
           {
             "id": "5",
-            "posicion": { "x": "12", "y": "22" },
-            "texto": "Espacio disponible para comercios y zonas comunes en edificios."
+            "posicion": { "x": "18.5", "y": "58" },
+            "texto": "ESPACIO DISPONIBLE PARA COMERCIOS Y ZONAS COMUNES EN EDIFICIOS."
           },
           {
             "id": "6",
-            "posicion": { "x": "9", "y": "33" },
-            "texto": "Espacio público disponible para aparcamientos y otros usos."
+            "posicion": { "x": "13.5", "y": "87" },
+            "texto": "ESPACIO PÚBLICO DISPONIBLE PARA APARCAMIENTOS Y OTROS USOS."
           },
           {
             "id": "7",
-            "posicion": { "x": "43", "y": "15" },
-            "texto": "Buzones y compuertas disponibles 24/7 – Más calidad de vida, usuarios más contentos."
+            "posicion": { "x": "65", "y": "38.5" },
+            "texto": "BUZONES Y COMPUERTAS DISPONIBLES 24/7 – MÁS CALIDAD DE VIDA, USUARIOS MÁS CONTENTOS."
           }
         ]
       }
@@ -347,37 +364,37 @@
   },
   "hospitales": {
     "titulo": "¿Cómo sería un hospital más limpio, seguro y eficiente?",
-    "imagenFondo": "fondo_ciudad.jpg",
+    "imagenFondo": "fondo_hospital.webp",
     "botones": [
       {
-        "texto": "Seguridad mejorada para pacientes y personal",
-        "posicion": { "x": "18", "y": "18" }
+        "texto": "SEGURIDAD MEJORADA PARA PACIENTES Y PERSONAL",
+        "posicion": { "x": "15", "y": "29" }
       },
       {
-        "texto": "Entorno de trabajo optimizado",
-        "posicion": { "x": "29", "y": "33" }
+        "texto": "ENTORNO DE TRABAJO OPTIMIZADO",
+        "posicion": { "x": "24", "y": "51" }
       },
       {
-        "texto": "Mejora de las operaciones y la rentabilidad",
-        "posicion": { "x": "15", "y": "50" }
+        "texto": "MEJORA DE LAS OPERACIONES Y LA RENTABILIDAD",
+        "posicion": { "x": "12", "y": "74" }
       },
       {
-        "texto": "Eficiencia y productividad mejoradas",
-        "posicion": { "x": "46", "y": "50" }
+        "texto": "EFICIENCIA Y PRODUCTIVIDAD MEJORADAS",
+        "posicion": { "x": "40", "y": "74" }
       },
       {
-        "texto": "Mejor imagen y reputación del hospital",
-        "posicion": { "x": "78", "y": "50" }
+        "texto": "MEJOR IMAGEN Y REPUTACIÓN DEL HOSPITAL",
+        "posicion": { "x": "68", "y": "74" }
       }
     ],
     "popUps": [
       {
-        "titulo": "Seguridad mejorada para pacientes y personal",
+        "titulo": "SEGURIDAD MEJORADA PARA PACIENTES Y PERSONAL",
         "imagenes": [
-          "hospitales_seguros_1.jpg",
-          "hospitales_seguros_2.jpg",
-          "hospitales_seguros_3.jpg",
-          "hospitales_seguros_4.jpg"
+          "hospitales_seguros_1.webp",
+          "hospitales_seguros_2.webp",
+          "hospitales_seguros_3.webp",
+          "hospitales_seguros_4.webp"
         ],
         "texto": [
           "Los residuos, generales e infecciosos, viajan por una red de tuberías subterráneas selladas.",
@@ -387,12 +404,12 @@
         ]
       },
       {
-        "titulo": "Entorno de trabajo optimizado",
+        "titulo": "ENTORNO DE TRABAJO OPTIMIZADO",
         "imagenes": [
-          "hospitales_optimizados_1.jpg",
-          "hospitales_optimizados_2.jpg",
-          "hospitales_optimizados_3.jpg",
-          "hospitales_optimizados_4.jpg"
+          "hospitales_optimizados_1.webp",
+          "hospitales_optimizados_2.webp",
+          "hospitales_optimizados_3.webp",
+          "hospitales_optimizados_4.webp"
         ],
         "texto": [
           "Prácticamente eliminada la carga manual pesada y peligrosa.",
@@ -403,12 +420,12 @@
         ]
       },
       {
-        "titulo": "Mejora de las operaciones y la rentabilidad",
+        "titulo": "MEJORA DE LAS OPERACIONES Y LA RENTABILIDAD",
         "imagenes": [
-          "hospitales_rentables_1.jpg",
-          "hospitales_rentables_2.jpg",
-          "hospitales_rentables_3.jpg",
-          "hospitales_rentables_4.jpg"
+          "hospitales_rentables_1.webp",
+          "hospitales_rentables_2.webp",
+          "hospitales_rentables_3.webp",
+          "hospitales_rentables_4.webp"
         ],
         "texto": [
           "No depende de la mano de obra. Optimización de los recursos y reducción de costes.",
@@ -418,12 +435,12 @@
         ]
       },
       {
-        "titulo": "Eficiencia y productividad mejoradas",
+        "titulo": "EFICIENCIA Y PRODUCTIVIDAD MEJORADAS",
         "imagenes": [
-          "hospitales_eficientes_1.jpg",
-          "hospitales_eficientes_2.jpg",
-          "hospitales_eficientes_3.jpg",
-          "hospitales_eficientes_4.jpg"
+          "hospitales_eficientes_1.webp",
+          "hospitales_eficientes_2.webp",
+          "hospitales_eficientes_3.webp",
+          "hospitales_eficientes_4.webp"
         ],
         "texto": [
           "El sistema automatizado funciona 24/7.",
@@ -432,12 +449,12 @@
         ]
       },
       {
-        "titulo": "Mejor imagen y reputación del hospital",
+        "titulo": "MEJOR IMAGEN Y REPUTACIÓN DEL HOSPITAL",
         "imagenes": [
-          "hospitales_imagen_1.jpg",
-          "hospitales_imagen_2.jpg",
-          "hospitales_imagen_3.jpg",
-          "hospitales_imagen_4.jpg"
+          "hospitales_imagen_1.webp",
+          "hospitales_imagen_2.webp",
+          "hospitales_imagen_3.webp",
+          "hospitales_imagen_4.webp"
         ],
         "texto": [
           "La incorporación de tecnología avanzada como Envac refuerza la reputación del hospital.",
@@ -447,68 +464,102 @@
       }
     ],
     "sliderPreview": {
-      "titulo": "Descubre las ventajas de Envac",
-      "imagen": "slide_hospital_preview.png",
-      "posicion": { "x": "68", "y": "17" }
+      "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
+      "imagen": "slide_hospital_preview.gif",
+      "posicion": { "x": "3.5", "y": "25" }
     },
     "slider": {
       "antes": {
-        "imagen": "slide_hospital_malo.jpg",
+        "imagen": "slide_hospital_malo.webp",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
         "botones": [
           {
             "id": "1",
-            "posicion": { "x": "10", "y": "10" },
-            "texto": "Mayor necesidad de espacio dentro del hospital."
+            "posicion": { "x": "45", "y": "48" },
+            "texto": "MAYOR NECESIDAD DE ESPACIO DE ALMACENAMIENTO DENTRO DEL HOSPITAL."
           },
           {
             "id": "2",
-            "posicion": { "x": "10", "y": "30" },
-            "texto": "Se requieren más ascensores o con mayor capacidad."
+            "posicion": { "x": "53", "y": "24" },
+            "texto": "SE REQUIEREN MÁS ASCENSORES O CON MAYOR CAPACIDAD."
           },
           {
             "id": "3",
-            "posicion": { "x": "20", "y": "20" },
-            "texto": "Circulación de carritos o AGVs por pasillos. Circulación de pacientes y personal más complicado."
+            "posicion": { "x": "35.5", "y": "57" },
+            "texto": "CIRCULACIÓN DE PACIENTES Y PERSONAL MÁS COMPLICADO, AL CONVIVIR CON CARRITOS O AGVS POR PASILLOS."
           },
           {
             "id": "4",
-            "posicion": { "x": "30", "y": "30" },
-            "texto": "Riesgo de contaminación cruzada."
+            "posicion": { "x": "65.5", "y": "38.5" },
+            "texto": "MENOR SEGURIDAD: RIESGO DE CONTAMINACIÓN CRUZADA."
           },
           {
             "id": "5",
-            "posicion": { "x": "50", "y": "20" },
-            "texto": "Rutinas de limpieza más complejas."
+            "posicion": { "x": "78", "y": "50" },
+            "texto": "RUTINAS DE LIMPIEZA MÁS COMPLEJAS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "46.5", "y": "24" },
+            "texto": "MENOR LIBERTAD ARQUITECTÓNICA Y ESPACIO DISPONIBLE."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "27" },
+            "texto": "MENOR SEGURIDAD: MÁS RIESGOS HUMANOS Y AMBIENTE LABORAL COMPLICADO."
+          },
+          {
+            "id": "8",
+            "posicion": { "x": "4", "y": "47" },
+            "texto": "PEOR IMAGEN REPUTACIONAL DEL HOSPITAL."
           }
         ]
       },
       "despues": {
-        "imagen": "slide_hospital_bueno.jpg",
+        "imagen": "slide_hospital_bueno.webp",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
         "botones": [
           {
             "id": "1",
-            "posicion": { "x": "20", "y": "30" },
-            "texto": "Sin almacenamiento local o intermedio, Capacidad de ascensores liberada y logística mejorada."
+            "posicion": { "x": "45", "y": "48" },
+            "texto": "SIN ALMACENAMIENTO LOCAL O INTERMEDIO."
           },
           {
             "id": "2",
-            "posicion": { "x": "30", "y": "10" },
-            "texto": "Más espacio para habitaciones y servicios de salud."
+            "posicion": { "x": "53", "y": "24" },
+            "texto": "CAPACIDAD DE ASCENSORES LIBERADA Y LOGÍSTICA MEJORADA."
           },
           {
             "id": "3",
-            "posicion": { "x": "60", "y": "20" },
-            "texto": "Transporte hermético más higiénico y seguro."
+            "posicion": { "x": "35.5", "y": "57" },
+            "texto": "CIRCULACIÓN ÁGIL Y SEGURA DE PACIENTES Y PERSONAL."
           },
           {
             "id": "4",
-            "posicion": { "x": "40", "y": "20" },
-            "texto": "No riesgos de contaminación cruzada."
+            "posicion": { "x": "65.5", "y": "38.5" },
+            "texto": "TRANSPORTE HERMÉTICO MÁS HIGIÉNICO Y SEGURO: NO RIESGO DE CONTAMINACIÓN CRUZADA."
           },
           {
             "id": "5",
-            "posicion": { "x": "50", "y": "10" },
-            "texto": "Compuertas con control de acceso: seguridad. Ambiente laboral mejorado."
+            "posicion": { "x": "78", "y": "50" },
+            "texto": "SISTEMA AUTOMATIZADO, RUTINAS DE LIMPIEZA OPTIMIZADAS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "46.5", "y": "24" },
+            "texto": "MAYOR LIBERTAD ARQUITECTÓNICA Y MÁS ESPACIO PARA HABITACIONES Y SERVICIOS DE SALUD."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "27" },
+            "texto": "MAYOR SEGURIDAD: COMPUERTAS CON CONTROL DE ACCESO. AMBIENTE LABORAL MEJORADO."
+          },
+          {
+            "id": "8",
+            "posicion": { "x": "4", "y": "47" },
+            "texto": "IMAGEN REPUTACIONAL DEL HOSPITAL MEJORADA."
           }
         ]
       }

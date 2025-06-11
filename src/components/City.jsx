@@ -1,4 +1,3 @@
-import textos from '../../public/textos.json'
 import Logo from './Logo'
 import BackBtn from './backBtn'
 import InfoBtn from './InfoBtn'
@@ -7,7 +6,7 @@ import SliderPreview from './SliderPreview'
 import Slider from './Slider'
 import { useState } from 'react'
 
-const City = () => {
+const City = ({ textos }) => {
   const [isInfoPopUpActive, setIsInfoPopUpActive] = useState(false)
   const [isSliderActive, setIsSliderActive] = useState(false)
   const [activePopUp, setActivePopUp] = useState('')
@@ -22,20 +21,20 @@ const City = () => {
   }
 
   return (
-    <section id='City' className='relative h-full w-full'>
+    <section id='city' className='relative h-full w-full'>
       <img
-        className={`bg-img absolute -z-10 ${isInfoPopUpActive || isSliderActive ? 'animate-bright-out' : 'animate-bright-in'}`}
-        src='assets/images/fondos/fondo_ciudad.jpg'
+        className={`absolute top-1/2 left-1/2 min-h-full min-w-full -translate-x-1/2 -translate-y-1/2 transform object-cover -z-10 ${isInfoPopUpActive || isSliderActive ? 'animate-bright-out' : 'animate-bright-in'}`}
+        src={`assets/imagenes/fondos/${textos.ciudades.imagenFondo}`}
         alt=''
         loading='lazy'
       />
       <Logo />
-      <BackBtn prevPage='/' />
+      <BackBtn prevPage='/home' />
 
       <section
-        id='City-contet'
-        className='relative flex h-screen flex-col items-end justify-between overflow-hidden'>
-        <h1 className='font-display line animate-blow-in-modal mt-[3.5rem] mr-[15rem] ml-[15rem] w-[45.25rem] text-center text-6xl/tight text-gray-950'>
+        id='city-contet'
+        className='relative flex size-full flex-col items-center justify-between overflow-hidden'>
+        <h1 className='font-display line animate-blow-in-modal mt-[5rem] ml-[5rem] w-[37rem] text-center text-6xl/tight text-gray-950'>
           {textos.ciudades.titulo}
         </h1>
         {isInfoPopUpActive || isSliderActive ? (
@@ -44,9 +43,10 @@ const City = () => {
               title={activePopUp}
               handleClose={() => handlePopUp(activePopUp)}
               section='ciudades'
+              textos={textos}
             />
           ) : (
-            <Slider section={'ciudades'} handleClose={handleSlider} />
+            <Slider section={'ciudades'} handleClose={handleSlider} textos={textos} />
           )
         ) : (
           <>
@@ -58,7 +58,7 @@ const City = () => {
               position={textos.ciudades.sliderPreview.posicion}
               className={isInfoPopUpActive ? 'animate-blow-out-modal' : 'animate-blow-in-modal'}
             />
-            <div id='City-btns' className='absolute top-0 left-0 size-full'>
+            <div id='city-btns' className='absolute top-0 left-0 size-full'>
               {textos.ciudades.botones.map((btn, index) => (
                 <InfoBtn
                   key={index}
