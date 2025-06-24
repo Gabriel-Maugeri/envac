@@ -5,8 +5,11 @@ import InfoPopUp from './InfoPopUp'
 import SliderPreview from './SliderPreview'
 import Slider from './Slider'
 import { useState } from 'react'
+import { useLanguage } from '../contexts/LanguageContext'
+import ShowLanguagesBtn from './ShowLanguagesBtn'
 
-const Hospital = ({ textos }) => {
+const Hospital = () => {
+  const { textos } = useLanguage()  
   const [isInfoPopUpActive, setIsInfoPopUpActive] = useState(false)
   const [isSliderActive, setIsSliderActive] = useState(false)
   const [activePopUp, setActivePopUp] = useState('')
@@ -29,12 +32,13 @@ const Hospital = ({ textos }) => {
         loading='lazy'
       />
       <Logo />
+      <ShowLanguagesBtn />
       <BackBtn prevPage='/home' />
 
       <section
         id='hospital-contet'
         className='relative flex size-full flex-col items-end justify-between overflow-hidden'>
-        <h1 className='font-display line animate-blow-in-modal mt-[3.5rem] mr-[8rem] w-[55.25rem] text-center text-6xl/tight text-gray-950'>
+        <h1 className='font-display line animate-blow-in-modal mt-[3.5rem] mr-[17rem] w-[55rem] text-center text-6xl/tight text-gray-950'>
           {textos.hospitales.titulo}
         </h1>
         {isInfoPopUpActive || isSliderActive ? (

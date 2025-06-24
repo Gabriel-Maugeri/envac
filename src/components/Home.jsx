@@ -1,12 +1,14 @@
 import Logo from './Logo'
 import SectionBtn from './SectionBtn'
-import ViewMoreBtn from './ViewMoreBtn'
-import BackBtn from './backBtn'
+import VideoSectionBtn from './VideoSectionBtn'
 import VideoPopUp from './VideoPopUp'
 import VideoBtn from './VideoBtn'
 import { useState } from 'react'
+import ShowLanguagesBtn from './ShowLanguagesBtn'
+import { useLanguage } from '../contexts/LanguageContext'
 
-const Home = ({ textos }) => {
+const Home = () => {
+  const { textos } = useLanguage()
   const [popUpActive, setPopUpActive] = useState(false)
   const [videoActive, setVideoActive] = useState(false)
   const [activeVideo, setActiveVideo] = useState('')
@@ -45,7 +47,10 @@ const Home = ({ textos }) => {
           <img src='assets/imagenes/otros/volver.png' alt='boton ver mas' loading='lazy' className='h-auto w-[60%]' />
         </button>
       ) : (
-        <ViewMoreBtn handlePopUp={handlePopUp} />
+        <>
+          <ShowLanguagesBtn />
+          <VideoSectionBtn handlePopUp={handlePopUp} />
+        </>
       )}
 
       <Logo />
@@ -63,6 +68,7 @@ const Home = ({ textos }) => {
               <section id='video-container' className='absolute top-[38%] flex flex-row gap-20'>
                 <VideoBtn video={textos.inicio.video1} handleVideo={handleVideo} />
                 <VideoBtn video={textos.inicio.video2} handleVideo={handleVideo} />
+                <VideoBtn video={textos.inicio.video3} handleVideo={handleVideo} />
               </section>
             )}
           </>

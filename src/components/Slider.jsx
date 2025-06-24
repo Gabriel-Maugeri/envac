@@ -1,8 +1,10 @@
 import { useState, useRef } from 'react'
 import CloseBtn from './CloseBtn'
 import SliderInfoBtn from './SliderInfoBtn'
+import { useLanguage } from '../contexts/LanguageContext'
 
-const Slider = ({ section, handleClose, textos }) => {
+const Slider = ({ section, handleClose }) => {
+  const { textos } = useLanguage()
   const [imageRevealFraq, setImageRevealFraq] = useState(0.3)
   const [sliderText, setSliderText] = useState('')
   const imageContainerRef = useRef(undefined)

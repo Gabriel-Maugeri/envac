@@ -3,8 +3,16 @@ import Home from './components/Home'
 import City from './components/City'
 import Hospital from './components/Hospital'
 import Airport from './components/airport'
+import LanguageSwitcher from './components/LanguageSwitcher'
+import { useLanguage } from './contexts/LanguageContext'
 
-function App({ textos }) {
+function App() {
+  const { textos } = useLanguage()
+
+  if (!textos) {
+    return <div>Cargando...</div>
+  }
+
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="w-full max-w-[177.78vh] aspect-video">

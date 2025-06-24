@@ -1,0 +1,569 @@
+{
+  "inicio": {
+    "titulo": "Recogida neumática de residuos para ciudades más humanas y sostenibles.",
+    "tituloVideos": "Gestión de residuos inteligente y sostenible",
+    "videoFondo": "fondo_home.mp4",
+    "botones": [
+      {
+        "texto": "AEROPUERTOS",
+        "imagen": "logo_aeropuertos.png"
+      },
+      {
+        "texto": "CIUDADES",
+        "imagen": "logo_ciudades.png"
+      },
+      {
+        "texto": "HOSPITALES",
+        "imagen": "logo_hospitales.png"
+      }
+    ],
+    "video1": "Envac Video_EU_ES.mp4",
+    "video2": "ENVAC_CASE_ONLINE_SUBS.mp4",
+    "video3": "envac_healthcare_video_final_2.mp4"
+  },
+  "aeropuertos": {
+    "titulo": "¿Cómo será el aeropuerto del futuro?",
+    "imagenFondo": "fondo_aeropuerto.webp",
+    "botones": [
+      {
+        "texto": "MÁS SEGUROS",
+        "posicion": { "x": "29.5", "y": "30.5" }
+      },
+      {
+        "texto": "CON UNA LOGÍSTICA Y OPERATIVA MEJORADA",
+        "posicion": { "x": "5.5", "y": "47.5" }
+      },
+      {
+        "texto": "MÁS SOSTENIBLES",
+        "posicion": { "x": "31.5", "y": "65" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "MÁS SEGUROS",
+        "imagenes": [
+          "aeropuertos_seguros_1.webp",
+          "aeropuertos_seguros_2.webp",
+          "aeropuertos_seguros_3.webp",
+          "aeropuertos_seguros_4.webp"
+        ],
+        "texto": [
+          "Menos manipulación del residuo = menos riesgo.",
+          "Reducción drástica del flujo de vehículos en zona aire y zona tierra.",
+          "Las entradas de los puntos de vertido se pueden diseñar para restringir el tipo de residuos y contar con trituradoras para destruir materiales ilegales."
+        ]
+      },
+      {
+        "titulo": "CON UNA LOGÍSTICA Y OPERATIVA MEJORADA",
+        "imagenes": [
+          "aeropuertos_logistica_1.webp",
+          "aeropuertos_logistica_2.webp",
+          "aeropuertos_logistica_3.webp",
+          "aeropuertos_logistica_4.webp"
+        ],
+        "texto": [
+          "Recogida de residuos de todos los puntos de los aeropuertos.",
+          "Gestión centralizada de los residuos – Central de recogida (no almacenamiento intermedio).",
+          "Reducción del tráfico de vehículos en las pistas. Ahorra tiempo y mejora la eficiencia del personal.",
+          "El sistema funciona 24/7 en cualquier condición climática",
+          "No necesidad de recogida manual. Mejor asignación de recursos mediante automatización y análisis predictivo.",
+          "No contenedores desbordados. Mejora experiencia del pasajero",
+          "Mayor control sobre la clasificación de residuos y del uso llevada a cabo por los retailers."
+        ]
+      },
+      {
+        "titulo": "MÁS SOSTENIBLES",
+        "imagenes": [
+          "aeropuertos_sostenibles_1.webp",
+          "aeropuertos_sostenibles_2.webp",
+          "aeropuertos_sostenibles_3.webp",
+          "aeropuertos_sostenibles_4.webp"
+        ],
+        "texto": [
+          "Recogida de residuos optimizada.",
+          "Tasas de reciclaje mejoradas.",
+          "Reducción huella de carbono.",
+          "Reducción emisiones de CO2."
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
+      "imagen": "slide_aeropuerto_preview.gif",
+      "posicion": { "x": "10", "y": "35" }
+    },
+    "slider": {
+      "antes": {
+        "imagen": "slide_aeropuerto_malo.webp",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "68", "y": "84" },
+            "texto": "MÁS TRÁFICO Y MENOS SEGURIDAD AL HABER VEHÍCULOS EN PISTA."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "65", "y": "26" },
+            "texto": "GRAN ESPACIO OCUPADO POR LOS PUNTOS DE ALMACENAMIENTO INTERMEDIOS."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "56", "y": "50" },
+            "texto": "CONTENEDORES DESBORDADOS QUE ENSUCIAN LA IMAGEN DEL AEROPUERTO."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "35", "y": "83" },
+            "texto": "RUTINAS DE RECOGIDA MÁS COMPLEJAS."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "82", "y": "84" },
+            "texto": "MENOR SEGURIDAD POR RESIDUOS Y/O MATERIALES PELIGROSOS DEPOSITADOS EN LAS BASURAS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "53.5", "y": "31" },
+            "texto": "AMBIENTE MENOS AMIGABLE E IMAGEN REPUTACIONAL DAÑADA."
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_aeropuerto_bueno.webp",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "68", "y": "84" },
+            "texto": "MAYOR SEGURIDAD AL REDUCIRSE EL TRÁFICO DE VEHÍCULOS Y LA MANIPULACIÓN EN PISTA."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "65", "y": "26" },
+            "texto": "MÁS ESPACIO EN EL AEROPUERTO PARA ZONAS DE EMBARQUE, RESTAURACIÓN Y OTROS."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "56", "y": "50" },
+            "texto": "SE ELIMINA EL ALMACENAMIENTO DE RESIDUOS EN PAPELERAS O PUNTOS DE TRÁNSITO."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "35", "y": "83" },
+            "texto": "RECOGIDA CENTRALIZADA DE RESIDUOS. FUNCIONAMIENTO ININTERRUMPIDO Y OPTIMIZADO REDUCIENDO COSTES OPERATIVOS."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "82", "y": "84" },
+            "texto": "MAYOR SEGURIDAD. MENOR MANIPULACIÓN DE RESIDUOS Y RIESGO DE MATERIALES PELIGROSOS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "53.5", "y": "31" },
+            "texto": "EXPERIENCIA DE LOS PASAJEROS E IMAGEN DEL AEROPUERTO MEJORADA."
+          }
+        ]
+      }
+    }
+  },
+  "ciudades": {
+    "titulo": "¿Te imaginas la ciudad del futuro?",
+    "imagenFondo": "fondo_ciudad.webp",
+    "botones": [
+      {
+        "texto": "CIUDADES MÁS CÓMODAS Y LIMPIAS",
+        "posicion": { "x": "28", "y": "26" }
+      },
+      {
+        "texto": "CIUDADES MÁS SOSTENIBLES",
+        "posicion": { "x": "5", "y": "38.5" }
+      },
+      {
+        "texto": "CIUDADES MÁS SEGURAS",
+        "posicion": { "x": "12", "y": "74" }
+      },
+      {
+        "texto": "CIUDADES MÁS HUMANAS",
+        "posicion": { "x": "40", "y": "74" }
+      },
+      {
+        "texto": "CIUDADES MÁS EFICIENTES",
+        "posicion": { "x": "68", "y": "74" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "CIUDADES MÁS CÓMODAS Y LIMPIAS",
+        "imagenes": [
+          "ciudades_comodas_1.webp",
+          "ciudades_comodas_2.webp",
+          "ciudades_comodas_4.webp"
+        ],
+        "texto": [
+          "Entorno más ordenado y libre de molestias, lo que mejora la satisfacción y calidad de vida de los ciudadanos.",
+          "Puntos de vertido disponibles 24/7, todos los días del año.",
+          "Sin contenedores desbordados. Calles más despejadas y limpias.",
+          "Sin apenas tráfico de camiones de recogida, malos olores ni ruido.",
+          "Mejor separación en origen de los residuos y tasas de reciclaje.",
+          "Gracias al uso de IA los Ayuntamientos pueden acceder a datos sobre el uso del sistema, optimizando su gestión y mejorando la eficiencia del servicio."
+        ]
+      },
+      {
+        "titulo": "CIUDADES MÁS SOSTENIBLES",
+        "imagenes": [
+          "ciudades_sostenibles_1.webp",
+          "ciudades_sostenibles_2.webp",
+          "ciudades_sostenibles_3.webp",
+          "ciudades_sostenibles_4.webp"
+        ],
+        "texto": [
+          "Reducción drástica del tráfico de vehículos pesados. En una ciudad tipo, se reduce la distancia de coducción de este tipo de vehículos de 2828 km a 208 km al año.",
+          "Reducción Gases. En una ciudad tipo, se disminuye, las emisiones un 95%."
+        ]
+      },
+      {
+        "titulo": "CIUDADES MÁS SEGURAS",
+        "imagenes": [
+          "ciudades_seguras_1.webp",
+          "ciudades_seguras_2.webp",
+          "ciudades_seguras_3.webp",
+          "ciudades_seguras_4.webp"
+        ],
+        "texto": [
+          "Zonas peatonales más seguras al eliminarse gran parte del tráfico de camiones.",
+          "Menor riesgo de accidentes para los ciudadanos y los trabajadores.",
+          "Movilidad optimizada en las áreas urbanas.",
+          "Ambiente más relajado.",
+          "Menos vandalismo al eliminar contenedores de las calles."
+        ]
+      },
+      {
+        "titulo": "CIUDADES MÁS HUMANAS",
+        "imagenes": [
+          "ciudades_humanas_1.webp",
+          "ciudades_humanas_2.webp",
+          "ciudades_humanas_3.webp",
+          "ciudades_humanas_4.webp",
+          "ciudades_humanas_5.webp"
+        ],
+        "texto": [
+          "Reducción drástica del espacio público ocupado.",
+          "Más zonas peatonales y espacios verdes.",
+          "Más espacio para estacionamientos o trasteros en las urbanizaciones.",
+          "Los buzones y compuertas Envac se integran perfectamente en el diseño urbano.",
+          "Una infraestructura moderna y sostenible que mejora la calidad de vida de los ciudadanos."
+        ]
+      },
+      {
+        "titulo": "CIUDADES MÁS EFICIENTES",
+        "imagenes": [
+          "ciudades_eficientes_1.webp",
+          "ciudades_eficientes_2.webp",
+          "ciudades_eficientes_3.webp",
+          "ciudades_eficientes_4.webp"
+        ],
+        "texto": [
+          "Ahorros en los costes de operación y mantenimiento al minimizar la necesidad de personal para la gestión de residuos.",
+          "Coste del ciclo de vida del sistema es más bajo en comparación con la recogida tradicional. Además, su eficiencia permite un retorno de la inversión en menos de 10 años en muchos proyectos, convirtiéndolo en una solución económicamente sostenible a largo plazo."
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
+      "imagen": "slide_ciudad_preview.gif",
+      "posicion": { "x": "12", "y": "30" }
+    },
+    "slider": {
+      "antes": {
+        "imagen": "slide_ciudad_malo.webp",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "46.5", "y": "66.5" },
+            "texto": "CIUDADES MÁS SUCIAS, CON CONTENEDORES DESBORDADOS."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "32", "y": "66" },
+            "texto": "CIUDADES CON MUCHA CONTAMINACIÓN ACÚSTICA Y AMBIENTAL."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "83", "y": "75" },
+            "texto": "MAYOR TRÁFICO Y MENOR SEGURIDAD VIAL Y PEATONAL."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "69", "y": "66.5" },
+            "texto": "ESPACIOS COMUNES DESLUCIDOS E INFRAUTILIZADOS."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "18.5", "y": "58" },
+            "texto": "NECESIDAD DE ESPACIOS PARA ALMACENAMIENTO DE RESIDUOS EN EDIFICIOS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "13.5", "y": "87" },
+            "texto": "MUCHO ESPACIO PÚBLICO OCUPADO."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "38.5" },
+            "texto": "DEPENDENCIA HORARIOS Y RUTINAS DE RECOGIDA DE RESIDUOS."
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_ciudad_bueno.webp",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "46.5", "y": "66.5" },
+            "texto": "CIUDADES MÁS LIMPIAS, SIN CONTENEDORES DESBORDADOS."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "32", "y": "66" },
+            "texto": "CIUDADES MÁS LIMPIAS. REDUCCIÓN DEL RUIDO Y DE LAS EMISIONES DE HASTA UN 95%."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "83", "y": "75" },
+            "texto": "RUTAS DE RECOGIDA REDUCIDAS EN UN 92%. MÁS SEGURIDAD VIAL Y PEATONAL."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "69", "y": "66.5" },
+            "texto": "ESPACIOS COMUNES MEJOR APROVECHADOS Y MÁS ZONAS VERDES."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "18.5", "y": "58" },
+            "texto": "ESPACIO DISPONIBLE PARA COMERCIOS Y ZONAS COMUNES EN EDIFICIOS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "13.5", "y": "87" },
+            "texto": "ESPACIO PÚBLICO DISPONIBLE PARA APARCAMIENTOS Y OTROS USOS."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "38.5" },
+            "texto": "BUZONES Y COMPUERTAS DISPONIBLES 24/7 – MÁS CALIDAD DE VIDA, USUARIOS MÁS CONTENTOS."
+          }
+        ]
+      }
+    }
+  },
+  "hospitales": {
+    "titulo": "¿Cómo sería un hospital más limpio, seguro y eficiente?",
+    "imagenFondo": "fondo_hospital.webp",
+    "botones": [
+      {
+        "texto": "SEGURIDAD MEJORADA PARA PACIENTES Y PERSONAL",
+        "posicion": { "x": "15", "y": "29" }
+      },
+      {
+        "texto": "ENTORNO DE TRABAJO OPTIMIZADO",
+        "posicion": { "x": "24", "y": "51" }
+      },
+      {
+        "texto": "MEJORA DE LAS OPERACIONES Y LA RENTABILIDAD",
+        "posicion": { "x": "12", "y": "74" }
+      },
+      {
+        "texto": "EFICIENCIA Y PRODUCTIVIDAD MEJORADAS",
+        "posicion": { "x": "40", "y": "74" }
+      },
+      {
+        "texto": "MEJOR IMAGEN Y REPUTACIÓN DEL HOSPITAL",
+        "posicion": { "x": "68", "y": "74" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "SEGURIDAD MEJORADA PARA PACIENTES Y PERSONAL",
+        "imagenes": [
+          "hospitales_seguros_1.webp",
+          "hospitales_seguros_2.webp",
+          "hospitales_seguros_3.webp",
+          "hospitales_seguros_4.webp"
+        ],
+        "texto": [
+          "Los residuos, generales e infecciosos, viajan por una red de tuberías subterráneas selladas.",
+          "Los residuos no se transportan por pasillos y ascensores.",
+          "Reducción drastica de la exposición a patógenos, mejorando la higiene y minimizando riesgos para pacientes y familiares. No contaminación cruzada.",
+          "Los residuos infecciosos son convertidos directamente en residuos no peligrosos en la central de recogida del hospital."
+        ]
+      },
+      {
+        "titulo": "ENTORNO DE TRABAJO OPTIMIZADO",
+        "imagenes": [
+          "hospitales_optimizados_1.webp",
+          "hospitales_optimizados_2.webp",
+          "hospitales_optimizados_3.webp",
+          "hospitales_optimizados_4.webp"
+        ],
+        "texto": [
+          "Prácticamente eliminada la carga manual pesada y peligrosa.",
+          "Más seguridad e higiene, implica menor rotación del personal y bajas médicas.",
+          "Menos errores humanos.",
+          "Mejora toda la logística del hospital.",
+          "Menos ruidos y olores."
+        ]
+      },
+      {
+        "titulo": "MEJORA DE LAS OPERACIONES Y LA RENTABILIDAD",
+        "imagenes": [
+          "hospitales_rentables_1.webp",
+          "hospitales_rentables_2.webp",
+          "hospitales_rentables_3.webp",
+          "hospitales_rentables_4.webp"
+        ],
+        "texto": [
+          "No depende de la mano de obra. Optimización de los recursos y reducción de costes.",
+          "El servicio médico no se ve interrumpido por rutinas de limpieza (zonas limpias).",
+          "Disminución del desgaste de infraestructuras y de los pavimentos al no habertransporte por pasillos y ascensores.",
+          "Al ser un sistema automatizado, se reducen los errores humanos, que implica menor coste derivado de los mismos y un rápido retorno de inversión."
+        ]
+      },
+      {
+        "titulo": "EFICIENCIA Y PRODUCTIVIDAD MEJORADAS",
+        "imagenes": [
+          "hospitales_eficientes_1.webp",
+          "hospitales_eficientes_2.webp",
+          "hospitales_eficientes_3.webp",
+          "hospitales_eficientes_4.webp"
+        ],
+        "texto": [
+          "El sistema automatizado funciona 24/7.",
+          "Se adapta a la demanda y a situaciones extraordinarias donde se hace necesaria una recogida mayor de residuos o más frecuente.",
+          "Ahorra espacio – No se necesitan ascensores."
+        ]
+      },
+      {
+        "titulo": "MEJOR IMAGEN Y REPUTACIÓN DEL HOSPITAL",
+        "imagenes": [
+          "hospitales_imagen_1.webp",
+          "hospitales_imagen_2.webp",
+          "hospitales_imagen_3.webp",
+          "hospitales_imagen_4.webp"
+        ],
+        "texto": [
+          "La incorporación de tecnología avanzada como Envac refuerza la reputación del hospital.",
+          "Se elimina el antiestético trasiego manual de residuos y ropa por todo el hospital, proporcionando a pacientes y visitantes una mejor experiencia.",
+          "Un entorno más limpio, ordenado e higiénico atrae tanto a pacientes como a profesionales sanitarios, generando una impresión positiva y diferenciadora."
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
+      "imagen": "slide_hospital_preview.gif",
+      "posicion": { "x": "12", "y": "30" }
+    },
+    "slider": {
+      "antes": {
+        "imagen": "slide_hospital_malo.webp",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "45", "y": "48" },
+            "texto": "MAYOR NECESIDAD DE ESPACIO DE ALMACENAMIENTO DENTRO DEL HOSPITAL."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "53", "y": "24" },
+            "texto": "SE REQUIEREN MÁS ASCENSORES O CON MAYOR CAPACIDAD."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "35.5", "y": "57" },
+            "texto": "CIRCULACIÓN DE PACIENTES Y PERSONAL MÁS COMPLICADO, AL CONVIVIR CON CARRITOS O AGVS POR PASILLOS."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "65.5", "y": "38.5" },
+            "texto": "MENOR SEGURIDAD: RIESGO DE CONTAMINACIÓN CRUZADA."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "78", "y": "50" },
+            "texto": "RUTINAS DE LIMPIEZA MÁS COMPLEJAS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "46.5", "y": "24" },
+            "texto": "MENOR LIBERTAD ARQUITECTÓNICA Y ESPACIO DISPONIBLE."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "27" },
+            "texto": "MENOR SEGURIDAD: MÁS RIESGOS HUMANOS Y AMBIENTE LABORAL COMPLICADO."
+          },
+          {
+            "id": "8",
+            "posicion": { "x": "4", "y": "47" },
+            "texto": "PEOR IMAGEN REPUTACIONAL DEL HOSPITAL."
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_hospital_bueno.webp",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "45", "y": "48" },
+            "texto": "SIN ALMACENAMIENTO LOCAL O INTERMEDIO."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "53", "y": "24" },
+            "texto": "CAPACIDAD DE ASCENSORES LIBERADA Y LOGÍSTICA MEJORADA."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "35.5", "y": "57" },
+            "texto": "CIRCULACIÓN ÁGIL Y SEGURA DE PACIENTES Y PERSONAL."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "65.5", "y": "38.5" },
+            "texto": "TRANSPORTE HERMÉTICO MÁS HIGIÉNICO Y SEGURO: NO RIESGO DE CONTAMINACIÓN CRUZADA."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "78", "y": "50" },
+            "texto": "SISTEMA AUTOMATIZADO, RUTINAS DE LIMPIEZA OPTIMIZADAS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "46.5", "y": "24" },
+            "texto": "MAYOR LIBERTAD ARQUITECTÓNICA Y MÁS ESPACIO PARA HABITACIONES Y SERVICIOS DE SALUD."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "27" },
+            "texto": "MAYOR SEGURIDAD: COMPUERTAS CON CONTROL DE ACCESO. AMBIENTE LABORAL MEJORADO."
+          },
+          {
+            "id": "8",
+            "posicion": { "x": "4", "y": "47" },
+            "texto": "IMAGEN REPUTACIONAL DEL HOSPITAL MEJORADA."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -5,8 +5,11 @@ import InfoPopUp from './InfoPopUp'
 import SliderPreview from './SliderPreview'
 import Slider from './Slider'
 import { useState } from 'react'
+import { useLanguage } from '../contexts/LanguageContext'
+import ShowLanguagesBtn from './ShowLanguagesBtn'
 
-const Airport = ({ textos }) => {
+const Airport = () => {
+  const { textos } = useLanguage()  
   const [isInfoPopUpActive, setIsInfoPopUpActive] = useState(false)
   const [isSliderActive, setIsSliderActive] = useState(false)
   const [activePopUp, setActivePopUp] = useState('')
@@ -29,12 +32,13 @@ const Airport = ({ textos }) => {
         loading='lazy'
       />
       <Logo />
+      <ShowLanguagesBtn />
       <BackBtn prevPage='/home' />
 
       <section
         id='airport-contet'
         className='relative flex size-full flex-col items-end justify-between overflow-hidden'>
-        <h1 className='font-display line animate-blow-in-modal mt-[3.5rem] mr-[13rem] w-[45.25rem] text-center text-6xl/tight text-gray-950'>
+        <h1 className='font-display line animate-blow-in-modal mt-[3.5rem] mr-[18rem] w-[45.25rem] text-center text-6xl/tight text-gray-950'>
           {textos.aeropuertos.titulo}
         </h1>
         {isInfoPopUpActive || isSliderActive ? (

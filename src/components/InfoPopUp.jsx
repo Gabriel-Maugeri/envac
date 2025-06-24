@@ -1,7 +1,9 @@
 import CloseBtn from './CloseBtn'
 import { useState, useEffect, useRef } from 'react'
+import { useLanguage } from '../contexts/LanguageContext'
 
-const InfoPopUp = ({ title, handleClose, section, textos }) => {
+const InfoPopUp = ({ title, handleClose, section }) => {
+  const { textos } = useLanguage()
   const popUpData = textos[section].popUps.find(
     (item) => item.titulo.toLowerCase() === title.toLowerCase()
   )

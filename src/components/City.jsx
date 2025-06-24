@@ -5,8 +5,11 @@ import InfoPopUp from './InfoPopUp'
 import SliderPreview from './SliderPreview'
 import Slider from './Slider'
 import { useState } from 'react'
+import { useLanguage } from '../contexts/LanguageContext'
+import ShowLanguagesBtn from './ShowLanguagesBtn'
 
-const City = ({ textos }) => {
+const City = () => {
+  const { textos } = useLanguage()  
   const [isInfoPopUpActive, setIsInfoPopUpActive] = useState(false)
   const [isSliderActive, setIsSliderActive] = useState(false)
   const [activePopUp, setActivePopUp] = useState('')
@@ -29,6 +32,7 @@ const City = ({ textos }) => {
         loading='lazy'
       />
       <Logo />
+      <ShowLanguagesBtn />
       <BackBtn prevPage='/home' />
 
       <section

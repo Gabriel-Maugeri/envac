@@ -1,0 +1,569 @@
+{
+  "inicio": {
+    "titulo": "Pneumatic waste collection for more humane and sustainable cities.",
+    "tituloVideos": "Intelligent and sustainable waste management",
+    "videoFondo": "fondo_home.mp4",
+    "botones": [
+      {
+        "texto": "AIRPORTS",
+        "imagen": "logo_aeropuertos.png"
+      },
+      {
+        "texto": "CITIES",
+        "imagen": "logo_ciudades.png"
+      },
+      {
+        "texto": "HOSPITALS",
+        "imagen": "logo_hospitales.png"
+      }
+    ],
+    "video1": "Envac Video_EU_ES.mp4",
+    "video2": "ENVAC_CASE_ONLINE_SUBS.mp4",
+    "video3": "envac_healthcare_video_final_2.mp4"
+  },
+  "aeropuertos": {
+    "titulo": "How will the future airport look like?",
+    "imagenFondo": "fondo_aeropuerto.webp",
+    "botones": [
+      {
+        "texto": "MORE SECURE",
+        "posicion": { "x": "29.5", "y": "30.5" }
+      },
+      {
+        "texto": "WITH IMPROVED LOGISTICS AND OPERATIONS",
+        "posicion": { "x": "5.5", "y": "47.5" }
+      },
+      {
+        "texto": "MORE SUSTAINABLE",
+        "posicion": { "x": "31.5", "y": "65" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "MORE SECURE",
+        "imagenes": [
+          "aeropuertos_seguros_1.webp",
+          "aeropuertos_seguros_2.webp",
+          "aeropuertos_seguros_3.webp",
+          "aeropuertos_seguros_4.webp"
+        ],
+        "texto": [
+          "Less waste handling = less risk.",
+          "Reduction of vehicles in the air and ground zones.",
+          "The waste entry points can be designed to restrict the type of waste and have crushers to destroy illegal materials."
+        ]
+      },
+      {
+        "titulo": "WITH IMPROVED LOGISTICS AND OPERATIONS",
+        "imagenes": [
+          "aeropuertos_logistica_1.webp",
+          "aeropuertos_logistica_2.webp",
+          "aeropuertos_logistica_3.webp",
+          "aeropuertos_logistica_4.webp"
+        ],
+        "texto": [
+          "Waste collection from all points of the airport.",
+          "Centralized waste management – Central collection (no intermediate storage).",
+          "Reduction of vehicles in the air and ground zones. Saves time and improves staff efficiency.",
+          "The system works 24/7 in any weather condition.",
+          "No manual collection. Better resource allocation through automation and predictive analysis.",
+          "No overflowing containers. Improves passenger experience.",
+          "Greater control over waste classification and the use carried out by retailers."
+        ]
+      },
+      {
+        "titulo": "MORE SUSTAINABLE",
+        "imagenes": [
+          "aeropuertos_sostenibles_1.webp",
+          "aeropuertos_sostenibles_2.webp",
+          "aeropuertos_sostenibles_3.webp",
+          "aeropuertos_sostenibles_4.webp"
+        ],
+        "texto": [
+          "Optimized waste collection.",
+          "Improved recycling rates.",
+          "Reduction of carbon footprint.",
+          "Reduction of CO2 emissions."
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "DISCOVER THE ADVANTAGES OF ENVAC",
+      "imagen": "slide_aeropuerto_preview.gif",
+      "posicion": { "x": "10", "y": "35" }
+    },
+    "slider": {
+      "antes": {
+        "imagen": "slide_aeropuerto_malo.webp",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "68", "y": "84" },
+            "texto": "MORE TRAFFIC AND LESS SECURITY WHEN VEHICLES ARE ON THE RUNWAY."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "65", "y": "26" },
+            "texto": "A SIGNIFICANT AMOUNT OF SPACE OCCUPIED BY INTERMEDIATE STORAGE POINTS."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "56", "y": "50" },
+            "texto": "OVERFLOWING CONTAINERS THAT POLLUTE THE APPEARANCE OF THE AIRPORT."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "35", "y": "83" },
+            "texto": "MORE COMPLEX COLLECTION ROUTINES."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "82", "y": "84" },
+            "texto": "LESS SECURITY DUE TO RESIDUES AND/OR DANGEROUS MATERIALS DEPOSITED IN THE TRASH."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "53.5", "y": "31" },
+            "texto": "LESS FRIENDLY ENVIRONMENT AND DAMAGED REPUTATION."
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_aeropuerto_bueno.webp",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "68", "y": "84" },
+            "texto": "MORE SECURITY WHEN REDUCING TRAFFIC AND MANIPULATION ON THE RUNWAY."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "65", "y": "26" },
+            "texto": "MORE SPACE IN THE AIRPORT FOR EMBARKATION, RESTAURATION AND OTHERS."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "56", "y": "50" },
+            "texto": "ELIMINATION OF WASTE STORAGE IN TRASH OR TRANSIT POINTS."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "35", "y": "83" },
+            "texto": "CENTRALIZED WASTE COLLECTION. UNINTERRUPTED AND OPTIMIZED OPERATION REDUCING OPERATING COSTS."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "82", "y": "84" },
+            "texto": "MORE SECURITY. LESS WASTE MANIPULATION AND RISK OF DANGEROUS MATERIALS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "53.5", "y": "31" },
+            "texto": "IMPROVED PASSENGER EXPERIENCE AND BETTER AIRPORT APPEARANCE."
+          }
+        ]
+      }
+    }
+  },
+  "ciudades": {
+    "titulo": "How will the future city look like?",
+    "imagenFondo": "fondo_ciudad.webp",
+    "botones": [
+      {
+        "texto": "MORE COMFORTABLE AND CLEAN CITIES",
+        "posicion": { "x": "28", "y": "26" }
+      },
+      {
+        "texto": "MORE SUSTAINABLE CITIES",
+        "posicion": { "x": "5", "y": "38.5" }
+      },
+      {
+        "texto": "MORE SECURE CITIES",
+        "posicion": { "x": "12", "y": "74" }
+      },
+      {
+        "texto": "MORE HUMAN CITIES",
+        "posicion": { "x": "40", "y": "74" }
+      },
+      {
+        "texto": "MORE EFFICIENT CITIES",
+        "posicion": { "x": "68", "y": "74" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "MORE COMFORTABLE AND CLEAN CITIES",
+        "imagenes": [
+          "ciudades_comodas_1.webp",
+          "ciudades_comodas_2.webp",
+          "ciudades_comodas_4.webp"
+        ],
+        "texto": [
+          "More ordered and free of nuisances, which improves the satisfaction and quality of life of citizens.",
+          "Waste disposal points available 24/7, every day of the year.",
+          "No overflowing containers. Cleaner streets.",
+          "Less traffic of collection vehicles, bad smells or noise.",
+          "Better waste separation and recycling rates.",
+          "Thanks to the use of AI, municipalities can access data about the use of the system, optimizing their management and improving service efficiency."
+        ]
+      },
+      {
+        "titulo": "MORE SUSTAINABLE CITIES",
+        "imagenes": [
+          "ciudades_sostenibles_1.webp",
+          "ciudades_sostenibles_2.webp",
+          "ciudades_sostenibles_3.webp",
+          "ciudades_sostenibles_4.webp"
+        ],
+        "texto": [
+          "Reduction of heavy vehicle traffic. In a city type, the distance driven by this type of vehicle is reduced from 2828 km to 208 km per year.",
+          "Reduction of gases. In a city type, emissions are reduced by 95%."
+        ]
+      },
+      {
+        "titulo": "MORE SECURE CITIES",
+        "imagenes": [
+          "ciudades_seguras_1.webp",
+          "ciudades_seguras_2.webp",
+          "ciudades_seguras_3.webp",
+          "ciudades_seguras_4.webp"
+        ],
+        "texto": [
+          "More pedestrian zones and green spaces.",
+          "Less risk of accidents for citizens and workers.",
+          "Optimized mobility in urban areas.",
+          "More relaxed environment.",
+          "Less vandalism by removing street containers."
+        ]
+      },
+      {
+        "titulo": "MORE HUMAN CITIES",
+        "imagenes": [
+          "ciudades_humanas_1.webp",
+          "ciudades_humanas_2.webp",
+          "ciudades_humanas_3.webp",
+          "ciudades_humanas_4.webp",
+          "ciudades_humanas_5.webp"
+        ],
+        "texto": [
+          "Reduction of public space occupied.",
+          "More pedestrian zones and green spaces.",
+          "More space for parking or dumpsters in urbanizations.",
+          "Envac dumpsters and gates integrate perfectly into urban design.",
+          "Modern and sustainable infrastructure that improves the quality of life of citizens."
+        ]
+      },
+      {
+        "titulo": "MORE EFFICIENT CITIES",
+        "imagenes": [
+          "ciudades_eficientes_1.webp",
+          "ciudades_eficientes_2.webp",
+          "ciudades_eficientes_3.webp",
+          "ciudades_eficientes_4.webp"
+        ],
+        "texto": [
+          "Cost savings in operation and maintenance costs by minimizing the need for personnel to manage waste.",
+          "The system's lifecycle cost is lower compared to traditional collection. Additionally, its efficiency allows for a return on investment in less than 10 years in many projects, making it an economically sustainable solution in the long term."
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "DISCOVER THE ADVANTAGES OF ENVAC",
+      "imagen": "slide_ciudad_preview.gif",
+      "posicion": { "x": "12", "y": "30" }
+    },
+    "slider": {
+      "antes": {
+        "imagen": "slide_ciudad_malo.webp",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "46.5", "y": "66.5" },
+            "texto": "MORE DIRTY CITIES, WITH OVERFLOWING CONTAINERS."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "32", "y": "66" },
+            "texto": "CITIES WITH MUCH ACUSTIC AND ENVIRONMENTAL POLLUTION."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "83", "y": "75" },
+            "texto": "MORE TRAFFIC AND LESS ROAD AND PEDESTRIAN SAFETY."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "69", "y": "66.5" },
+            "texto": "COMMON AREAS ARE DARK AND UNUSABLE."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "18.5", "y": "58" },
+            "texto": "NEED FOR SPACES FOR WASTE STORAGE IN BUILDINGS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "13.5", "y": "87" },
+            "texto": "MUCH PUBLIC SPACE OCCUPIED."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "38.5" },
+            "texto": "DEPENDENCY ON HOURS AND ROUTINES OF WASTE COLLECTION."
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_ciudad_bueno.webp",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "46.5", "y": "66.5" },
+            "texto": "MORE CLEAN CITIES, WITHOUT OVERFLOWING CONTAINERS."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "32", "y": "66" },
+            "texto": "MORE CLEAN CITIES. REDUCTION OF NOISE AND EMISSIONS BY UP TO 95%."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "83", "y": "75" },
+            "texto": "REDUCED COLLECTION ROUTES BY 92%. MORE ROAD AND PEDESTRIAN SAFETY."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "69", "y": "66.5" },
+            "texto": "COMMON AREAS ARE BETTER UTILIZED AND MORE GREEN SPACES."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "18.5", "y": "58" },
+            "texto": "AVAILABLE SPACE FOR COMMERCE AND COMMON AREAS IN BUILDINGS."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "13.5", "y": "87" },
+            "texto": "PUBLIC SPACE AVAILABLE FOR PARKING AND OTHER USES."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "38.5" },
+            "texto": "BUZONES AND GATES AVAILABLE 24/7 – BETTER QUALITY OF LIFE, USERS MORE CONTENT."
+          }
+        ]
+      }
+    }
+  },
+  "hospitales": {
+    "titulo": "How would a cleaner, safer and more efficient hospital look like?",
+    "imagenFondo": "fondo_hospital.webp",
+    "botones": [
+      {
+        "texto": "IMPROVED SECURITY FOR PATIENTS AND PERSONNEL",
+        "posicion": { "x": "15", "y": "29" }
+      },
+      {
+        "texto": "OPTIMIZED WORK ENVIRONMENT",
+        "posicion": { "x": "24", "y": "51" }
+      },
+      {
+        "texto": "IMPROVED OPERATIONS AND PROFITABILITY",
+        "posicion": { "x": "12", "y": "74" }
+      },
+      {
+        "texto": "EFFICIENCY AND PRODUCTIVITY IMPROVED",
+        "posicion": { "x": "40", "y": "74" }
+      },
+      {
+        "texto": "BETTER HOSPITAL IMAGE AND REPUTATION",
+        "posicion": { "x": "68", "y": "74" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "IMPROVED SECURITY FOR PATIENTS AND PERSONNEL",
+        "imagenes": [
+          "hospitales_seguros_1.webp",
+          "hospitales_seguros_2.webp",
+          "hospitales_seguros_3.webp",
+          "hospitales_seguros_4.webp"
+        ],
+        "texto": [
+          "The waste, general and infectious, travels through a sealed underground pipe network.",
+          "The waste is not transported through corridors and elevators.",
+          "Reduction of exposure to pathogens, improving hygiene and minimizing risks for patients and families. No cross-contamination.",
+          "Infectious waste is directly converted into non-dangerous waste at the hospital collection center."
+        ]
+      },
+      {
+        "titulo": "OPTIMIZED WORK ENVIRONMENT",
+        "imagenes": [
+          "hospitales_optimizados_1.webp",
+          "hospitales_optimizados_2.webp",
+          "hospitales_optimizados_3.webp",
+          "hospitales_optimizados_4.webp"
+        ],
+        "texto": [
+          "Practically eliminated heavy manual and dangerous labor.",
+          "Greater security and hygiene, implying lower personnel rotation and fewer medical errors.",
+          "Fewer human errors.",
+          "Improves all hospital logistics.",
+          "Less noise and odors."
+        ]
+      },
+      {
+        "titulo": "IMPROVED OPERATIONS AND PROFITABILITY",
+        "imagenes": [
+          "hospitales_rentables_1.webp",
+          "hospitales_rentables_2.webp",
+          "hospitales_rentables_3.webp",
+          "hospitales_rentables_4.webp"
+        ],
+        "texto": [
+          "No depends on labor. Resource optimization and cost reduction.",
+          "The medical service is not interrupted by cleaning routines (clean zones).",
+          "Reduction of infrastructure and pavement wear and tear by not transporting waste through corridors and elevators.",
+          "As an automated system, human errors are reduced, which implies lower cost derived from the same and a quick return on investment."
+        ]
+      },
+      {
+        "titulo": "EFFICIENCY AND PRODUCTIVITY IMPROVED",
+        "imagenes": [
+          "hospitales_eficientes_1.webp",
+          "hospitales_eficientes_2.webp",
+          "hospitales_eficientes_3.webp",
+          "hospitales_eficientes_4.webp"
+        ],
+        "texto": [
+          "The automated system works 24/7.",
+          "It adapts to demand and extraordinary situations where it is necessary to collect more waste or more frequently.",
+          "Saves space – No need for elevators."
+        ]
+      },
+      {
+        "titulo": "BETTER HOSPITAL IMAGE AND REPUTATION",
+        "imagenes": [
+          "hospitales_imagen_1.webp",
+          "hospitales_imagen_2.webp",
+          "hospitales_imagen_3.webp",
+          "hospitales_imagen_4.webp"
+        ],
+        "texto": [
+          "The incorporation of advanced technology as Envac reinforces the hospital's reputation.",
+          "Eliminates the antiesthetic manual waste and clothing transfer throughout the hospital, providing patients and visitors a better experience.",
+          "A cleaner, more organized and hygienic environment attracts both patients and healthcare professionals, generating a positive and differentiated impression."
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "DISCOVER THE ADVANTAGES OF ENVAC",
+      "imagen": "slide_hospital_preview.gif",
+      "posicion": { "x": "12", "y": "30" }
+    },
+    "slider": {
+      "antes": {
+        "imagen": "slide_hospital_malo.webp",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "45", "y": "48" },
+            "texto": "MORE SPACE NEEDED FOR STORAGE INSIDE THE HOSPITAL."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "53", "y": "24" },
+            "texto": "MORE ELEVATORS OR WITH GREATER CAPACITY."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "35.5", "y": "57" },
+            "texto": "MORE COMPLICATED CIRCULATION OF PATIENTS AND PERSONNEL, AL CONVIVING WITH Carts OR AGVs BY PASILLOS."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "65.5", "y": "38.5" },
+            "texto": "LOWER SECURITY: CROSS CONTAMINATION RISK."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "78", "y": "50" },
+            "texto": "MORE COMPLEX CLEANING ROUTINES."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "46.5", "y": "24" },
+            "texto": "LESS ARCHITECTURAL FREEDOM AND SPACE AVAILABLE."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "27" },
+            "texto": "LOWER SECURITY: MORE HUMAN RISKS AND COMPLICATED WORK ENVIRONMENT."
+          },
+          {
+            "id": "8",
+            "posicion": { "x": "4", "y": "47" },
+            "texto": "WORSE HOSPITAL IMAGE AND REPUTATION."
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_hospital_bueno.webp",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "45", "y": "48" },
+            "texto": "NO LOCAL OR INTERMEDIATE STORAGE."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "53", "y": "24" },
+            "texto": "ELEVATOR CAPACITY LIBERATED AND LOGISTICS IMPROVED."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "35.5", "y": "57" },
+            "texto": "AGILE AND SAFE CIRCULATION OF PATIENTS AND PERSONNEL."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "65.5", "y": "38.5" },
+            "texto": "HERMETIC TRANSPORT MORE HYGIENIC AND SAFE: NO CROSS CONTAMINATION RISK."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "78", "y": "50" },
+            "texto": "AUTOMATED SYSTEM, OPTIMIZED CLEANING ROUTINES."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "46.5", "y": "24" },
+            "texto": "MORE ARCHITECTURAL FREEDOM AND MORE SPACE FOR BEDROOMS AND HEALTH SERVICES."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "27" },
+            "texto": "BETTER SECURITY: GATES WITH ACCESS CONTROL. IMPROVED WORK ENVIRONMENT."
+          },
+          {
+            "id": "8",
+            "posicion": { "x": "4", "y": "47" },
+            "texto": "BETTER HOSPITAL IMAGE AND REPUTATION."
+          }
+        ]
+      }
+    }
+  }
+}
