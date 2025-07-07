@@ -8,7 +8,6 @@ const LanguageSwitcher = () => {
     { code: 'es', name: 'Español' },
     { code: 'sv', name: 'Svenska' },
     { code: 'fr', name: 'Français' },
-    { code: 'it', name: 'Italiano' },
     { code: 'ko', name: '한국어' },
   ];
 

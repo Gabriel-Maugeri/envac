@@ -42,7 +42,7 @@ const ShowLanguagesBtn = () => {
   return (
     <>
       {/* <div className="absolute top-[6.7%] right-[9.15%] z-20"> */}
-      <div className="absolute top-18 right-25 z-100 rounded-full"
+      <div className="absolute top-18 right-20 z-100 rounded-full"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       >
