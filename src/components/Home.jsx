@@ -8,7 +8,7 @@ import ShowLanguagesBtn from './ShowLanguagesBtn'
 import { useLanguage } from '../contexts/LanguageContext'
 
 const Home = () => {
-  const { textos } = useLanguage()
+  const { textos, currentLanguage } = useLanguage()
   const [popUpActive, setPopUpActive] = useState(false)
   const [videoActive, setVideoActive] = useState(false)
   const [activeVideo, setActiveVideo] = useState('')
@@ -82,7 +82,10 @@ const Home = () => {
               className='absolute top-1/3 flex w-full flex-row items-center justify-center gap-[7.5%]'>
               <SectionBtn text={textos.inicio.botones[0].texto} section='/aeropuertos' imgName={textos.inicio.botones[0].imagen} />
               <SectionBtn text={textos.inicio.botones[1].texto} section='/ciudades' imgName={textos.inicio.botones[1].imagen} />
-              <SectionBtn text={textos.inicio.botones[2].texto} section='/hospitales' imgName={textos.inicio.botones[2].imagen} />
+              {(currentLanguage === 'en' || currentLanguage === 'sv') && (
+                <SectionBtn text={textos.inicio.botones[2].texto} section='/sorting' imgName={textos.inicio.botones[2].imagen} />
+              )}
+              <SectionBtn text={textos.inicio.botones[currentLanguage === 'en' || currentLanguage === 'sv' ? 3 : 2].texto} section='/hospitales' imgName={textos.inicio.botones[currentLanguage === 'en' || currentLanguage === 'sv' ? 3 : 2].imagen} />
             </div>
           </>
         )}

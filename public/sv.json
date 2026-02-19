@@ -1,46 +1,50 @@
 {
   "inicio": {
-    "titulo": "Recogida neumática de residuos para ciudades más humanas y sostenibles.",
-    "tituloVideos": "Gestión de residuos inteligente y sostenible",
+    "titulo": "Smarta och hållbara avfallshanteringslösningar för städer, landsbygd, sjukhus & flygplatser.",
+    "tituloVideos": "Smart och hållbar avfallshantering",
     "videoFondo": "fondo_home.mp4",
     "botones": [
       {
-        "texto": "AEROPUERTOS",
+        "texto": "FLYGPLATSER",
         "imagen": "logo_aeropuertos.png"
       },
       {
-        "texto": "CIUDADES",
+        "texto": "STÄDER",
         "imagen": "logo_ciudades.png"
       },
       {
-        "texto": "HOSPITALES",
+        "texto": "SORTERING",
+        "imagen": "logo_ciudades.png"
+      },
+      {
+        "texto": "SJUKHUS",
         "imagen": "logo_hospitales.png"
       }
     ],
-    "video1": "Envac Video_EU_ES.mp4",
-    "video2": "ENVAC_CASE_ONLINE_SUBS.mp4",
+    "video1": "Envac Video_EU_EN.mp4",
+    "video2": "ENVAC_CASE_ONLINE_SUBS_EN.mp4",
     "video3": "envac_healthcare_video_final_2.mp4"
   },
   "aeropuertos": {
-    "titulo": "¿Cómo será el aeropuerto del futuro?",
+    "titulo": "Kan du föreställa dig en flygplats utan synligt avfall?",
     "imagenFondo": "fondo_aeropuerto.webp",
     "botones": [
       {
-        "texto": "MÁS SEGUROS",
+        "texto": "SÄKRARE FLYGPLATSER",
         "posicion": { "x": "29.5", "y": "30.5" }
       },
       {
-        "texto": "CON UNA LOGÍSTICA Y OPERATIVA MEJORADA",
+        "texto": "EFFEKTIVISERAD LOGISTIK OCH VERKSAMHET",
         "posicion": { "x": "5.5", "y": "47.5" }
       },
       {
-        "texto": "MÁS SOSTENIBLES",
+        "texto": "HÅLLBARARE FLYGPLATSER",
         "posicion": { "x": "31.5", "y": "65" }
       }
     ],
     "popUps": [
       {
-        "titulo": "MÁS SEGUROS",
+        "titulo": "SÄKRARE FLYGPLATSER",
         "imagenes": [
           "aeropuertos_seguros_1.webp",
           "aeropuertos_seguros_2.webp",
@@ -48,13 +52,13 @@
           "aeropuertos_seguros_4.webp"
         ],
         "texto": [
-          "Menos manipulación del residuo = menos riesgo.",
-          "Reducción drástica del flujo de vehículos en zona aire y zona tierra.",
-          "Las entradas de los puntos de vertido se pueden diseñar para restringir el tipo de residuos y contar con trituradoras para destruir materiales ilegales."
+          "Mindre manuell avfallshantering innebär lägre risk.",
+          "Drastisk minskning av fordonstrafik på flygplatsens alla områden.",
+          "Avfallsinkast kan utformas för att begränsa avfallstyper och utrustas med kvarnar för att säkert förstöra förbjudna material."
         ]
       },
       {
-        "titulo": "CON UNA LOGÍSTICA Y OPERATIVA MEJORADA",
+        "titulo": "EFFEKTIVISERAD LOGISTIK OCH VERKSAMHET",
         "imagenes": [
           "aeropuertos_logistica_1.webp",
           "aeropuertos_logistica_2.webp",
@@ -62,17 +66,17 @@
           "aeropuertos_logistica_4.webp"
         ],
         "texto": [
-          "Recogida de residuos de todos los puntos de los aeropuertos.",
-          "Gestión centralizada de los residuos – Central de recogida (no almacenamiento intermedio).",
-          "Reducción del tráfico de vehículos en las pistas. Ahorra tiempo y mejora la eficiencia del personal.",
-          "El sistema funciona 24/7 en cualquier condición climática",
-          "No necesidad de recogida manual. Mejor asignación de recursos mediante automatización y análisis predictivo.",
-          "No contenedores desbordados. Mejora experiencia del pasajero",
-          "Mayor control sobre la clasificación de residuos y del uso llevada a cabo por los retailers."
+          "Avfall samlas in från alla flygplatszoner.",
+          "Centraliserad avfallshantering – inget mellanlager behövs.",
+          "Mindre fordonstrafik på start- och landningsbanor sparar tid och ökar personalens effektivitet.",
+          "Fungerar dygnet runt i alla väderförhållanden.",
+          "Ingen manuell avfallsinsamling behövs – bättre resursfördelning genom automation och prediktiv analys.",
+          "Inga skadedjur, ohyra eller lukt på grund av överfulla kärl – förbättrar passagerarupplevelsen.",
+          "Förbättrad kontroll över avfallssortering och efterlevnad av återförsäljare."
         ]
       },
       {
-        "titulo": "MÁS SOSTENIBLES",
+        "titulo": "HÅLLBARARE FLYGPLATSER",
         "imagenes": [
           "aeropuertos_sostenibles_1.webp",
           "aeropuertos_sostenibles_2.webp",
@@ -80,17 +84,17 @@
           "aeropuertos_sostenibles_4.webp"
         ],
         "texto": [
-          "Recogida de residuos optimizada.",
-          "Tasas de reciclaje mejoradas.",
-          "Reducción huella de carbono.",
-          "Reducción emisiones de CO2."
+          "Optimerad avfallshantering.",
+          "Högre återvinningsgrad.",
+          "Betydligt lägre koldioxidavtryck.",
+          "Stor minskning av CO₂-utsläpp."
         ]
       }
     ],
     "sliderPreview": {
-      "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
+      "titulo": "UPPTÄCK FÖRDELARNA MED ENVAC",
       "imagen": "slide_aeropuerto_preview.gif",
-      "posicion": { "x": "10", "y": "35" }
+      "posicion": { "x": "8", "y": "40" }
     },
     "slider": {
       "antes": {
@@ -101,32 +105,32 @@
           {
             "id": "1",
             "posicion": { "x": "68", "y": "84" },
-            "texto": "MÁS TRÁFICO Y MENOS SEGURIDAD AL HABER VEHÍCULOS EN PISTA."
+            "texto": "ÖKAD FORDONSTRAFIK PÅ START- OCH LANDNINGSBANOR, VILKET MINSKAR SÄKERHETEN."
           },
           {
             "id": "2",
             "posicion": { "x": "65", "y": "26" },
-            "texto": "GRAN ESPACIO OCUPADO POR LOS PUNTOS DE ALMACENAMIENTO INTERMEDIOS."
+            "texto": "STORA OMRÅDEN UPPTAGNA PÅ GRUND AV TILLFÄLLIG AVFALLSFÖRVARING."
           },
           {
             "id": "3",
             "posicion": { "x": "56", "y": "50" },
-            "texto": "CONTENEDORES DESBORDADOS QUE ENSUCIAN LA IMAGEN DEL AEROPUERTO."
+            "texto": "ÖVERFULLA KÄRL SOM FÖRSÄMRAR FLYGPLATSENS UTSEENDE."
           },
           {
             "id": "4",
             "posicion": { "x": "35", "y": "83" },
-            "texto": "RUTINAS DE RECOGIDA MÁS COMPLEJAS."
+            "texto": "KOMPLEXA OCH INEFFEKTIVA INSAMLINGSRUTINER."
           },
           {
             "id": "5",
             "posicion": { "x": "82", "y": "84" },
-            "texto": "MENOR SEGURIDAD POR RESIDUOS Y/O MATERIALES PELIGROSOS DEPOSITADOS EN LAS BASURAS."
+            "texto": "LÄGRE SÄKERHET PÅ GRUND AV FARLIGT ELLER FELAKTIGT HANTERAT AVFALL."
           },
           {
             "id": "6",
             "posicion": { "x": "53.5", "y": "31" },
-            "texto": "AMBIENTE MENOS AMIGABLE E IMAGEN REPUTACIONAL DAÑADA."
+            "texto": "OTREVLIG MILJÖ SOM KAN SKADA FLYGPLATSENS ANSEENDE."
           }
         ]
       },
@@ -138,81 +142,81 @@
           {
             "id": "1",
             "posicion": { "x": "68", "y": "84" },
-            "texto": "MAYOR SEGURIDAD AL REDUCIRSE EL TRÁFICO DE VEHÍCULOS Y LA MANIPULACIÓN EN PISTA."
+            "texto": "STÖRRE SÄKERHET GENOM MINSKAD FORDONSTRAFIK OCH MINIMAL HANTERING PÅ START- OCH LANDNINGSBANAN."
           },
           {
             "id": "2",
             "posicion": { "x": "65", "y": "26" },
-            "texto": "MÁS ESPACIO EN EL AEROPUERTO PARA ZONAS DE EMBARQUE, RESTAURACIÓN Y OTROS."
+            "texto": "FRIGÖR UTRYMMEN FÖR GATER, RESTAURANGER OCH ANDRA PASSAGERARTJÄNSTER."
           },
           {
             "id": "3",
             "posicion": { "x": "56", "y": "50" },
-            "texto": "SE ELIMINA EL ALMACENAMIENTO DE RESIDUOS EN PAPELERAS O PUNTOS DE TRÁNSITO."
+            "texto": "INGEN AVFALLSFÖRVARING I KÄRL ELLER VID OMLASTNINGSPUNKTER."
           },
           {
             "id": "4",
             "posicion": { "x": "35", "y": "83" },
-            "texto": "RECOGIDA CENTRALIZADA DE RESIDUOS. FUNCIONAMIENTO ININTERRUMPIDO Y OPTIMIZADO REDUCIENDO COSTES OPERATIVOS."
+            "texto": "CENTRALISERAD AVFALLSINSAMLING MED OAVBRUTEN, OPTIMERAD DRIFT – VILKET MINSKAR DRIFTKOSTNADERNA."
           },
           {
             "id": "5",
             "posicion": { "x": "82", "y": "84" },
-            "texto": "MAYOR SEGURIDAD. MENOR MANIPULACIÓN DE RESIDUOS Y RIESGO DE MATERIALES PELIGROSOS."
+            "texto": "SÄKRARE VERKSAMHET MED MINDRE MANUELLT ARBETE OCH LÄGRE RISKER VID HANTERING AV FARLIGA MATERIAL."
           },
           {
             "id": "6",
             "posicion": { "x": "53.5", "y": "31" },
-            "texto": "EXPERIENCIA DE LOS PASAJEROS E IMAGEN DEL AEROPUERTO MEJORADA."
+            "texto": "BÄTTRE PASSAGERARUPPLEVELSE OCH FÖRBÄTTRAD FLYGPLATSIMAGE."
           }
         ]
       }
     }
   },
   "ciudades": {
-    "titulo": "¿Te imaginas la ciudad del futuro?",
+    "titulo": "Kan du föreställa dig en stad utan synligt avfall?",
     "imagenFondo": "fondo_ciudad.webp",
     "botones": [
       {
-        "texto": "CIUDADES MÁS CÓMODAS Y LIMPIAS",
+        "texto": "RENARE, SÄKRARE, OCH MER HÅLLBART",
         "posicion": { "x": "28", "y": "26" }
       },
       {
-        "texto": "CIUDADES MÁS SOSTENIBLES",
+        "texto": "MER HÅLLBARA STÄDER",
         "posicion": { "x": "5", "y": "38.5" }
       },
       {
-        "texto": "CIUDADES MÁS SEGURAS",
+        "texto": "SÄKRARE STÄDER",
         "posicion": { "x": "12", "y": "74" }
       },
       {
-        "texto": "CIUDADES MÁS HUMANAS",
+        "texto": "MER LEVANDE STÄDER",
         "posicion": { "x": "40", "y": "74" }
       },
       {
-        "texto": "CIUDADES MÁS EFICIENTES",
-        "posicion": { "x": "68", "y": "74" }
+        "texto": "EFFEKTIVARE STÄDER",
+        "posicion": { "x": "62", "y": "30" }
       }
     ],
     "popUps": [
       {
-        "titulo": "CIUDADES MÁS CÓMODAS Y LIMPIAS",
+        "titulo": "RENARE, SÄKRARE, OCH MER HÅLLBART",
         "imagenes": [
           "ciudades_comodas_1.webp",
           "ciudades_comodas_2.webp",
           "ciudades_comodas_4.webp"
         ],
         "texto": [
-          "Entorno más ordenado y libre de molestias, lo que mejora la satisfacción y calidad de vida de los ciudadanos.",
-          "Puntos de vertido disponibles 24/7, todos los días del año.",
-          "Sin contenedores desbordados. Calles más despejadas y limpias.",
-          "Sin apenas tráfico de camiones de recogida, malos olores ni ruido.",
-          "Mejor separación en origen de los residuos y tasas de reciclaje.",
-          "Gracias al uso de IA los Ayuntamientos pueden acceder a datos sobre el uso del sistema, optimizando su gestión y mejorando la eficiencia del servicio."
+          "En ren, utsläppsfri miljö som ökar invånarnas trivsel och livskvalitet.",
+          "Avfallshantering tillgänglig dygnet runt, året om.",
+          "Inga överfulla kärl, vilket minskar risken för skadedjur och ohyra. Renare, mer trivsamma gator.",
+          "Minskad eller ingen trafik från sopbilar, lukt eller buller.",
+          "Förbättrad källsortering och högre återvinningsgrad.",
+          "Automatisering ger värdefull data, effektiviserar systemhantering och ökar effektiviteten."
         ]
       },
       {
-        "titulo": "CIUDADES MÁS SOSTENIBLES",
+        "titulo": "MER HÅLLBARA STÄDER",
         "imagenes": [
           "ciudades_sostenibles_1.webp",
           "ciudades_sostenibles_2.webp",
@@ -220,12 +224,12 @@
           "ciudades_sostenibles_4.webp"
         ],
         "texto": [
-          "Reducción drástica del tráfico de vehículos pesados. En una ciudad tipo, se reduce la distancia de coducción de este tipo de vehículos de 2828 km a 208 km al año.",
-          "Reducción Gases. En una ciudad tipo, se disminuye, las emisiones un 95%."
+          "Betydande minskning av tung lastbilstrafik. I en typisk stad minskar den årliga körsträckan för avfallsfordon från 2 828 km till endast 208 km.",
+          "Upp till 90 % minskning av skadliga utsläpp i ett typiskt stadsområde."
         ]
       },
       {
-        "titulo": "CIUDADES MÁS SEGURAS",
+        "titulo": "SÄKRARE STÄDER",
         "imagenes": [
           "ciudades_seguras_1.webp",
           "ciudades_seguras_2.webp",
@@ -233,15 +237,15 @@
           "ciudades_seguras_4.webp"
         ],
         "texto": [
-          "Zonas peatonales más seguras al eliminarse gran parte del tráfico de camiones.",
-          "Menor riesgo de accidentes para los ciudadanos y los trabajadores.",
-          "Movilidad optimizada en las áreas urbanas.",
-          "Ambiente más relajado.",
-          "Menos vandalismo al eliminar contenedores de las calles."
+          "Säkrare gator tack vare att lastbilstrafiken tas bort.",
+          "Lägre risk för olyckor för både invånare och arbetare.",
+          "Förbättrad tillgänglighet inom stadsområden.",
+          "En mer avslappnad och trivsam stadsmiljö.",
+          "Minskad skadegörelse när kärl på gatorna tas bort."
         ]
       },
       {
-        "titulo": "CIUDADES MÁS HUMANAS",
+        "titulo": "MER LEVANDE STÄDER",
         "imagenes": [
           "ciudades_humanas_1.webp",
           "ciudades_humanas_2.webp",
@@ -250,15 +254,15 @@
           "ciudades_humanas_5.webp"
         ],
         "texto": [
-          "Reducción drástica del espacio público ocupado.",
-          "Más zonas peatonales y espacios verdes.",
-          "Más espacio para estacionamientos o trasteros en las urbanizaciones.",
-          "Los buzones y compuertas Envac se integran perfectamente en el diseño urbano.",
-          "Una infraestructura moderna y sostenible que mejora la calidad de vida de los ciudadanos."
+          "Ytbesparingar i offentlig miljö.",
+          "Fler gågator och gröna ytor.",
+          "Mer utrymme för parkering eller förvaring i bostadsområden.",
+          "Envacs inkast integreras sömlöst i stadsbilden.",
+          "Modern, hållbar infrastruktur som förbättrar invånarnas livskvalitet."
         ]
       },
       {
-        "titulo": "CIUDADES MÁS EFICIENTES",
+        "titulo": "EFFEKTIVARE STÄDER",
         "imagenes": [
           "ciudades_eficientes_1.webp",
           "ciudades_eficientes_2.webp",
@@ -266,15 +270,15 @@
           "ciudades_eficientes_4.webp"
         ],
         "texto": [
-          "Ahorros en los costes de operación y mantenimiento al minimizar la necesidad de personal para la gestión de residuos.",
-          "Coste del ciclo de vida del sistema es más bajo en comparación con la recogida tradicional. Además, su eficiencia permite un retorno de la inversión en menos de 10 años en muchos proyectos, convirtiéndolo en una solución económicamente sostenible a largo plazo."
+          "Minskade drift- och underhållskostnader genom att behovet av manuell avfallshantering minimeras.",
+          "Lägre livscykelkostnad jämfört med traditionell avfallshantering. Effektiviteten gör att många projekt når investeringens återbetalningstid på under 10 år, vilket gör det till en långsiktig, ekonomiskt hållbar och resilient lösning."
         ]
       }
     ],
     "sliderPreview": {
-      "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
+      "titulo": "UPPTÄCK FÖRDELARNA MED ENVAC",
       "imagen": "slide_ciudad_preview.gif",
-      "posicion": { "x": "12", "y": "30" }
+      "posicion": { "x": "8", "y": "62" }
     },
     "slider": {
       "antes": {
@@ -285,37 +289,37 @@
           {
             "id": "1",
             "posicion": { "x": "46.5", "y": "66.5" },
-            "texto": "CIUDADES MÁS SUCIAS, CON CONTENEDORES DESBORDADOS."
+            "texto": "SMUTSIGARE STÄDER MED ÖVERFULLA KÄRL SOM LOCKAR SKADEDJUR, OHYRA OCH ORSAKAR OBEHAGLIGA LUKTER."
           },
           {
             "id": "2",
             "posicion": { "x": "32", "y": "66" },
-            "texto": "CIUDADES CON MUCHA CONTAMINACIÓN ACÚSTICA Y AMBIENTAL."
+            "texto": "HÖGA NIVÅER AV BULLER OCH MILJÖFÖRORENINGAR."
           },
           {
             "id": "3",
             "posicion": { "x": "83", "y": "75" },
-            "texto": "MAYOR TRÁFICO Y MENOR SEGURIDAD VIAL Y PEATONAL."
+            "texto": "ÖKAD TRAFIK OCH MINSKAD SÄKERHET BÅDE PÅ VÄGAR OCH FÖR GÅENDE."
           },
           {
             "id": "4",
             "posicion": { "x": "69", "y": "66.5" },
-            "texto": "ESPACIOS COMUNES DESLUCIDOS E INFRAUTILIZADOS."
+            "texto": "UNDERUTNYTTJADE GEMENSAMMA, OFFENTLIGA YTOR."
           },
           {
             "id": "5",
             "posicion": { "x": "18.5", "y": "58" },
-            "texto": "NECESIDAD DE ESPACIOS PARA ALMACENAMIENTO DE RESIDUOS EN EDIFICIOS."
+            "texto": "SAMT BEHOV FÖR AVFALLSFÖRVARING I BYGGNADER."
           },
           {
             "id": "6",
             "posicion": { "x": "13.5", "y": "87" },
-            "texto": "MUCHO ESPACIO PÚBLICO OCUPADO."
+            "texto": "STORA OFFENTLIGA YTOR BLOCKERAS FÖR AVFALLSHANTERING."
           },
           {
             "id": "7",
             "posicion": { "x": "65", "y": "38.5" },
-            "texto": "DEPENDENCIA HORARIOS Y RUTINAS DE RECOGIDA DE RESIDUOS."
+            "texto": "BEROENDE AV STRIKTA OCH INEFFEKTIVA TIDSSCHEMAN FÖR AVFALLSINSAMLING."
           }
         ]
       },
@@ -327,70 +331,232 @@
           {
             "id": "1",
             "posicion": { "x": "46.5", "y": "66.5" },
-            "texto": "CIUDADES MÁS LIMPIAS, SIN CONTENEDORES DESBORDADOS."
+            "texto": "INGA FLER SKADEDJUR, OHYRA ELLER LUKTER PÅ GRUND AV ÖVERFULLA KÄRL."
           },
           {
             "id": "2",
             "posicion": { "x": "32", "y": "66" },
-            "texto": "CIUDADES MÁS LIMPIAS. REDUCCIÓN DEL RUIDO Y DE LAS EMISIONES DE HASTA UN 95%."
+            "texto": "RENARE STÄDER MED UPP TILL 90 % MINSKNING AV BULLER OCH UTSLÄPP."
           },
           {
             "id": "3",
             "posicion": { "x": "83", "y": "75" },
-            "texto": "RUTAS DE RECOGIDA REDUCIDAS EN UN 92%. MÁS SEGURIDAD VIAL Y PEATONAL."
+            "texto": "INSAMLINGSRUTTER KAN MINSKAS MED 92 %, VILKET ÖKAR SÄKERHETEN BÅDE PÅ VÄGAR OCH FÖR FOTGÄNGARE."
           },
           {
             "id": "4",
             "posicion": { "x": "69", "y": "66.5" },
-            "texto": "ESPACIOS COMUNES MEJOR APROVECHADOS Y MÁS ZONAS VERDES."
+            "texto": "BÄTTRE ANVÄNDNING AV GEMENSAMMA YTOR OCH FLER GRÖNA OMRÅDEN."
           },
           {
             "id": "5",
             "posicion": { "x": "18.5", "y": "58" },
-            "texto": "ESPACIO DISPONIBLE PARA COMERCIOS Y ZONAS COMUNES EN EDIFICIOS."
+            "texto": "MER UTRYMME FÖR BUTIKER OCH GEMENSAMMA FACILITETER INOM BYGGNADER."
           },
           {
             "id": "6",
             "posicion": { "x": "13.5", "y": "87" },
-            "texto": "ESPACIO PÚBLICO DISPONIBLE PARA APARCAMIENTOS Y OTROS USOS."
+            "texto": "OFFENTLIGA YTOR FRIGJORDA FÖR PARKERING OCH ANDRA ANVÄNDNINGSOMRÅDEN."
           },
           {
             "id": "7",
             "posicion": { "x": "65", "y": "38.5" },
-            "texto": "BUZONES Y COMPUERTAS DISPONIBLES 24/7 – MÁS CALIDAD DE VIDA, USUARIOS MÁS CONTENTOS."
+            "texto": "TILLGÅNG TILL AVFALLSINKAST DYGNET RUNT – FÖRBÄTTRAR LIVSKVALITET OCH ANVÄNDARNÖJDHET, ÄVEN UNDER EXCEPTIONELLA TIDER."
+          }
+        ]
+      }
+    }
+  },
+  "sorting": {
+    "titulo": "Optimised collection cost for household waste sorting",
+    "imagenFondo": "fondo_sorting.jpg",
+    "botones": [
+      {
+        "texto": "WORKS IN ALL AREAS AND SCALES",
+        "posicion": { "x": "75", "y": "25" }
+      },
+      {
+        "texto": "SIMPLE HOME SORTING, ONE CONTAINER",
+        "posicion": { "x": "40", "y": "35" }
+      },
+      {
+        "texto": "COMPATIBLE WITH EXISTING COLLECTION AND ENERGY RECOVERY",
+        "posicion": { "x": "10", "y": "37" }
+      },
+      {
+        "texto": "CENTRAL, FULLY AUTOMATIC SORTING",
+        "posicion": { "x": "20", "y": "55" }
+      },
+      {
+        "texto": "BETTER RECYCLING AND GREEN ENERGY",
+        "posicion": { "x": "50", "y": "78" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "WORKS IN ALL AREAS AND SCALES",
+        "imagenes": [
+          "sorting_works_1.jpg"
+        ],
+        "texto": [
+          "Automatic sorting works for all types of areas: cities, rural areas, residential neighbourhoods… Different areas can also collect different numbers of fractions. Many municipalities even share a sorting facility, making it both cost-effective and flexible."
+        ]
+      },
+      {
+        "titulo": "SIMPLE HOME SORTING, ONE CONTAINER",
+        "imagenes": [
+          "sorting_simple_1.jpg",
+          "sorting_simple_2.jpg"
+        ],
+        "texto": [
+          "Households sort their waste into different streams at home, using bags of different colours. One colour for each stream (waste type).",
+          "All bags are disposed of in the same container. The container is emptied by your regular refuse truck instead of separate trucks for each stream or type of bin. This reduces emissions and traffic, and as a resident, you avoid having lots of bins on your property to accommodate different stream."
+        ]
+      },
+      {
+        "titulo": "COMPATIBLE WITH EXISTING COLLECTION AND ENERGY RECOVERY",
+        "imagenes": [
+          "sorting_compatible_1.jpg",
+          "sorting_compatible_2.jpg",
+          "sorting_compatible_3.jpg"
+        ],
+        "texto": [
+          "Works with both manual and automated collection, and residual waste can be used for district heating and electricity or handled per local rules."
+        ]
+      },
+      {
+        "titulo": "CENTRAL, FULLY AUTOMATIC SORTING",
+        "imagenes": [
+          "sorting_central_1.jpg",
+          "sorting_central_2.jpg",
+          "sorting_central_3.jpg"
+        ],
+        "texto": [
+          "The bags are transported to a central sorting facility.",
+          "From the reception hoppers, the bags are conveyed via conveyor belts to the sorting stations, where they are sorted by colour.",
+          "The sorting facility contains various types of technology and sensors that automatically sort the bags by colour and ensure they enter the correct process."
+        ]
+      },
+      {
+        "titulo": "BETTER RECYCLING AND GREEN ENERGY",
+        "imagenes": [
+          "sorting_better_1.jpg"
+        ],
+        "texto": [
+          "Organic waste can be used as biomethane fuel, compost or per local rules"
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "DISCOVER THE ADVANTAGES OF ENVAC",
+      "imagen": "slide_sorting_preview.gif",
+      "posicion": { "x": "5", "y": "43" }
+    },
+    "slider": {
+      "antes": {
+        "imagen": "slide_sorting_malo.jpg",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "65.5", "y": "37" },
+            "texto": "TRADITIONAL SORTING AND RECYCLING ARE DIFFICULT AND COSTLY TO RUN."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "53", "y": "36" },
+            "texto": "MORE CONTAINERS AND LARGER WASTE AREAS TAKE UP VALUABLE SPACE."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "15", "y": "30" },
+            "texto": "MORE COLLECTIONS AND HEAVIER TRAFFIC INCREASE NOISE, CONGESTION AND EMISSIONS."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "22", "y": "45" },
+            "texto": "HARDER TO SCALE EFFICIENTLY FROM SMALL TOWNS TO LARGE CITIES."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "36", "y": "72" },
+            "texto": "WEAKER CIRCULAR ECONOMY WHEN SORTING AND RECYCLING AREN'T OPTIMISED AND INTEGRATED."
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_sorting_bueno.jpg",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "65.5", "y": "37" },
+            "texto": "SIMPLE SOURCE SEPARATION MAKES CORRECT SORTING EASIER AND BOOSTS RECYCLING."
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "53", "y": "36" },
+            "texto": "AUTOMATIC SORTING OF COLOUR-CODED BAGS ENABLES FLEXIBLE, COST‑EFFECTIVE COLLECTION."
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "15", "y": "30" },
+            "texto": "WORKS FOR ALL CITY SIZES, FROM SMALL MUNICIPALITIES TO LARGE REGIONS."
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "22", "y": "45" },
+            "texto": "CAN LOWER TRANSPORT AND COLLECTION COSTS VERSUS TRADITIONAL METHODS."
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "36", "y": "72" },
+            "texto": "ONE SORTING FACILITY WORKS FOR BOTH MANUAL AND AUTOMATED VACUUM COLLECTION."
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "77", "y": "67" },
+            "texto": "STRENGTHENS THE CIRCULAR ECONOMY BY IMPROVING RECYCLING AND REDUCING LANDFILL."
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "61", "y": "82" },
+            "texto": "ENABLES CENTRAL COLLECTION AND EFFICIENT TRANSPORT TO MATERIAL RECOVERY FACILITIES."
           }
         ]
       }
     }
   },
   "hospitales": {
-    "titulo": "¿Cómo sería un hospital más limpio, seguro y eficiente?",
+    "titulo": "Hur skulle ett renare, säkrare och mer effektivt sjukhus se ut?",
     "imagenFondo": "fondo_hospital.webp",
     "botones": [
       {
-        "texto": "SEGURIDAD MEJORADA PARA PACIENTES Y PERSONAL",
+        "texto": "MAXIMERA SÄKERHETEN FÖR PATIENTER OCH PERSONAL",
         "posicion": { "x": "15", "y": "29" }
       },
       {
-        "texto": "ENTORNO DE TRABAJO OPTIMIZADO",
+        "texto": "OPTIMERAD OCH FÖRBÄTTRAD ARBETSMILJÖ",
         "posicion": { "x": "24", "y": "51" }
       },
       {
-        "texto": "MEJORA DE LAS OPERACIONES Y LA RENTABILIDAD",
+        "texto": "OPTIMERAD VERKSAMHET OCH KOSTNADSEFFEKTIVITET",
         "posicion": { "x": "12", "y": "74" }
       },
       {
-        "texto": "EFICIENCIA Y PRODUCTIVIDAD MEJORADAS",
+        "texto": "ÖKAD EFFEKTIVITET OCH PRODUKTIVITET",
         "posicion": { "x": "40", "y": "74" }
       },
       {
-        "texto": "MEJOR IMAGEN Y REPUTACIÓN DEL HOSPITAL",
-        "posicion": { "x": "68", "y": "74" }
+        "texto": "FÖRBÄTTRAD SJUKHUSIMAGE OCH ANSEENDE",
+        "posicion": { "x": "65", "y": "30" }
       }
     ],
     "popUps": [
       {
-        "titulo": "SEGURIDAD MEJORADA PARA PACIENTES Y PERSONAL",
+        "titulo": "MAXIMERA SÄKERHETEN FÖR PATIENTER OCH PERSONAL",
         "imagenes": [
           "hospitales_seguros_1.webp",
           "hospitales_seguros_2.webp",
@@ -398,14 +564,14 @@
           "hospitales_seguros_4.webp"
         ],
         "texto": [
-          "Los residuos, generales e infecciosos, viajan por una red de tuberías subterráneas selladas.",
-          "Los residuos no se transportan por pasillos y ascensores.",
-          "Reducción drastica de la exposición a patógenos, mejorando la higiene y minimizando riesgos para pacientes y familiares. No contaminación cruzada.",
-          "Los residuos infecciosos son convertidos directamente en residuos no peligrosos en la central de recogida del hospital."
+          "Smutsigt linne, restavfall och smittsamt avfall transporteras genom ett slutet rörsystem under jord.",
+          "Inget behov av att transportera avfall genom korridorer eller hissar.",
+          "Minskar kraftigt exponering för patogener, förbättrar hygien och minimerar risker för patienter och besökare, utan korskontaminering.",
+          "Smittsamt avfall behandlas på plats och omvandlas till icke-farligt avfall vid sjukhusets centrala insamlingsenhet."
         ]
       },
       {
-        "titulo": "ENTORNO DE TRABAJO OPTIMIZADO",
+        "titulo": "OPTIMERAD OCH FÖRBÄTTRAD ARBETSMILJÖ",
         "imagenes": [
           "hospitales_optimizados_1.webp",
           "hospitales_optimizados_2.webp",
@@ -413,15 +579,15 @@
           "hospitales_optimizados_4.webp"
         ],
         "texto": [
-          "Prácticamente eliminada la carga manual pesada y peligrosa.",
-          "Más seguridad e higiene, implica menor rotación del personal y bajas médicas.",
-          "Menos errores humanos.",
-          "Mejora toda la logística del hospital.",
-          "Menos ruidos y olores."
+          "Riskfyllda och tunga manuella lyft undviks.",
+          "Förbättrad hygien och säkerhet leder till minskad personalomsättning, färre sjukdagar och färre manuella misstag.",
+          "Hissar upptas inte längre av avfall, utan frigörs för kritisk transport av patienter och utrustning.",
+          "Effektiviserar sjukhusets logistik.",
+          "Mindre buller och färre obehagliga lukter."
         ]
       },
       {
-        "titulo": "MEJORA DE LAS OPERACIONES Y LA RENTABILIDAD",
+        "titulo": "OPTIMERAD VERKSAMHET OCH KOSTNADSEFFEKTIVITET",
         "imagenes": [
           "hospitales_rentables_1.webp",
           "hospitales_rentables_2.webp",
@@ -429,14 +595,14 @@
           "hospitales_rentables_4.webp"
         ],
         "texto": [
-          "No depende de la mano de obra. Optimización de los recursos y reducción de costes.",
-          "El servicio médico no se ve interrumpido por rutinas de limpieza (zonas limpias).",
-          "Disminución del desgaste de infraestructuras y de los pavimentos al no habertransporte por pasillos y ascensores.",
-          "Al ser un sistema automatizado, se reducen los errores humanos, que implica menor coste derivado de los mismos y un rápido retorno de inversión."
+          "Ej beroende av manuellt arbete, optimerar resurser, erbjuder tillgänglighet dygnet runt och minskar kostnader.",
+          "Medicinska tjänster störs inte av städ- eller avfallsrutiner, särskilt i kritiska områden.",
+          "Eliminerar slitage på golv och infrastruktur som orsakas av avfallstransport via korridorer och hissar.",
+          "Minskar mänskliga fel, vilket sänker relaterade kostnader och ger snabb återbetalning av investering."
         ]
       },
       {
-        "titulo": "EFICIENCIA Y PRODUCTIVIDAD MEJORADAS",
+        "titulo": "ÖKAD EFFEKTIVITET OCH PRODUKTIVITET",
         "imagenes": [
           "hospitales_eficientes_1.webp",
           "hospitales_eficientes_2.webp",
@@ -444,13 +610,13 @@
           "hospitales_eficientes_4.webp"
         ],
         "texto": [
-          "El sistema automatizado funciona 24/7.",
-          "Se adapta a la demanda y a situaciones extraordinarias donde se hace necesaria una recogida mayor de residuos o más frecuente.",
-          "Ahorra espacio – No se necesitan ascensores."
+          "Det automatiserade systemet fungerar dygnet runt.",
+          "Anpassar sig efter behov och extraordinära situationer som kräver mer frekvent avfallsinsamling.",
+          "Sparar plats – inget behov av särskilda avfallshissar."
         ]
       },
       {
-        "titulo": "MEJOR IMAGEN Y REPUTACIÓN DEL HOSPITAL",
+        "titulo": "FÖRBÄTTRAD SJUKHUSIMAGE OCH ANSEENDE",
         "imagenes": [
           "hospitales_imagen_1.webp",
           "hospitales_imagen_2.webp",
@@ -458,112 +624,217 @@
           "hospitales_imagen_4.webp"
         ],
         "texto": [
-          "La incorporación de tecnología avanzada como Envac refuerza la reputación del hospital.",
-          "Se elimina el antiestético trasiego manual de residuos y ropa por todo el hospital, proporcionando a pacientes y visitantes una mejor experiencia.",
-          "Un entorno más limpio, ordenado e higiénico atrae tanto a pacientes como a profesionales sanitarios, generando una impresión positiva y diferenciadora."
+          "Att integrera Envacs banbrytande teknik stärker sjukhusets anseende och stödjer efterlevnad av de högsta hållbarhets- och regelverksstandarderna.",
+          "Eliminerar manuell transport av avfall och linne, vilket skapar en säkrare och mer hygienisk upplevelse för patienter och besökare.",
+          "En renare, mer organiserad och hållbar miljö attraherar både patienter och vårdpersonal och lämnar ett starkt, positivt intryck."
         ]
       }
     ],
-    "sliderPreview": {
-      "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
-      "imagen": "slide_hospital_preview.gif",
-      "posicion": { "x": "12", "y": "30" }
-    },
-    "slider": {
-      "antes": {
-        "imagen": "slide_hospital_malo.webp",
-        "imagenBoton": "boton_antes.gif",
-        "imagenBotonPresionado": "boton_antes_presionado.png",
-        "botones": [
-          {
-            "id": "1",
-            "posicion": { "x": "45", "y": "48" },
-            "texto": "MAYOR NECESIDAD DE ESPACIO DE ALMACENAMIENTO DENTRO DEL HOSPITAL."
-          },
-          {
-            "id": "2",
-            "posicion": { "x": "53", "y": "24" },
-            "texto": "SE REQUIEREN MÁS ASCENSORES O CON MAYOR CAPACIDAD."
-          },
-          {
-            "id": "3",
-            "posicion": { "x": "35.5", "y": "57" },
-            "texto": "CIRCULACIÓN DE PACIENTES Y PERSONAL MÁS COMPLICADO, AL CONVIVIR CON CARRITOS O AGVS POR PASILLOS."
-          },
-          {
-            "id": "4",
-            "posicion": { "x": "65.5", "y": "38.5" },
-            "texto": "MENOR SEGURIDAD: RIESGO DE CONTAMINACIÓN CRUZADA."
-          },
-          {
-            "id": "5",
-            "posicion": { "x": "78", "y": "50" },
-            "texto": "RUTINAS DE LIMPIEZA MÁS COMPLEJAS."
-          },
-          {
-            "id": "6",
-            "posicion": { "x": "46.5", "y": "24" },
-            "texto": "MENOR LIBERTAD ARQUITECTÓNICA Y ESPACIO DISPONIBLE."
-          },
-          {
-            "id": "7",
-            "posicion": { "x": "65", "y": "27" },
-            "texto": "MENOR SEGURIDAD: MÁS RIESGOS HUMANOS Y AMBIENTE LABORAL COMPLICADO."
-          },
-          {
-            "id": "8",
-            "posicion": { "x": "4", "y": "47" },
-            "texto": "PEOR IMAGEN REPUTACIONAL DEL HOSPITAL."
-          }
-        ]
+    "sliderPreview": [
+      {
+        "titulo": "UPPTÄCK FÖRDELARNA MED ENVAC",
+        "imagen": "slide_hospital_preview.gif",
+        "posicion": { "x": "8", "y": "62" }
       },
-      "despues": {
-        "imagen": "slide_hospital_bueno.webp",
-        "imagenBoton": "boton_despues.gif",
-        "imagenBotonPresionado": "boton_despues_presionado.png",
-        "botones": [
-          {
-            "id": "1",
-            "posicion": { "x": "45", "y": "48" },
-            "texto": "SIN ALMACENAMIENTO LOCAL O INTERMEDIO."
-          },
-          {
-            "id": "2",
-            "posicion": { "x": "53", "y": "24" },
-            "texto": "CAPACIDAD DE ASCENSORES LIBERADA Y LOGÍSTICA MEJORADA."
-          },
-          {
-            "id": "3",
-            "posicion": { "x": "35.5", "y": "57" },
-            "texto": "CIRCULACIÓN ÁGIL Y SEGURA DE PACIENTES Y PERSONAL."
-          },
-          {
-            "id": "4",
-            "posicion": { "x": "65.5", "y": "38.5" },
-            "texto": "TRANSPORTE HERMÉTICO MÁS HIGIÉNICO Y SEGURO: NO RIESGO DE CONTAMINACIÓN CRUZADA."
-          },
-          {
-            "id": "5",
-            "posicion": { "x": "78", "y": "50" },
-            "texto": "SISTEMA AUTOMATIZADO, RUTINAS DE LIMPIEZA OPTIMIZADAS."
-          },
-          {
-            "id": "6",
-            "posicion": { "x": "46.5", "y": "24" },
-            "texto": "MAYOR LIBERTAD ARQUITECTÓNICA Y MÁS ESPACIO PARA HABITACIONES Y SERVICIOS DE SALUD."
-          },
-          {
-            "id": "7",
-            "posicion": { "x": "65", "y": "27" },
-            "texto": "MAYOR SEGURIDAD: COMPUERTAS CON CONTROL DE ACCESO. AMBIENTE LABORAL MEJORADO."
-          },
-          {
-            "id": "8",
-            "posicion": { "x": "4", "y": "47" },
-            "texto": "IMAGEN REPUTACIONAL DEL HOSPITAL MEJORADA."
-          }
-        ]
+      {
+        "titulo": "UPPTÄCK FÖRDELARNA MED ENVAC",
+        "imagen": "slide_hospital_preview.gif",
+        "posicion": { "x": "8", "y": "62" }
       }
-    }
+    ],
+    "slider": [
+      {
+        "antes": {
+          "imagen": "slide_hospital_malo.webp",
+          "imagenBoton": "boton_antes.gif",
+          "imagenBotonPresionado": "boton_antes_presionado.png",
+          "botones": [
+            {
+              "id": "1",
+              "posicion": { "x": "45", "y": "48" },
+              "texto": "STÖRRE BEHOV AV FÖRVARINGSYTOR PÅ PLATS."
+            },
+            {
+              "id": "2",
+              "posicion": { "x": "53", "y": "24" },
+              "texto": "FLER OCH STÖRRE HISSAR KRÄVS."
+            },
+            {
+              "id": "3",
+              "posicion": { "x": "35.5", "y": "57" },
+              "texto": "SVÅRIGHETER FÖR PERSONAL OCH PATIENTER ATT RÖRA SIG PÅ GRUND AV VAGNAR OCH AGV:ER I KORRIDORERNA."
+            },
+            {
+              "id": "4",
+              "posicion": { "x": "65.5", "y": "38.5" },
+              "texto": "HÖGRE RISK FÖR KORSKONTAMINERING."
+            },
+            {
+              "id": "5",
+              "posicion": { "x": "78", "y": "50" },
+              "texto": "MER KOMPLEXA, ARBETSINTENSIVA STÄDRUTINER."
+            },
+            {
+              "id": "6",
+              "posicion": { "x": "46.5", "y": "24" },
+              "texto": "MINSKAD ARKITEKTONISK FLEXIBILITET OCH ANVÄNDBAR YTA."
+            },
+            {
+              "id": "7",
+              "posicion": { "x": "65", "y": "27" },
+              "texto": "LÄGRE SÄKERHET PÅ GRUND AV ÖKADE RISKER, STRESSIGA ARBETSFÖRHÅLLANDEN OCH BRISTANDE EFTERLEVNAD AV INFEKTIONSFÖREBYGGANDE RUTINER."
+            },
+            {
+              "id": "8",
+              "posicion": { "x": "4", "y": "47" },
+              "texto": "SÄMRE SJUKHUSIMAGE OCH ANSEENDE."
+            }
+          ]
+        },
+        "despues": {
+          "imagen": "slide_hospital_bueno.webp",
+          "imagenBoton": "boton_despues.gif",
+          "imagenBotonPresionado": "boton_despues_presionado.png",
+          "botones": [
+            {
+              "id": "1",
+              "posicion": { "x": "45", "y": "48" },
+              "texto": "INGET BEHOV AV LOKALT ELLER MELLANLAGRAT AVFALL."
+            },
+            {
+              "id": "2",
+              "posicion": { "x": "53", "y": "24" },
+              "texto": "FRIGJORD HISSKAPACITET OCH FÖRBÄTTRAD LOGISTIK."
+            },
+            {
+              "id": "3",
+              "posicion": { "x": "35.5", "y": "57" },
+              "texto": "SÄKERT OCH EFFEKTIVT FÖR PERSONAL OCH PATIENTER."
+            },
+            {
+              "id": "4",
+              "posicion": { "x": "65.5", "y": "38.5" },
+              "texto": "HYGIENISK, FÖRSEGLAD AVFALLSTRANSPORT UTAN RISK FÖR KORSKONTAMINERING."
+            },
+            {
+              "id": "5",
+              "posicion": { "x": "78", "y": "50" },
+              "texto": "AUTOMATISERAT SYSTEM MÖJLIGGÖR FÖRENKLADE OCH OPTIMERADE STÄDRUTINER."
+            },
+            {
+              "id": "6",
+              "posicion": { "x": "46.5", "y": "24" },
+              "texto": "STÖRRE ARKITEKTONISK FRIHET OCH MER UTRYMME FÖR AVDELNINGAR OCH TJÄNSTER."
+            },
+            {
+              "id": "7",
+              "posicion": { "x": "65", "y": "27" },
+              "texto": "FÖRBÄTTRAD SÄKERHET: DÖRRAR MED KONTROLLERAD ÅTKOMST OCH EN BÄTTRE ARBETSMILJÖ."
+            },
+            {
+              "id": "8",
+              "posicion": { "x": "4", "y": "47" },
+              "texto": "FÖRBÄTTRAD SJUKHUSIMAGE OCH ANSEENDE."
+            }
+          ]
+        }
+      },
+      {
+        "antes": {
+          "imagen": "slide_hospital_malo.webp",
+          "imagenBoton": "boton_antes.gif",
+          "imagenBotonPresionado": "boton_antes_presionado.png",
+          "botones": [
+            {
+              "id": "1",
+              "posicion": { "x": "45", "y": "48" },
+              "texto": "STÖRRE BEHOV AV FÖRVARINGSYTOR PÅ PLATS."
+            },
+            {
+              "id": "2",
+              "posicion": { "x": "53", "y": "24" },
+              "texto": "FLER OCH STÖRRE HISSAR KRÄVS."
+            },
+            {
+              "id": "3",
+              "posicion": { "x": "35.5", "y": "57" },
+              "texto": "SVÅRIGHETER FÖR PERSONAL OCH PATIENTER ATT RÖRA SIG PÅ GRUND AV VAGNAR OCH AGV:ER I KORRIDORERNA."
+            },
+            {
+              "id": "4",
+              "posicion": { "x": "65.5", "y": "38.5" },
+              "texto": "HÖGRE RISK FÖR KORSKONTAMINERING."
+            },
+            {
+              "id": "5",
+              "posicion": { "x": "78", "y": "50" },
+              "texto": "MER KOMPLEXA, ARBETSINTENSIVA STÄDRUTINER."
+            },
+            {
+              "id": "6",
+              "posicion": { "x": "46.5", "y": "24" },
+              "texto": "MINSKAD ARKITEKTONISK FLEXIBILITET OCH ANVÄNDBAR YTA."
+            },
+            {
+              "id": "7",
+              "posicion": { "x": "65", "y": "27" },
+              "texto": "LÄGRE SÄKERHET PÅ GRUND AV ÖKADE RISKER, STRESSIGA ARBETSFÖRHÅLLANDEN OCH BRISTANDE EFTERLEVNAD AV INFEKTIONSFÖREBYGGANDE RUTINER."
+            },
+            {
+              "id": "8",
+              "posicion": { "x": "4", "y": "47" },
+              "texto": "SÄMRE SJUKHUSIMAGE OCH ANSEENDE."
+            }
+          ]
+        },
+        "despues": {
+          "imagen": "slide_hospital_bueno.webp",
+          "imagenBoton": "boton_despues.gif",
+          "imagenBotonPresionado": "boton_despues_presionado.png",
+          "botones": [
+            {
+              "id": "1",
+              "posicion": { "x": "45", "y": "48" },
+              "texto": "INGET BEHOV AV LOKALT ELLER MELLANLAGRAT AVFALL."
+            },
+            {
+              "id": "2",
+              "posicion": { "x": "53", "y": "24" },
+              "texto": "FRIGJORD HISSKAPACITET OCH FÖRBÄTTRAD LOGISTIK."
+            },
+            {
+              "id": "3",
+              "posicion": { "x": "35.5", "y": "57" },
+              "texto": "SÄKERT OCH EFFEKTIVT FÖR PERSONAL OCH PATIENTER."
+            },
+            {
+              "id": "4",
+              "posicion": { "x": "65.5", "y": "38.5" },
+              "texto": "HYGIENISK, FÖRSEGLAD AVFALLSTRANSPORT UTAN RISK FÖR KORSKONTAMINERING."
+            },
+            {
+              "id": "5",
+              "posicion": { "x": "78", "y": "50" },
+              "texto": "AUTOMATISERAT SYSTEM MÖJLIGGÖR FÖRENKLADE OCH OPTIMERADE STÄDRUTINER."
+            },
+            {
+              "id": "6",
+              "posicion": { "x": "46.5", "y": "24" },
+              "texto": "STÖRRE ARKITEKTONISK FRIHET OCH MER UTRYMME FÖR AVDELNINGAR OCH TJÄNSTER."
+            },
+            {
+              "id": "7",
+              "posicion": { "x": "65", "y": "27" },
+              "texto": "FÖRBÄTTRAD SÄKERHET: DÖRRAR MED KONTROLLERAD ÅTKOMST OCH EN BÄTTRE ARBETSMILJÖ."
+            },
+            {
+              "id": "8",
+              "posicion": { "x": "4", "y": "47" },
+              "texto": "FÖRBÄTTRAD SJUKHUSIMAGE OCH ANSEENDE."
+            }
+          ]
+        }
+      }
+    ]
   }
 }

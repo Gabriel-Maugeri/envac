@@ -2,7 +2,8 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import City from './components/City'
 import Hospital from './components/Hospital'
-import Airport from './components/airport'
+import Airport from './components/Airport'
+import Sorting from './components/Sorting'
 import LanguageSwitcher from './components/LanguageSwitcher'
 import { useLanguage } from './contexts/LanguageContext'
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/aeropuertos' element={<Airport textos={textos} />} />
             <Route path='/ciudades' element={<City textos={textos} />} />
             <Route path='/hospitales' element={<Hospital textos={textos} />} />
+            <Route path='/sorting' element={<Sorting textos={textos} />} />
           </Routes>
         </section>
       </div>

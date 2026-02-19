@@ -3,12 +3,13 @@ import CloseBtn from './CloseBtn'
 import SliderInfoBtn from './SliderInfoBtn'
 import { useLanguage } from '../contexts/LanguageContext'
 
-const Slider = ({ section, handleClose }) => {
+const Slider = ({ section, handleClose, sliderIndex = 0 }) => {
   const { textos } = useLanguage()
   const [imageRevealFraq, setImageRevealFraq] = useState(0.3)
   const [sliderText, setSliderText] = useState('')
   const imageContainerRef = useRef(undefined)
-  const sliderData = textos[section].slider
+  const rawSlider = textos[section].slider
+  const sliderData = Array.isArray(rawSlider) ? rawSlider[sliderIndex] : rawSlider
   const imgBefore = sliderData.antes.imagen
   const imgAfter = sliderData.despues.imagen
   const [animateOut, setAnimateOut] = useState(false)

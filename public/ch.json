@@ -1,0 +1,569 @@
+{
+  "inicio": {
+    "titulo": "垃圾自动收集系统，打造更宜居、更可持续的城市",
+    "tituloVideos": "智能且可持续的废弃物管理",
+    "videoFondo": "fondo_home.mp4",
+    "botones": [
+      {
+        "texto": "机场",
+        "imagen": "logo_aeropuertos.png"
+      },
+      {
+        "texto": "城市",
+        "imagen": "logo_ciudades.png"
+      },
+      {
+        "texto": "医院",
+        "imagen": "logo_hospitales.png"
+      }
+    ],
+    "video1": "Envac Video_EU_EN.mp4",
+    "video2": "ENVAC_CASE_ONLINE_SUBS_EN.mp4",
+    "video3": "envac_healthcare_video_final_2.mp4"
+  },
+  "aeropuertos": {
+    "titulo": "想象一个看不见垃圾的机场？",
+    "imagenFondo": "fondo_aeropuerto.webp",
+    "botones": [
+      {
+        "texto": "更安全的机场",
+        "posicion": { "x": "29.5", "y": "30.5" }
+      },
+      {
+        "texto": "精简的物流与运营",
+        "posicion": { "x": "5.5", "y": "47.5" }
+      },
+      {
+        "texto": "更可持续的机场",
+        "posicion": { "x": "31.5", "y": "65" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "更安全的机场",
+        "imagenes": [
+          "aeropuertos_seguros_1.webp",
+          "aeropuertos_seguros_2.webp",
+          "aeropuertos_seguros_3.webp",
+          "aeropuertos_seguros_4.webp"
+        ],
+        "texto": [
+          "减少人工处理垃圾意味着降低风险。",
+          "机场区域和非机场区域的车辆流量大幅减少。",
+          "垃圾投放口可设计为限制垃圾类型，并配备粉碎机以安全销毁违禁物品。"
+        ]
+      },
+      {
+        "titulo": "精简的物流与运营",
+        "imagenes": [
+          "aeropuertos_logistica_1.webp",
+          "aeropuertos_logistica_2.webp",
+          "aeropuertos_logistica_3.webp",
+          "aeropuertos_logistica_4.webp"
+        ],
+        "texto": [
+          "覆盖机场所有区域的垃圾收集服务，包括空侧与陆侧。",
+          "集中化垃圾管理 — 无需中间转运环节。",
+          "减少跑道车辆通行，节省时间并提升员工效率。",
+          "全天候每周7天、每天24小时运行，不受任何天气条件影响。",
+          "免除人工清运需求—通过自动化与预测分析优化资源配置。",
+          "避免垃圾桶满溢引发的害虫滋生与异味问题 — 提升旅客体验。",
+          "加强零售商垃圾分类与合规管理监督。"
+        ]
+      },
+      {
+        "titulo": "更可持续的机场",
+        "imagenes": [
+          "aeropuertos_sostenibles_1.webp",
+          "aeropuertos_sostenibles_2.webp",
+          "aeropuertos_sostenibles_3.webp",
+          "aeropuertos_sostenibles_4.webp"
+        ],
+        "texto": [
+          "垃圾收集实现全面优化。",
+          "回收率显著提升。",
+          "碳足迹大幅降低。",
+          "二氧化碳( CO₂ )排放量大幅减少。"
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "发现ENVAC的优势",
+      "imagen": "slide_aeropuerto_preview.gif",
+      "posicion": { "x": "8", "y": "40" }
+    },
+    "slider": {
+      "antes": {
+        "imagen": "slide_aeropuerto_malo.webp",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "68", "y": "84" },
+            "texto": "跑道车辆通行量增加，降低安全性。"
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "65", "y": "26" },
+            "texto": "临时垃圾存放点占用大面积场地。"
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "56", "y": "50" },
+            "texto": "垃圾箱满溢，影响机场外观。"
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "35", "y": "83" },
+            "texto": "复杂且低效的垃圾收集流程。"
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "82", "y": "84" },
+            "texto": "危险废物或不当处理的垃圾导致安全风险上升。"
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "53.5", "y": "31" },
+            "texto": "环境恶劣，损害机场形象。"
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_aeropuerto_bueno.webp",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "68", "y": "84" },
+            "texto": "减少车辆通行及跑道作业，显著提升安全性。"
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "65", "y": "26" },
+            "texto": "释放登机口、餐厅及其他旅客服务区域空间。"
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "56", "y": "50" },
+            "texto": "消除垃圾箱及中转点垃圾堆积现象。"
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "35", "y": "83" },
+            "texto": "集中式垃圾收集系统实现持续优化运行，有效降低运营成本。"
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "82", "y": "84" },
+            "texto": "降低人工操作频率，减少危险物料风险，保障运营安全。"
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "53.5", "y": "31" },
+            "texto": "提升乘客体验与机场形象。"
+          }
+        ]
+      }
+    }
+  },
+  "ciudades": {
+    "titulo": "想象一座看不到任何垃圾的城市？",
+    "imagenFondo": "fondo_ciudad.webp",
+    "botones": [
+      {
+        "texto": "更清洁、更安全、更可持续",
+        "posicion": { "x": "28", "y": "26" }
+      },
+      {
+        "texto": "更可持续的城市",
+        "posicion": { "x": "5", "y": "38.5" }
+      },
+      {
+        "texto": "更安全的城市",
+        "posicion": { "x": "12", "y": "74" }
+      },
+      {
+        "texto": "更宜居的城市",
+        "posicion": { "x": "40", "y": "74" }
+      },
+      {
+        "texto": "更高效的城市",
+        "posicion": { "x": "62", "y": "30" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "更清洁、更安全、更可持续",
+        "imagenes": [
+          "ciudades_comodas_1.webp",
+          "ciudades_comodas_2.webp",
+          "ciudades_comodas_4.webp"
+        ],
+        "texto": [
+          "一个可以提升居民满意度和生活质量的干净的，无污染的环境。",
+          "全年无休，每周7天、每天24小时可使用的垃圾处理服务。",
+          "垃圾桶不再满溢，降低了害虫与鼠类滋生的风险。街道更洁净、更宜居。",
+          "减少或消除垃圾车通行、异味及噪音。",
+          "优化源头垃圾分类，提高回收率。",
+          "自动化提供丰富的数据，简化系统管理并提升效率。"
+        ]
+      },
+      {
+        "titulo": "更可持续的城市",
+        "imagenes": [
+          "ciudades_sostenibles_1.webp",
+          "ciudades_sostenibles_2.webp",
+          "ciudades_sostenibles_3.webp",
+          "ciudades_sostenibles_4.webp"
+        ],
+        "texto": [
+          "重型货车交通量显著减少。在典型城市中，此类车辆的年行驶里程从2,828公里降至仅208公里。",
+          "在典型城市区域内，有害物排放量最高可减少90%。"
+        ]
+      },
+      {
+        "titulo": "更安全的城市",
+        "imagenes": [
+          "ciudades_seguras_1.webp",
+          "ciudades_seguras_2.webp",
+          "ciudades_seguras_3.webp",
+          "ciudades_seguras_4.webp"
+        ],
+        "texto": [
+          "通过禁止卡车通行，打造更安全的行人区域。",
+          "降低居民与工人的事故风险。",
+          "提升城市区域内的通行效率。",
+          "营造更轻松宜人的城市环境。",
+          "消除街道垃圾箱后，减少破坏公物行为。"
+        ]
+      },
+      {
+        "titulo": "更宜居的城市",
+        "imagenes": [
+          "ciudades_humanas_1.webp",
+          "ciudades_humanas_2.webp",
+          "ciudades_humanas_3.webp",
+          "ciudades_humanas_4.webp",
+          "ciudades_humanas_5.webp"
+        ],
+        "texto": [
+          "显著减少占用的公共空间。",
+          "增加步行区和绿化面积。",
+          "扩大住宅区内的停车或储物空间。",
+          "恩华特垃圾收集系统的垃圾投放口与城市设计完美融合。",
+          "打造现代化可持续基础设施，提升居民生活品质。"
+        ]
+      },
+      {
+        "titulo": "更高效的城市",
+        "imagenes": [
+          "ciudades_eficientes_1.webp",
+          "ciudades_eficientes_2.webp",
+          "ciudades_eficientes_3.webp",
+          "ciudades_eficientes_4.webp"
+        ],
+        "texto": [
+          "通过最大限度减少人工处理垃圾需求，降低运营和维护成本。",
+          "与传统垃圾收集相比，生命周期成本更低。高效性意味着许多项目可在10年内实现投资回报，使其成为长期、经济可持续且具有韧性的解决方案。"
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "发现ENVAC的优势",
+      "imagen": "slide_ciudad_preview.gif",
+      "posicion": { "x": "8", "y": "62" }
+    },
+    "slider": {
+      "antes": {
+        "imagen": "slide_ciudad_malo.webp",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "46.5", "y": "66.5" },
+            "texto": "城市环境恶化，垃圾箱满溢招致害虫滋生，引发恶臭问题。"
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "32", "y": "66" },
+            "texto": "噪音及环境污染严重加剧。"
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "83", "y": "75" },
+            "texto": "交通流量增加，道路及行人安全降低。"
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "69", "y": "66.5" },
+            "texto": "公共区域利用率低下。"
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "18.5", "y": "58" },
+            "texto": "占用过多公共空间，且建筑物内需设置垃圾存放区。"
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "13.5", "y": "87" },
+            "texto": "占用过多公共空间，且建筑物内需设置垃圾存放区。"
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "38.5" },
+            "texto": "受制于僵化低效的垃圾收集时间表。"
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_ciudad_bueno.webp",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "46.5", "y": "66.5" },
+            "texto": "垃圾箱满溢引发的害虫、蟑螂及异味问题彻底消除。"
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "32", "y": "66" },
+            "texto": "城市环境更清洁，噪音与排放量最高可减少90%。"
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "83", "y": "75" },
+            "texto": "清运路线缩减92%，显著提升道路及行人安全。"
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "69", "y": "66.5" },
+            "texto": "公共区域利用率提高，绿地空间增加。"
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "18.5", "y": "58" },
+            "texto": "建筑内为商铺和共享设施腾出更多空间。"
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "13.5", "y": "87" },
+            "texto": "释放公共空间用于停车及其他用途。"
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "38.5" },
+            "texto": "垃圾投放口全天候开放 — 即使在特殊时期也能提升生活品质与用户满意度。"
+          }
+        ]
+      }
+    }
+  },
+  "hospitales": {
+    "titulo": "更清洁、更安全、更高效的医院会是什么样子？",
+    "imagenFondo": "fondo_hospital.webp",
+    "botones": [
+      {
+        "texto": "最大限度保障患者和工作人员的安全",
+        "posicion": { "x": "15", "y": "29" }
+      },
+      {
+        "texto": "优化工作环境",
+        "posicion": { "x": "24", "y": "51" }
+      },
+      {
+        "texto": "运营效率提升与成本效益优化",
+        "posicion": { "x": "12", "y": "74" }
+      },
+      {
+        "texto": "效率和生产力的提升",
+        "posicion": { "x": "40", "y": "74" }
+      },
+      {
+        "texto": "医院形象与声誉的提升",
+        "posicion": { "x": "65", "y": "30" }
+      }
+    ],
+    "popUps": [
+      {
+        "titulo": "最大限度保障患者和工作人员的安全",
+        "imagenes": [
+          "hospitales_seguros_1.webp",
+          "hospitales_seguros_2.webp",
+          "hospitales_seguros_3.webp",
+          "hospitales_seguros_4.webp"
+        ],
+        "texto": [
+          "污衣被服、一般垃圾及传染性废弃物通过密封的地下管道网络进行运输。",
+          "无需通过走廊或电梯搬运废弃物。",
+          "显著降低病原体暴露风险，提高卫生水平，最大限度减少患者和访客的风险，杜绝交叉污染。",
+          "传染性废弃物在医院中央收集站现场处理，转化为无害废物。"
+        ]
+      },
+      {
+        "titulo": "优化工作环境",
+        "imagenes": [
+          "hospitales_optimizados_1.webp",
+          "hospitales_optimizados_2.webp",
+          "hospitales_optimizados_3.webp",
+          "hospitales_optimizados_4.webp"
+        ],
+        "texto": [
+          "消除危险且繁重的体力搬运工作。",
+          "改善卫生与安全环境，降低员工流失率、病假天数及人工操作失误率。",
+          "电梯空间不再被废弃物占用，可用于运送急需的患者和医疗设备。",
+          "优化医院物流流程。",
+          "降低噪音污染，减少异味困扰。"
+        ]
+      },
+      {
+        "titulo": "运营效率提升与成本效益优化",
+        "imagenes": [
+          "hospitales_rentables_1.webp",
+          "hospitales_rentables_2.webp",
+          "hospitales_rentables_3.webp",
+          "hospitales_rentables_4.webp"
+        ],
+        "texto": [
+          "无需人工操作，优化资源配置，全天候运行，有效降低成本。",
+          "医疗服务不受清洁或废弃物处理流程干扰，尤其在关键区域。",
+          "消除废弃物通过走廊和电梯运输造成的地面及基础设施磨损。",
+          "减少人为失误，降低相关成本，实现快速投资回报。"
+        ]
+      },
+      {
+        "titulo": "效率和生产力的提升",
+        "imagenes": [
+          "hospitales_eficientes_1.webp",
+          "hospitales_eficientes_2.webp",
+          "hospitales_eficientes_3.webp",
+          "hospitales_eficientes_4.webp"
+        ],
+        "texto": [
+          "自动化系统全天候每周7天、每天24小时运行。",
+          "可适应需求变化及特殊情况，实现更频繁的垃圾收集。",
+          "节省空间 — 无需专用垃圾升降机。"
+        ]
+      },
+      {
+        "titulo": "医院形象与声誉的提升",
+        "imagenes": [
+          "hospitales_imagen_1.webp",
+          "hospitales_imagen_2.webp",
+          "hospitales_imagen_3.webp",
+          "hospitales_imagen_4.webp"
+        ],
+        "texto": [
+          "整合恩华特尖端技术，提升医院声誉，助力满足最高可持续性与监管标准。",
+          "消除废弃物与污衣被服的人工运输，为患者及访客创造更安全、更卫生的体验。",
+          "清洁有序且可持续的环境吸引患者与医疗专业人员，留下深刻而积极的印象。"
+        ]
+      }
+    ],
+    "sliderPreview": {
+      "titulo": "发现ENVAC的优势",
+      "imagen": "slide_hospital_preview.gif",
+      "posicion": { "x": "8", "y": "62" }
+    },
+    "slider": {
+      "antes": {
+        "imagen": "slide_hospital_malo.webp",
+        "imagenBoton": "boton_antes.gif",
+        "imagenBotonPresionado": "boton_antes_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "45", "y": "48" },
+            "texto": "现场存储空间需求增加，清洁流程更复杂且耗费人力。"
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "53", "y": "24" },
+            "texto": "需增设更多更大容量的电梯。"
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "35.5", "y": "57" },
+            "texto": "走廊内推车和自动导引车（AGV）导致医护人员及患者通行困难。"
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "65.5", "y": "38.5" },
+            "texto": "交叉污染风险升高。"
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "78", "y": "50" },
+            "texto": "现场存储空间需求增加，清洁流程更复杂且耗费人力。"
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "46.5", "y": "24" },
+            "texto": "建筑灵活性与可用空间减少。"
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "27" },
+            "texto": "因风险增加、工作压力过大及感染防控措施执行不力导致安全性下降。"
+          },
+          {
+            "id": "8",
+            "posicion": { "x": "4", "y": "47" },
+            "texto": "医院形象与声誉受损。"
+          }
+        ]
+      },
+      "despues": {
+        "imagen": "slide_hospital_bueno.webp",
+        "imagenBoton": "boton_despues.gif",
+        "imagenBotonPresionado": "boton_despues_presionado.png",
+        "botones": [
+          {
+            "id": "1",
+            "posicion": { "x": "45", "y": "48" },
+            "texto": "无需设置本地或中转医疗废物储存点。"
+          },
+          {
+            "id": "2",
+            "posicion": { "x": "53", "y": "24" },
+            "texto": "释放电梯运载能力，优化物流管理。"
+          },
+          {
+            "id": "3",
+            "posicion": { "x": "35.5", "y": "57" },
+            "texto": "保障医护人员与患者安全高效的通行。"
+          },
+          {
+            "id": "4",
+            "posicion": { "x": "65.5", "y": "38.5" },
+            "texto": "采用卫生密封式废物运输，杜绝交叉污染风险。"
+          },
+          {
+            "id": "5",
+            "posicion": { "x": "78", "y": "50" },
+            "texto": "自动化系统实现简化优化的清洁流程。"
+          },
+          {
+            "id": "6",
+            "posicion": { "x": "46.5", "y": "24" },
+            "texto": "赋予建筑设计更大自由度，释放更多病房及服务空间。"
+          },
+          {
+            "id": "7",
+            "posicion": { "x": "65", "y": "27" },
+            "texto": "提升安全性：配备门禁控制系统，营造更佳工作环境。"
+          },
+          {
+            "id": "8",
+            "posicion": { "x": "4", "y": "47" },
+            "texto": "提升医院形象与声誉。"
+          }
+        ]
+      }
+    }
+  }
+}

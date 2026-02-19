@@ -1,7 +1,10 @@
 import { useLanguage } from '../contexts/LanguageContext'
+import { useNavigate, useLocation } from 'react-router-dom'
 
 const LanguageSwitcher = () => {
   const { currentLanguage, changeLanguage } = useLanguage()
+  const navigate = useNavigate()
+  const location = useLocation()
   
   const languages = [
     { code: 'en', name: 'English' },
@@ -17,7 +20,12 @@ const LanguageSwitcher = () => {
       {languages.map((lang) => (
         <button
           key={lang.code}
-          onClick={() => changeLanguage(lang.code)}
+          onClick={() => {
+            changeLanguage(lang.code)
+            if (location.pathname === '/sorting' && lang.code !== 'en' && lang.code !== 'sv') {
+              navigate('/home')
+            }
+          }}
           className={`w-full py-1.5 flex items-center cursor-pointer justify-center text-[1.5rem]/7 font-medium transition-colors
             ${currentLanguage === lang.code 
               ? 'text-primary' 

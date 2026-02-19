@@ -19,7 +19,7 @@
     ],
     "video1": "Envac Video_EU_ES.mp4",
     "video2": "ENVAC_CASE_ONLINE_SUBS.mp4",
-    "video3": "envac_healthcare_video_final_2.mp4"
+    "video3": "envac_healthcare_video_final_2_ES.mp4"
   },
   "aeropuertos": {
     "titulo": "¿Cómo será el aeropuerto del futuro?",
@@ -90,7 +90,7 @@
     "sliderPreview": {
       "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
       "imagen": "slide_aeropuerto_preview.gif",
-      "posicion": { "x": "10", "y": "35" }
+      "posicion": { "x": "8", "y": "40" }
     },
     "slider": {
       "antes": {
@@ -174,7 +174,7 @@
     "imagenFondo": "fondo_ciudad.webp",
     "botones": [
       {
-        "texto": "CIUDADES MÁS CÓMODAS Y LIMPIAS",
+        "texto": "CIUDADES MÁS CÓMODAS, LIMPIAS Y SOSTENIBLES",
         "posicion": { "x": "28", "y": "26" }
       },
       {
@@ -191,12 +191,12 @@
       },
       {
         "texto": "CIUDADES MÁS EFICIENTES",
-        "posicion": { "x": "68", "y": "74" }
+        "posicion": { "x": "62", "y": "30" }
       }
     ],
     "popUps": [
       {
-        "titulo": "CIUDADES MÁS CÓMODAS Y LIMPIAS",
+        "titulo": "CIUDADES MÁS CÓMODAS, LIMPIAS Y SOSTENIBLES",
         "imagenes": [
           "ciudades_comodas_1.webp",
           "ciudades_comodas_2.webp",
@@ -205,10 +205,10 @@
         "texto": [
           "Entorno más ordenado y libre de molestias, lo que mejora la satisfacción y calidad de vida de los ciudadanos.",
           "Puntos de vertido disponibles 24/7, todos los días del año.",
-          "Sin contenedores desbordados. Calles más despejadas y limpias.",
+          "Sin contenedores desbordados, lo que reduce los riesgos de plagas y suciedad. Calles más despejadas y limpias.",
           "Sin apenas tráfico de camiones de recogida, malos olores ni ruido.",
           "Mejor separación en origen de los residuos y tasas de reciclaje.",
-          "Gracias al uso de IA los Ayuntamientos pueden acceder a datos sobre el uso del sistema, optimizando su gestión y mejorando la eficiencia del servicio."
+          "Gracias al uso de la automatización y la IA los Ayuntamientos pueden acceder a datos relevantes sobre el uso del sistema, optimizando su gestión y mejorando la eficiencia del servicio."
         ]
       },
       {
@@ -221,7 +221,7 @@
         ],
         "texto": [
           "Reducción drástica del tráfico de vehículos pesados. En una ciudad tipo, se reduce la distancia de coducción de este tipo de vehículos de 2828 km a 208 km al año.",
-          "Reducción Gases. En una ciudad tipo, se disminuye, las emisiones un 95%."
+          "Reducción de emisiones contaminantes. En una ciudad tipo, se disminuyen las emisiones en hasta un 90%."
         ]
       },
       {
@@ -236,7 +236,7 @@
           "Zonas peatonales más seguras al eliminarse gran parte del tráfico de camiones.",
           "Menor riesgo de accidentes para los ciudadanos y los trabajadores.",
           "Movilidad optimizada en las áreas urbanas.",
-          "Ambiente más relajado.",
+          "Ambiente más relajado y agradable para los vecinos.",
           "Menos vandalismo al eliminar contenedores de las calles."
         ]
       },
@@ -274,7 +274,7 @@
     "sliderPreview": {
       "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
       "imagen": "slide_ciudad_preview.gif",
-      "posicion": { "x": "12", "y": "30" }
+      "posicion": { "x": "8", "y": "62" }
     },
     "slider": {
       "antes": {
@@ -332,7 +332,7 @@
           {
             "id": "2",
             "posicion": { "x": "32", "y": "66" },
-            "texto": "CIUDADES MÁS LIMPIAS. REDUCCIÓN DEL RUIDO Y DE LAS EMISIONES DE HASTA UN 95%."
+            "texto": "CIUDADES MÁS LIMPIAS. REDUCCIÓN DEL RUIDO Y DE LAS EMISIONES DE HASTA UN 90%."
           },
           {
             "id": "3",
@@ -376,7 +376,7 @@
         "posicion": { "x": "24", "y": "51" }
       },
       {
-        "texto": "MEJORA DE LAS OPERACIONES Y LA RENTABILIDAD",
+        "texto": "OPERACIONES Y LA RENTABILIDAD MEJORADAS",
         "posicion": { "x": "12", "y": "74" }
       },
       {
@@ -385,7 +385,7 @@
       },
       {
         "texto": "MEJOR IMAGEN Y REPUTACIÓN DEL HOSPITAL",
-        "posicion": { "x": "68", "y": "74" }
+        "posicion": { "x": "65", "y": "30" }
       }
     ],
     "popUps": [
@@ -398,9 +398,9 @@
           "hospitales_seguros_4.webp"
         ],
         "texto": [
-          "Los residuos, generales e infecciosos, viajan por una red de tuberías subterráneas selladas.",
+          "Los residuos, generales e infecciosos, y la ropa sucia viajan por una red de tuberías subterráneas selladas herméticamente.",
           "Los residuos no se transportan por pasillos y ascensores.",
-          "Reducción drastica de la exposición a patógenos, mejorando la higiene y minimizando riesgos para pacientes y familiares. No contaminación cruzada.",
+          "Reducción drastica de la exposición a patógenos, mejorando la higiene y minimizando riesgos para pacientes y familiares. Se evita la contaminación cruzada.",
           "Los residuos infecciosos son convertidos directamente en residuos no peligrosos en la central de recogida del hospital."
         ]
       },
@@ -415,6 +415,7 @@
         "texto": [
           "Prácticamente eliminada la carga manual pesada y peligrosa.",
           "Más seguridad e higiene, implica menor rotación del personal y bajas médicas.",
+          "No se utilizan los ascensores para transportar residuos, por lo que quedan disponibles para traslado de pacientes y equipamiento médico.",
           "Menos errores humanos.",
           "Mejora toda la logística del hospital.",
           "Menos ruidos y olores."
@@ -431,7 +432,7 @@
         "texto": [
           "No depende de la mano de obra. Optimización de los recursos y reducción de costes.",
           "El servicio médico no se ve interrumpido por rutinas de limpieza (zonas limpias).",
-          "Disminución del desgaste de infraestructuras y de los pavimentos al no habertransporte por pasillos y ascensores.",
+          "Disminución del desgaste de infraestructuras y de los pavimentos al no haber transporte por pasillos y ascensores.",
           "Al ser un sistema automatizado, se reducen los errores humanos, que implica menor coste derivado de los mismos y un rápido retorno de inversión."
         ]
       },
@@ -467,7 +468,7 @@
     "sliderPreview": {
       "titulo": "DESCUBRE LAS VENTAJAS DE ENVAC",
       "imagen": "slide_hospital_preview.gif",
-      "posicion": { "x": "12", "y": "30" }
+      "posicion": { "x": "8", "y": "62" }
     },
     "slider": {
       "antes": {
